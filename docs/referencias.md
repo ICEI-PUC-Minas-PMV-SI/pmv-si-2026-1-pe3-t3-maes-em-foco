@@ -2,4 +2,4 @@
 
 Lista de referências utilizadas e citadas no trabalho.
 
-Pesquisa 'Sem Parar 2025' mostra permanência da sobrecarga de trabalho e cuidado na vida das mulheres brasileiras — Ministério das Mulheres
+https://www.gov.br/mulheres/pt-br/central-de-conteudos/noticias/2025/dezembro/pesquisa-201csem-parar-2025201d-mostra-permanencia-da-sobrecarga-de-trabalho-e-cuidado-na-vida-das-mulheres-brasileiras
