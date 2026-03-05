@@ -13,14 +13,13 @@ No contexto atual, grande parte dessas mães precisa buscar informações, servi
 
 ## 1.2. Objetivos do trabalho
 
-O trabalho proposto tem como objetivo geral aperfeiçoar o sistema de software Mães em Foco, concebido como um hub digital de apoio para mães solo, com a finalidade de facilitar o acesso dessas mães a serviços essenciais e promover a criação de uma rede de apoio para aquelas que necessitem. Este desenvolvimento é norteado pelos princípios do Design Centrado no Usuário, garantindo que cada etapa da construção do site priorize as experiências, limitações e necessidades específicas desse público.
+O trabalho proposto tem como objetivo geral aperfeiçoar o sistema de software Mães em Foco, concebido como um hub digital de apoio para mães solo, com a finalidade de facilitar o acesso a serviços essenciais e promover a criação de uma rede de suporte entre usuárias. Este desenvolvimento é norteado pelos princípios do Design Centrado no Usuário, garantindo que cada etapa da construção do site priorize as experiências, limitações e necessidades específicas desse público.
 
-O Mães em Foco tem como propósito oferecer, em uma única plataforma, acesso organizado e seguro a profissionais como advogados, babás, creches e psicólogos, além de disponibilizar um espaço de interação entre as usuárias.
+O Mães em Foco é inovador, pois integra em uma única plataforma o acesso organizado e seguro a profissionais como advogados, babás, creches e psicólogos, além de oferecer um espaço de interação entre as usuárias. Essa integração soluciona problemas reais enfrentados por mães solo, centralizando informações e serviços que, tradicionalmente, estão dispersos e de difícil acesso.
 
-Como objetivos específicos, este trabalho pretende elaborar a especificação de requisitos do sistema, definindo de forma clara suas principais funcionalidades e restrições. Busca-se também desenvolver o design de interação da plataforma proposta, estruturando interfaces e organizando fluxos de navegação de maneira simples e intuitiva através de uma abordagem focada na usabilidade e acessibilidade.
+Como objetivos específicos, este trabalho pretende elaborar a especificação de requisitos do sistema, definindo suas principais funcionalidades e restrições. Busca-se também desenvolver o design de interação da plataforma, estruturando interfaces e organizando fluxos de navegação de maneira simples e intuitiva, com foco em usabilidade e acessibilidade.
 
-Além disso, serão realizados testes de software com o objetivo de verificar o funcionamento adequado das funcionalidades implementadas, bem como identificar falhas e possíveis melhorias no sistema sob a perspectiva da experiência do usuário. Por fim, como etapa de encerramento, pretende-se apresentar a solução aperfeiçoada, demonstrando suas funcionalidades e evidenciando a contribuição que o Mães em Foco pode proporcionar para o público-alvo proposto.
-
+Além disso, serão realizados testes de software, visando verificar o funcionamento adequado das funcionalidades implementadas e identificar falhas ou melhorias sob a perspectiva da experiência do usuário. Por fim, a etapa de encerramento consiste em apresentar a solução aperfeiçoada, demonstrando suas funcionalidades e evidenciando como o Mães em Foco contribui de forma efetiva para o público-alvo, tornando-se uma ferramenta prática, inovadora e realmente solucionável dentro do contexto das mães solo.
 
 ## 1.3. Justificativa
 
