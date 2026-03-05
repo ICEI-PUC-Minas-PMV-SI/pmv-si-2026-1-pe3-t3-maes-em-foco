@@ -1,7 +1,8 @@
 # 1. INTRODUÇÃO
 
-A inserção de mães solo no mercado de trabalho é um tema de grande relevância social e econômica. Dados recentes apontam que mulheres que criam filhos sozinhas enfrentam desafios significativos relacionados à conciliação entre maternidade e emprego, como jornadas extensas, falta de apoio familiar ou profissional, e dificuldades de acesso a serviços essenciais de cuidado infantil e orientação jurídica. A carência de redes de apoio, principalmente, contribui para maiores taxas de desemprego entre mães solo, o que limita suas oportunidades de desenvolvimento profissional e independência financeira.
-Diante desse contexto, surge a necessidade de criar soluções que ofereçam suporte de forma acessível a essas mulheres, com o fim de garantir-lhes seus direitos de serem incluídas no mercado de trabalho e possuírem uma rede de apoio estável. 
+A inserção de mães solo no mercado de trabalho é um desafio de urgência social e econômica, cujas dimensões são confirmadas por dados alarmantes. Segundo o Jornal da USP, a maternidade ainda é o fator responsável por manter milhões de mulheres fora do mercado de trabalho; uma realidade que se agrava em 2025, com a pesquisa da Catho revelando que 60% das mães estão desempregadas ou inativas profissionalmente.
+
+Nesse cenário, mulheres que chefiam famílias sozinhas enfrentam barreiras críticas para conciliar a maternidade com o emprego, lidando com jornadas exaustivas e a escassez de redes de apoio familiar ou profissional. A falta de acesso a cuidados infantis e orientação jurídica limita a independência financeira e o desenvolvimento de carreira dessa parcela da população.
 
 
 ## 1.1. Problema
@@ -12,13 +13,13 @@ No contexto atual, grande parte dessas mães precisa buscar informações, servi
 
 ## 1.2. Objetivos do trabalho
 
-O trabalho proposto tem como objetivo geral aperfeiçoar o sistema de software Mães em Foco, concebido como um hub digital de apoio para mães solo, com a finalidade de facilitar o acesso dessas mães a serviços essenciais e promover a criação de uma rede de apoio para aquelas que necessitem. 
+O trabalho proposto tem como objetivo geral aperfeiçoar o sistema de software Mães em Foco, concebido como um hub digital de apoio para mães solo, com a finalidade de facilitar o acesso dessas mães a serviços essenciais e promover a criação de uma rede de apoio para aquelas que necessitem. Este desenvolvimento é norteado pelos princípios do Design Centrado no Usuário, garantindo que cada etapa da construção do site priorize as experiências, limitações e necessidades específicas desse público.
 
 O Mães em Foco tem como propósito oferecer, em uma única plataforma, acesso organizado e seguro a profissionais como advogados, babás, creches e psicólogos, além de disponibilizar um espaço de interação entre as usuárias.
 
-Como objetivos específicos, este trabalho pretende elaborar a especificação de requisitos do sistema, definindo de forma clara suas principais funcionalidades e restrições. Busca-se também desenvolver o design de interação da plataforma proposta, estruturando interfaces e organizando fluxos de navegação de maneira simples e intuitiva.
+Como objetivos específicos, este trabalho pretende elaborar a especificação de requisitos do sistema, definindo de forma clara suas principais funcionalidades e restrições. Busca-se também desenvolver o design de interação da plataforma proposta, estruturando interfaces e organizando fluxos de navegação de maneira simples e intuitiva através de uma abordagem focada na usabilidade e acessibilidade.
 
-Além disso, serão realizados testes de software com o objetivo de verificar o funcionamento adequado das funcionalidades implementadas, bem como identificar falhas e possíveis melhorias no sistema. Por fim, como etapa de encerramento, pretende-se apresentar a solução aperfeiçoada, demonstrando suas funcionalidades e evidenciando a contribuição que o Mães em Foco pode proporcionar para o público-alvo proposto.
+Além disso, serão realizados testes de software com o objetivo de verificar o funcionamento adequado das funcionalidades implementadas, bem como identificar falhas e possíveis melhorias no sistema sob a perspectiva da experiência do usuário. Por fim, como etapa de encerramento, pretende-se apresentar a solução aperfeiçoada, demonstrando suas funcionalidades e evidenciando a contribuição que o Mães em Foco pode proporcionar para o público-alvo proposto.
 
 
 ## 1.3. Justificativa
