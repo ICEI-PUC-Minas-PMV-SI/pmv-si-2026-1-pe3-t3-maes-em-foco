@@ -29,4 +29,3 @@ Mães solo enfrentam desafios no mercado de trabalho devido à sobrecarga famili
 No campo tecnológico, ainda há pouca investigação sobre ferramentas digitais que apoiem esse público, como plataformas que conectem mães solo a serviços, oportunidades de trabalho e redes de apoio. Esses pontos reforçam a necessidade de soluções que integrem iniciativas sociais e tecnológicas para enfrentar esses desafios.
 
 
-É importante referenciar estas pesquisas, fazendo as devidas citações de acordo com as normas da ABNT e colocando as referências completas ao final do trabalho.
