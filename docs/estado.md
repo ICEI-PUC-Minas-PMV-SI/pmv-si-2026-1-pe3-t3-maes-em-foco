@@ -8,7 +8,7 @@ Mães solo enfrentam desafios no mercado de trabalho devido à sobrecarga famili
 
 ---
 
- ### 2.	Quem está pesquisando e onde?
+### 2.	Quem está pesquisando e onde?
    Pesquisas sobre desigualdade de gênero no mercado de trabalho e seus impactos em mães solo vêm sendo realizadas por universidades, centros de pesquisa e órgãos públicos, no Brasil e no exterior. Esses estudos mostram como a sobrecarga familiar, a falta de apoio e a discriminação afetam a inserção e permanência dessas mulheres no mercado. 
    Além disso, equipes de tecnologia, como estudantes e pesquisadores de Tecnologia da Informação, têm conduzido pesquisas aplicadas para desenvolver soluções digitais que ofereçam suporte e oportunidades profissionais a mães solo. Um exemplo é a plataforma Mommy Tech, criada a partir de estudos sobre as necessidades desse grupo, que conecta mães a vagas compatíveis com seus perfis e habilidades, promovendo inclusão e empoderamento.
 
