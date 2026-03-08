@@ -29,6 +29,8 @@ TECLOGIN. No radar do Dia das Mães: 60% das mães ainda estão fora do mercado 
 FUNDAÇÃO GETÚLIO VARGAS – FGV. Mães solo no mercado de trabalho crescem 17 milhões em dez anos. FGV, [s.d.]. Disponível em: https://portal.fgv.br/artigos/maes-solo-mercado-trabalho-crescem-17-milhao-dez-anos?utm_source=
 . Acesso em: 6 mar. 2026.
 
+ESTADÃO. Blue Studio. Brasil possui mais de 11 milhões de mães solo, aponta estudo. Disponível em: https://bluestudio.estadao.com.br/agencia-de-comunicacao/releases/releases-geral/brasil-possui-mais-de-11-milhoes-de-maes-solo-aponta-estudo/
+. Acesso em: 6 mar. 2026.
 OXFORD ACADEMIC. [s.n.]. Disponível em: https://academic.oup.com/jpubhealth/article/44/3/507/6218924?utm_source=
 . Acesso em: 6 mar. 2026.
 
