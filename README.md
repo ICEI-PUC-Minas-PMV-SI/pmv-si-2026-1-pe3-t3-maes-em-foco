@@ -6,7 +6,9 @@
 
 `SEMESTRE: 3º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto Mães em Foco consiste no desenvolvimento e aperfeiçoamento de uma plataforma digital voltada ao apoio de mães solo que enfrentam dificuldades para conciliar a maternidade com a inserção ou permanência no mercado de trabalho. A proposta é criar um sistema que reúna, em um único ambiente, serviços e profissionais importantes para essas mulheres, como advogados, psicólogos, babás e creches.
+
+Além disso, a plataforma busca promover a criação de uma rede de apoio entre as usuárias, permitindo a troca de experiências, informações e orientações. Dessa forma, o sistema pretende facilitar o acesso a recursos essenciais e contribuir para que mães solo tenham mais suporte em sua rotina e em sua trajetória profissional.
 
 ## Integrantes
 
