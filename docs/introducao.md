@@ -8,6 +8,9 @@ Nesse cenário, mulheres que chefiam famílias sozinhas enfrentam barreiras crí
 ## 1.1. Problema
 
 Mães solo enfrentam dificuldades significativas para se inserir e se manter no mercado de trabalho. A combinação de jornadas longas, muitas vezes não flexíveis, responsabilidades familiares e falta de apoio para cuidados com os filhos, além de barreiras de acesso a serviços essenciais, como orientação jurídica, suporte psicológico e cuidados infantis, cria situações que podem levar ao desemprego e à exclusão do mercado de trabalho. Além disso, a ausência de uma rede de apoio confiável e integrada dificulta que essas mulheres consigam equilibrar as demandas profissionais e pessoais de forma sustentável.
+
+No Brasil, essa realidade afeta milhões de mulheres. Estudos apontam que o país possui mais de 11 milhões de mães que criam seus filhos sozinhas, muitas vezes sem rede de apoio e com dificuldades para conciliar trabalho e cuidado familiar, o que impacta diretamente suas oportunidades de inserção no mercado formal de trabalho (FGV, 2023).
+
 No contexto atual, grande parte dessas mães precisa buscar informações, serviços e profissionais de forma instável, muitas vezes recorrendo a indicações informais ou canais pouco confiáveis. Essa situação gera insegurança, insatisfação e aumenta a sobrecarga emocional, além de limitar oportunidades de desenvolvimento profissional e financeiro.
 
 
@@ -23,9 +26,9 @@ Além disso, serão realizados testes de software, visando verificar o funcionam
 
 ## 1.3. Justificativa
 
-A importância do projeto não se limita ao desenvolvimento técnico de um sistema, mas está diretamente relacionada ao seu potencial impacto social, ao promover acesso facilitado a serviços essenciais e fortalecer redes de apoio, contribuindo para a inclusão e permanência de mães solo no mercado de trabalho.
-A escolha de aprofundar o projeto como um hub digital integrado justifica-se pela fragmentação atual das informações e serviços disponíveis. Muitas mães solo precisam recorrer a indicações informais ou fontes pouco confiáveis para encontrar advogados, babás, creches ou apoio psicológico. Centralizar esses recursos em uma única plataforma organizada e segura contribui para reduzir insegurança, retrabalho e sobrecarga emocional, além de promover maior autonomia na tomada de decisões.
+A importância do projeto vai além do desenvolvimento técnico de um sistema, estando diretamente relacionada ao seu potencial impacto social. A proposta busca promover acesso facilitado a serviços essenciais e fortalecer redes de apoio, contribuindo para a inclusão e permanência de mães solo no mercado de trabalho. O projeto se destaca por ser concebido a partir dos princípios de Design Centrado no Usuário, priorizando as necessidades, desafios e experiências reais das usuárias durante todo o processo de desenvolvimento, o que torna a solução mais acessível, intuitiva e alinhada ao seu público.
 
+A escolha de aprofundar o projeto como um hub digital integrado justifica-se pela fragmentação atual das informações e serviços disponíveis. Muitas mães solo precisam recorrer a indicações informais ou fontes pouco confiáveis para encontrar advogados, babás, creches ou apoio psicológico. Ao centralizar esses recursos em uma única plataforma organizada, segura e pensada cuidadosamente para a experiência do usuário, o projeto se apresenta como uma solução inovadora, capaz de reduzir insegurança, retrabalho e sobrecarga emocional, além de promover maior autonomia na tomada de decisões.
 
 ## 1.4. Público alvo
 
