@@ -1,9 +1,9 @@
 # 3. DOCUMENTO DE ESPECIFICAÇÃO DE REQUISITOS DE SOFTWARE
 
 A presente seção tem como objetivo apresentar a documentação de requisitos do sistema proposto, desenvolvido no contexto do projeto voltado ao apoio de mães solo no mercado de trabalho. O sistema consiste em uma plataforma web que busca centralizar informações e serviços voltados a esse público, facilitando o acesso a recursos que auxiliem na inserção e permanência dessas mulheres no ambiente profissional.
+
 A plataforma foi concebida como um hub digital que conecta mães solo a profissionais e serviços de apoio, como orientação psicológica, jurídica e cuidados infantis. Dessa forma, o sistema busca contribuir para a redução de barreiras enfrentadas por essas mulheres, promovendo maior autonomia, segurança e acesso a recursos que auxiliem no equilíbrio entre as responsabilidades profissionais e familiares.
 
----
 ## 3.1 Objetivos deste documento
 
 O documento em questão, tem como principais objetivos os de descrever e especificar as necessidades das usuárias do sistema proposto no projeto Mães em Foco, que devem ser atendidas pela plataforma web desenvolvida para apoiar mães solo no acesso a informações e serviços de suporte. O sistema busca facilitar o contato com profissionais de áreas como orientação psicológica, jurídica e cuidados infantis, contribuindo para reduzir dificuldades enfrentadas por essas mulheres em sua rotina e em sua inserção no mercado de trabalho.
