@@ -1,8 +1,8 @@
 # 3. DOCUMENTO DE ESPECIFICAÇÃO DE REQUISITOS DE SOFTWARE
 
 A presente seção tem como objetivo apresentar a documentação de requisitos do sistema proposto, desenvolvido no contexto do projeto voltado ao apoio de mães solo no mercado de trabalho. O sistema consiste em uma plataforma web que busca centralizar informações e serviços voltados a esse público, facilitando o acesso a recursos que auxiliem na inserção e permanência dessas mulheres no ambiente profissional.
-
 A plataforma foi concebida como um hub digital que conecta mães solo a profissionais e serviços de apoio, como orientação psicológica, jurídica e cuidados infantis. Dessa forma, o sistema busca contribuir para a redução de barreiras enfrentadas por essas mulheres, promovendo maior autonomia, segurança e acesso a recursos que auxiliem no equilíbrio entre as responsabilidades profissionais e familiares.
+
 ---
 ## 3.1 Objetivos deste documento
 
