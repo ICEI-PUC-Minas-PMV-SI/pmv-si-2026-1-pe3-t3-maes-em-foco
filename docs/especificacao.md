@@ -21,7 +21,9 @@ Entre os principais componentes do sistema está o feed de publicações, onde a
 Proporcionar um ambiente digital que ofereça apoio e suporte às mães solo em suas rotinas pessoais e profissionais, facilitando o acesso a informações e a profissionais de áreas como orientação psicológica, jurídica e cuidados infantis. O sistema tem como missão tornar esses serviços mais acessíveis e organizados, permitindo que as usuárias encontrem suporte de forma simples, segura e confiável em seu dia a dia. Além disso, o desenvolvimento da solução segue princípios de Design Centrado no Usuário, buscando compreender as necessidades reais das usuárias e oferecer uma experiência de uso intuitiva, acessível e alinhada às suas demandas.
 
 ### 3.2.3 Limites do produto
-O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcelas do curso, pagamento a professore e agendamentos. O SCCA não contempla o atendimento a vários cursos de Sistemas de Informação de outras unidades da PUC Minas.
+O sistema Mães em Foco não realiza atendimento direto por parte dos profissionais cadastrados na plataforma, funcionando apenas como um meio de acesso a informações e perfis desses profissionais. O contato entre as usuárias e os profissionais ocorre por meio de plataformas externas.
+
+Além disso, o sistema não realiza intermediação de pagamentos, agendamentos de serviços ou contratação direta de profissionais, limitando-se a disponibilizar informações e facilitar o acesso a esses serviços.
 
 ### 3.2.4 Benefícios do produto
 
