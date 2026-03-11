@@ -56,9 +56,13 @@ O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcela
 
 | Ator | Descrição |
 |--------------------|------------------------------------|
-| Coordenador |	Usuário gerente do sistema responsável pelo cadastro e manutenção de cursos de aperfeiçoamento. Possui acesso geral ao sistema. |
-| Secretaria |	Usuário responsável por registros de alunos, professores, turmas e gerência de matrículas. |
+| Mães Solo |	Usuária da plataforma que pode criar perfil, participar do fórum, fazer publicações, interagir com outras mães e buscar profissionais de apoio próximos.|
+| Advogado |	Profissional que pode criar um perfil para oferecer orientação e serviços jurídicos às mães solo. |
+| Psicólogo |	Profissional que pode criar um perfil para oferecer apoio psicológico às mães solo. |
+| Babá |	Profissional que pode cadastrar seus serviços para auxiliar no cuidado das crianças.|
+| Creche |	Instituição que pode cadastrar seu perfil para que mães solo encontrem opções de cuidado infantil próximas.|
 | ... |	... |	... |
+
 
 ## 3.4 Modelagem do Sistema
 
