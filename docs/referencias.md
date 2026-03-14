@@ -31,9 +31,12 @@ FUNDAÇÃO GETÚLIO VARGAS – FGV. Mães solo no mercado de trabalho crescem 17
 
 ESTADÃO. Blue Studio. Brasil possui mais de 11 milhões de mães solo, aponta estudo. Disponível em: https://bluestudio.estadao.com.br/agencia-de-comunicacao/releases/releases-geral/brasil-possui-mais-de-11-milhoes-de-maes-solo-aponta-estudo/
 . Acesso em: 6 mar. 2026.
+
 OXFORD ACADEMIC. [s.n.]. Disponível em: https://academic.oup.com/jpubhealth/article/44/3/507/6218924?utm_source=
 . Acesso em: 6 mar. 2026.
 
 IISCIENTIFIC. [s.n.]. Disponível em: https://iiscientific.com/artigos/B6A7F0/
 . Acesso em: 6 mar. 2026.
 
+Departamento Intersindicial de Estatística e Estudos Socioeconômicos - DIEESE. Mulheres no mercado de trabalho: desafios e desigualdades constantes. Disponível em: https://www.dieese.org.br/boletimespecial/2024/mulheres2024.html. 
+. Acesso em: 14 mar. 2026
