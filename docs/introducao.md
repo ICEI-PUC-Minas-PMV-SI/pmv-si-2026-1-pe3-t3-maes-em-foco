@@ -7,11 +7,13 @@ Nesse cenário, mulheres que chefiam famílias sozinhas enfrentam barreiras crí
 
 ## 1.1. Problema
 
-Mães solo enfrentam dificuldades significativas para se inserir e se manter no mercado de trabalho. A combinação de jornadas longas, muitas vezes não flexíveis, responsabilidades familiares e falta de apoio para cuidados com os filhos, além de barreiras de acesso a serviços essenciais, como orientação jurídica, suporte psicológico e cuidados infantis, cria situações que podem levar ao desemprego e à exclusão do mercado de trabalho. Além disso, a ausência de uma rede de apoio confiável e integrada dificulta que essas mulheres consigam equilibrar as demandas profissionais e pessoais de forma sustentável.
+Mães solo enfrentam dificuldades significativas para se inserir e se manter no mercado de trabalho. Segundo os dados do Pesquisa Nacional por Amostra de Domicílios Contínua (PnadC), elaborado pelo Departamento Intersindical de Estatística e Estudos Socioeconômicos (DIEESE, 2024), a inserção das mulheres no mercado de trabalho possui diversos obstáculos como menores salários, maior taxa de desemprego e maior porcentagem na informalidade.
+
+A combinação de jornadas longas, muitas vezes não flexíveis, responsabilidades familiares e falta de apoio para cuidados com os filhos, além de barreiras de acesso a serviços essenciais, como orientação jurídica, suporte psicológico e cuidados infantis, cria situações que podem levar ao desemprego e à exclusão do mercado de trabalho. Além disso, a ausência de uma rede de apoio confiável e integrada dificulta que essas mulheres consigam equilibrar as demandas profissionais e pessoais de forma sustentável.
 
 No Brasil, essa realidade afeta milhões de mulheres. Estudos apontam que o país possui mais de 11 milhões de mães que criam seus filhos sozinhas, muitas vezes sem rede de apoio e com dificuldades para conciliar trabalho e cuidado familiar, o que impacta diretamente suas oportunidades de inserção no mercado formal de trabalho (FGV, 2023).
 
-No contexto atual, grande parte dessas mães precisa buscar informações, serviços e profissionais de forma instável, muitas vezes recorrendo a indicações informais ou canais pouco confiáveis. Essa situação gera insegurança, insatisfação e aumenta a sobrecarga emocional, além de limitar oportunidades de desenvolvimento profissional e financeiro.
+No contexto atual, grande parte dessas mães precisa buscar informações, serviços e profissionais de maneira desorganizada e sem um canal confiável de acesso, recorrendo, muitas vezes, a indicações informais ou a meios que nem sempre oferecem segurança. Essa situação gera insegurança e insatisfação, além de ampliar a sobrecarga emocional e limitar oportunidades de desenvolvimento profissional e financeiro.
 
 
 ## 1.2. Objetivos do trabalho
