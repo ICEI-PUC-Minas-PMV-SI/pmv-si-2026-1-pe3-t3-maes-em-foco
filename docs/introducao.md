@@ -1,6 +1,6 @@
 # 1. INTRODUÇÃO
 
-A inserção de mães solo no mercado de trabalho é um desafio de urgência social e econômica, cujas dimensões são confirmadas por dados alarmantes. Segundo o Jornal da USP, a maternidade ainda é o fator responsável por manter milhões de mulheres fora do mercado de trabalho; uma realidade que se agrava em 2025, com a pesquisa da Catho revelando que 60% das mães estão desempregadas ou inativas profissionalmente.
+A inserção de mães solo no mercado de trabalho é um desafio de urgência social e econômica, cujas dimensões são confirmadas por dados alarmantes. Pesquisa realizada por Janaína Feijó (2023) aponta que, dos 75,3 milhões de domicílios brasileiros, cerca de 14,9% (11,3 milhões) têm uma mãe solo como chefe de família ou pessoa de referência, o que demonstra um crescimento de 17,8% nesse número entre 2012 e 2022. Paralelamente, segundo o Jornal da USP, a maternidade ainda é o fator responsável por manter milhões de mulheres fora do mercado de trabalho; uma realidade que se agrava em 2025, com a pesquisa da Catho revelando que 60% das mães estão desempregadas ou inativas profissionalmente.
 
 Nesse cenário, mulheres que chefiam famílias sozinhas enfrentam barreiras críticas para conciliar a maternidade com o emprego, lidando com jornadas exaustivas e a escassez de redes de apoio familiar ou profissional. A falta de acesso a cuidados infantis e orientação jurídica limita a independência financeira e o desenvolvimento de carreira dessa parcela da população.
 
@@ -20,7 +20,7 @@ No contexto atual, grande parte dessas mães precisa buscar informações, servi
 
 O trabalho proposto tem como objetivo geral aperfeiçoar o sistema de software Mães em Foco, concebido como um hub digital de apoio para mães solo, com a finalidade de facilitar o acesso a serviços essenciais e promover a criação de uma rede de suporte entre usuárias. Este desenvolvimento é norteado pelos princípios do Design Centrado no Usuário, garantindo que cada etapa da construção do site priorize as experiências, limitações e necessidades específicas desse público.
 
-O Mães em Foco é inovador, pois integra em uma única plataforma o acesso organizado e seguro a profissionais como advogados, babás, creches e psicólogos, além de oferecer um espaço de interação entre as usuárias. Essa integração soluciona problemas reais enfrentados por mães solo, centralizando informações e serviços que, tradicionalmente, estão dispersos e de difícil acesso.
+O sistema Mães em Foco propõe reunir, em uma única plataforma digital, informações e serviços de apoio relevantes para mães solo, como profissionais da área jurídica, cuidados infantis e apoio psicológico, além de possibilitar a interação entre usuárias. Dessa forma, busca-se facilitar o acesso a serviços que frequentemente são encontrados de maneira informal ou pouco estruturada.
 
 Como objetivos específicos, este trabalho pretende elaborar a especificação de requisitos do sistema, definindo suas principais funcionalidades e restrições. Busca-se também desenvolver o design de interação da plataforma, estruturando interfaces e organizando fluxos de navegação de maneira simples e intuitiva, com foco em usabilidade e acessibilidade.
 
@@ -34,7 +34,7 @@ A escolha de aprofundar o projeto como um hub digital integrado justifica-se pel
 
 ## 1.4. Público alvo
 
-O público-alvo da nossa aplicação são mães solo, especificamente mulheres entre 20 e 30 anos, geralmente solteiras. São mulheres jovens, economicamente ativas e com alta sobrecarga de responsabilidades. Possuem conhecimento tecnológico básico, utilizam principalmente o celular e valorizam praticidade, clareza e rapidez.
+O público-alvo da aplicação são mães solo, especificamente mulheres entre 20 e 30 anos, geralmente solteiras. São mulheres jovens, economicamente ativas e com alta sobrecarga de responsabilidades. Possuem conhecimento tecnológico básico, utilizam principalmente o celular e valorizam praticidade, clareza e rapidez.
 Em sua maioria, trabalham em empresas de pequeno e médio porte ou na informalidade, com renda limitada e pouca flexibilidade de horários. No ambiente profissional, costumam ocupar cargos operacionais ou administrativos, com baixo poder de decisão e necessidade constante de conciliar trabalho e maternidade.
 
 Têm familiaridade com aplicativos do dia a dia, como redes sociais e apps bancários, mas não possuem conhecimentos técnicos avançados. Por isso, esperam uma aplicação simples, intuitiva e funcional, que resolva suas necessidades de forma rápida, com linguagem acessível e boa experiência no celular. Além disso, valorizam soluções que transmitam segurança, organização e apoio em meio à rotina intensa que enfrentam.
