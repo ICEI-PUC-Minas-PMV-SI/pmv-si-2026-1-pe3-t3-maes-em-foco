@@ -38,5 +38,8 @@ OXFORD ACADEMIC. [s.n.]. Disponível em: https://academic.oup.com/jpubhealth/art
 IISCIENTIFIC. [s.n.]. Disponível em: https://iiscientific.com/artigos/B6A7F0/
 . Acesso em: 6 mar. 2026.
 
-Departamento Intersindicial de Estatística e Estudos Socioeconômicos - DIEESE. Mulheres no mercado de trabalho: desafios e desigualdades constantes. Disponível em: https://www.dieese.org.br/boletimespecial/2024/mulheres2024.html. 
+Departamento Intersindicial de Estatística e Estudos Socioeconômicos - DIEESE. Mulheres no mercado de trabalho: desafios e desigualdades constantes. Disponível em: https://www.dieese.org.br/boletimespecial/2024/mulheres2024.html 
 . Acesso em: 14 mar. 2026
+
+FEIJÓ, Janaína. Mães solo no mercado de trabalho. Blog do IBRE – FGV, 12 maio 2023. Disponível em: https://blogdoibre.fgv.br/posts/maes-solo-no-mercado-de-trabalho
+. Acesso em: 14 mar. 2026.
