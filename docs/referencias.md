@@ -1,3 +1,6 @@
+## REFERÊNCIAS 
+Lista de referências utilizadas e citadas no trabalho.
+
 ARAUJO, C. et al. Mães solo, racismo estrutural e exclusão no topo. CONTEE, 2024. Disponível em: https://contee.org.br/maes-solo-racismo-estrutural-e-exclusao-no-topo/. Acesso em: 3 mar. 2026.
 
 BLUE STUDIO. Brasil possui mais de 11 milhões de mães solo, aponta estudo. Estadão, [s.d.]. Disponível em: https://bluestudio.estadao.com.br/agencia-de-comunicacao/releases/releases-geral/brasil-possui-mais-de-11-milhoes-de-maes-solo-aponta-estudo/. Acesso em: 6 mar. 2026.
