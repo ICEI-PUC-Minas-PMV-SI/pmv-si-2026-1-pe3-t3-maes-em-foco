@@ -21,16 +21,18 @@ Entre os principais componentes do sistema está o feed de publicações, onde a
 Proporcionar um ambiente digital que ofereça apoio e suporte às mães solo em suas rotinas pessoais e profissionais, facilitando o acesso a informações e a profissionais de áreas como orientação psicológica, jurídica e cuidados infantis. O sistema tem como missão tornar esses serviços mais acessíveis e organizados, permitindo que as usuárias encontrem suporte de forma simples, segura e confiável em seu dia a dia. Além disso, o desenvolvimento da solução segue princípios de Design Centrado no Usuário, buscando compreender as necessidades reais das usuárias e oferecer uma experiência de uso intuitiva, acessível e alinhada às suas demandas.
 
 ### 3.2.3 Limites do produto
-O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcelas do curso, pagamento a professore e agendamentos. O SCCA não contempla o atendimento a vários cursos de Sistemas de Informação de outras unidades da PUC Minas.
+O sistema de apoio a mães solo no mercado de trabalho não fornece serviços diretos de atendimento profissional, como consultas psicológicas, jurídicas ou contratação de babás e creches. A plataforma apenas permite que as usuárias localizem profissionais próximos para apoio. O contato com esses profissionais deve ser realizado por meio de plataformas externas.
+
+O sistema também não realiza pagamentos, agendamentos de serviços ou intermediação financeira entre as mães e os profissionais cadastrados. Além disso, a plataforma não realiza verificação ou certificação dos profissionais cadastrados.
 
 ### 3.2.4 Benefícios do produto
 
 | # | Benefício | Valor para o Cliente |
 |--------------------|------------------------------------|----------------------------------------|
-|1	| Facilidade no cadastro de dados |	Essencial |
-|2 | Facilidade na recuperação de informações | Essencial | 
-|3 | Segurança no cadastro de matrículas | Essencial | 
-|4	| Melhoria na comunicação com os alunos	| Recomendável | 
+|1	|Facilidade no cadastro de perfis de mães solo e profissionais|	Essencial |
+|2 |Facilidade na busca e localização de profissionais de apoio próximos | Essencial | 
+|3 | Melhoria na comunicação e troca de experiências entre mães solo por meio do feed | Recomendável | 
+|4	| Segurança no armazenamento de dados das usuárias e profissionais	|Essencial | 
 
 ## 3.3 Descrição geral do produto
 
