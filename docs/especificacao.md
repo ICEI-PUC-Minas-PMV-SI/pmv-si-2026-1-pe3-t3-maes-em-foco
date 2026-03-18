@@ -1,12 +1,12 @@
 # 3. DOCUMENTO DE ESPECIFICAÇÃO DE REQUISITOS DE SOFTWARE
 
-A presente seção tem como objetivo apresentar a documentação de requisitos do sistema proposto, desenvolvido no contexto do projeto voltado ao apoio de mães solo no mercado de trabalho. O sistema consiste em uma plataforma web que busca centralizar informações e serviços voltados a esse público, facilitando o acesso a recursos que auxiliem na inserção e permanência dessas mulheres no ambiente profissional.
+A presente seção tem como objetivo apresentar a documentação de requisitos do sistema proposto, desenvolvido no contexto do projeto voltado ao apoio de mães solo no mercado de trabalho. O sistema consiste em uma plataforma web que busca centralizar informações e serviços direcionados a esse público, facilitando o acesso a recursos que auxiliem na inserção e permanência dessas mulheres no ambiente profissional.
 
 A plataforma foi concebida como um hub digital que conecta mães solo a profissionais e serviços de apoio, como orientação psicológica, jurídica e cuidados infantis. Dessa forma, o sistema busca contribuir para a redução de barreiras enfrentadas por essas mulheres, promovendo maior autonomia, segurança e acesso a recursos que auxiliem no equilíbrio entre as responsabilidades profissionais e familiares.
 
 ## 3.1 Objetivos deste documento
 
-O documento em questão, tem como principais objetivos os de descrever e especificar as necessidades das usuárias do sistema proposto no projeto Mães em Foco, que devem ser atendidas pela plataforma web desenvolvida para apoiar mães solo no acesso a informações e serviços de suporte. O sistema busca facilitar o contato com profissionais de áreas como orientação psicológica, jurídica e cuidados infantis, contribuindo para reduzir dificuldades enfrentadas por essas mulheres em sua rotina e em sua inserção no mercado de trabalho.
+O presente documento tem como objetivo descrever e especificar as necessidades das usuárias do sistema proposto no projeto Mães em Foco, que devem ser atendidas pela plataforma web desenvolvida para apoiar mães solo no acesso a informações e serviços de suporte. O sistema busca facilitar o contato com profissionais de áreas como orientação psicológica, jurídica e cuidados infantis, contribuindo para reduzir dificuldades enfrentadas por essas mulheres em sua rotina e em sua inserção no mercado de trabalho.
 
 Além disso, este documento tem como objetivo apresentar de forma clara os requisitos do sistema, definindo as funcionalidades esperadas e as características necessárias para que a solução atenda às necessidades das usuárias. O desenvolvimento do sistema segue princípios de boas práticas de design e os fundamentos do Design Centrado no Usuário, buscando garantir uma experiência de uso acessível, intuitiva e alinhada às reais necessidades do público-alvo
 
@@ -15,13 +15,13 @@ Além disso, este documento tem como objetivo apresentar de forma clara os requi
 ### 3.2.1 Nome do produto e seus componentes principais
 O produto será denominado Mães em Foco, um sistema web desenvolvido para apoiar mães solo no acesso a informações e serviços de suporte que possam auxiliá-las em sua rotina e nas demandas relacionadas à maternidade solo, contribuindo também para sua inserção e permanência no mercado de trabalho.
 
-Entre os principais componentes do sistema está o feed de publicações, onde as usuárias podem compartilhar experiências, informações e conteúdos relevantes para outras mães. Além disso, o sistema também contará com uma seção de profissionais, na qual serão apresentados perfis e informações de especialistas que oferecem serviços de apoio, como orientação psicológica, jurídica e cuidados infantis.
+Entre os principais componentes do sistema está o feed de publicações, onde as usuárias podem criar, visualizar e interagir com conteúdos, compartilhando experiências, informações e conteúdos relevantes para outras mães. Além disso, o sistema também contará com uma seção de profissionais, na qual serão apresentados perfis e informações de especialistas que oferecem serviços de apoio, como orientação psicológica, jurídica e cuidados infantis.
 
 ### 3.2.2 Missão do produto
-Proporcionar um ambiente digital que ofereça apoio e suporte às mães solo em suas rotinas pessoais e profissionais, facilitando o acesso a informações e a profissionais de áreas como orientação psicológica, jurídica e cuidados infantis. O sistema tem como missão tornar esses serviços mais acessíveis e organizados, permitindo que as usuárias encontrem suporte de forma simples, segura e confiável em seu dia a dia. Além disso, o desenvolvimento da solução segue princípios de Design Centrado no Usuário, buscando compreender as necessidades reais das usuárias e oferecer uma experiência de uso intuitiva, acessível e alinhada às suas demandas.
+Proporcionar um ambiente digital que ofereça apoio e suporte às mães solo em suas rotinas pessoais e profissionais, facilitando o acesso a informações e a profissionais de áreas como orientação psicológica, jurídica e cuidados infantis. O sistema tem como missão tornar esses serviços mais acessíveis e organizados, permitindo que as usuárias encontrem suporte de forma simples, segura e confiável. Além disso, o desenvolvimento da solução segue princípios de Design Centrado no Usuário, buscando compreender as necessidades reais das usuárias e oferecer uma experiência de uso intuitiva, acessível e alinhada às suas demandas.
 
 ### 3.2.3 Limites do produto
-O sistema de apoio a mães solo no mercado de trabalho não fornece serviços diretos de atendimento profissional, como consultas psicológicas, jurídicas ou contratação de babás e creches. A plataforma apenas permite que as usuárias localizem profissionais próximos para apoio. O contato com esses profissionais deve ser realizado por meio de plataformas externas.
+O sistema de apoio a mães solo no mercado de trabalho não fornece serviços diretos de atendimento profissional, como consultas psicológicas, jurídicas ou contratação de babás e creches. A plataforma apenas permite que as usuárias localizem profissionais próximos para apoio, visualizem seus perfis e avaliações. O contato com esses profissionais deve ser realizado por meio de plataformas externas.
 
 O sistema também não realiza pagamentos, agendamentos de serviços ou intermediação financeira entre as mães e os profissionais cadastrados. Além disso, a plataforma não realiza verificação ou certificação dos profissionais cadastrados.
 
@@ -40,19 +40,27 @@ O sistema também não realiza pagamentos, agendamentos de serviços ou intermed
 
 | Código | Requisito Funcional (Funcionalidade) | Descrição |
 |--------------------|------------------------------------|----------------------------------------|
-| RF1 | Gerenciar Curso de Aperfeiçoamento |	Processamento de Inclusão, Alteração, Exclusão e Consulta de Cursos de Aperfeiçoamento |
-| RF2 |	Gerenciar Professor	| Processamento de Inclusão, Alteração, Exclusão e Consulta de professores |
-| RF3	| Gerenciar Matrícula |	Processamento de Inclusão, Alteração, Exclusão e Consulta de Matrículas de alunos em Cursos de Aperfeiçoamento |
-| ... |	...	| ... |
+| RF1 | Gerenciar Cadastro de Usuários | Processamento de inclusão de usuários do tipo mãe ou prestador de serviço |
+| RF2 | Realizar Autenticação de Usuários | Processamento de login dos usuários na aplicação |
+| RF3 |	Buscar Prestadores de Serviço	| Processamento de busca por prestadores cadastrados |
+| RF4 | Filtrar Busca de Serviços	| Processamento de busca por localização, especialidade e outros filtros |
+| RF5	| Visualizar Perfis de Prestadores |	Exibição dos dados e informações dos prestadores de serviço |
+| RF6 | Gerenciar Perfis de Usuários	| Processamento de edição de perfis de mães e prestadores |
+| RF7 | Avaliar Serviços	| Processamento de avaliações e comentários sobre prestadores |
+| RF8 | Gerenciar Publicações no Feed | Processamento de criação, visualização e interação com publicações |
+| RF9 | Gerenciar Interação entre Usuárias | Permitir comentários e interação nas publicações |
 
 ### 3.3.2 Requisitos Não Funcionais
 
 | Código | Requisito Não Funcional (Restrição) |
 |--------------------|------------------------------------|
-| RNF1 | O ambiente operacional a ser utilizado é o Windows XP. |
-| RNF2 | O sistema deverá executar em um computador configurado com uma impressora de tecnologia laser ou de jato de tinta, a ser usada para impressão dos relatórios. |
-| RNF3 |	Segurança	O produto deve restringir o acesso por meio de senhas individuais para o usuário. |
-| ... |	... |	... |
+| RNF1 | O sistema deve garantir a segurança e privacidade das informações das usuárias. |
+| RNF2 | A interface deve ser simples e de fácil utilização. |
+| RNF3 | A aplicação deve possuir um design atraente e agradável ao usuário.|
+| RNF4 | A aplicação deve ser responsiva. |
+| RNF5 | A aplicação deve funcionar em diferentes dispositivos. |
+
+
 
 ### 3.3.3 Usuários 
 
@@ -69,7 +77,7 @@ O sistema também não realiza pagamentos, agendamentos de serviços ou intermed
 ## 3.4 Modelagem do Sistema
 
 ### 3.4.1 Diagrama de Casos de Uso
-Como observado no diagrama de casos de uso da Figura 1, a secretária poderá gerenciar as matrículas e professores no sistema, enquanto o coordenador, além dessas funções, poderá gerenciar os cursos de aperfeiçoamento.
+O diagrama de casos de uso apresenta as principais interações entre os usuários do sistema e suas funcionalidades. Nele, é possível identificar as ações que podem ser realizadas pelas mães solo e pelos prestadores de serviço dentro da plataforma.
 
 #### Figura 1: Diagrama de Casos de Uso do Sistema.
 
