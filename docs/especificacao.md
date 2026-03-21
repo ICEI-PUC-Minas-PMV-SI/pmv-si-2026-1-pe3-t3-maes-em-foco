@@ -45,17 +45,17 @@ O sistema também não realiza pagamentos, agendamentos de serviços ou intermed
 
 | Código | Requisito Funcional (Funcionalidade) | Descrição |
 |--------------------|------------------------------------|----------------------------------------|
-| RF1 | Gerenciar Cadastro de Usuários | Processamento de inclusão de usuários do tipo mãe ou prestador de serviço |
-| RF2 | Realizar Autenticação de Usuários | Processamento de login dos usuários na aplicação |
-| RF3 |	Buscar Prestadores de Serviço	| Processamento de busca por prestadores cadastrados |
-| RF4 | Filtrar Busca de Serviços	| Processamento de busca por localização, especialidade e outros filtros |
-| RF5	| Visualizar Perfis de Prestadores |	Exibição dos dados e informações dos prestadores de serviço |
-| RF6 | Gerenciar Perfis de Usuários	| Processamento de edição de perfis de mães e prestadores |
-| RF7 | Avaliar Serviços	| Processamento de avaliações e comentários sobre prestadores |
-| RF8 | Gerenciar Publicações no Feed | Processamento de criação, visualização e interação com publicações |
+| RF1 | Gerenciar Cadastro de Usuários | Permitir inclusão de usuários do tipo mãe ou prestador de serviço |
+| RF2 | Realizar Autenticação de Usuários | Permitir login dos usuários na aplicação |
+| RF3 |	Buscar Prestadores de Serviço	| Permitir busca por prestadores cadastrados |
+| RF4 | Filtrar Busca de Serviços	| Permitir busca por localização, especialidade e outros filtros |
+| RF5	| Visualizar Perfis de Prestadores |	Exibir dados e informações dos prestadores de serviço |
+| RF6 | Gerenciar Perfis de Usuários	| Permitir edição de perfis de mães e prestadores |
+| RF7 | Avaliar Serviços	| Permitir avaliações e comentários sobre prestadores |
+| RF8 | Garantir Avaliações Confiáveis   | Permitir avaliações apenas por usuárias que declarem ter utilizado o atendimento |
 | RF9 | Gerenciar Interação entre Usuárias | Permitir comentários e interação nas publicações |
-| RF10 | Permitir Avaliações Confiáveis | A aplicação deve permitir avaliações de serviços apenas por usuárias que declarem ter utilizado o atendimento |
-| RF11 | Gerenciar Interação entre Usuárias | Permitir comentários e interação nas publicações |
+| RF10 | Gerenciar Publicações no Feed | Permitir criação, visualização e interação com publicações |
+| RF11 | Redirecionar contato para canais externos | Permitir acesso a canais externos de comunicação com profissionais |
 
 
 ### 3.3.2 Requisitos Não Funcionais
