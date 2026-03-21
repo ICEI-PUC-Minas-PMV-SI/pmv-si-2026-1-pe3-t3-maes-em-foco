@@ -15,13 +15,17 @@ Além disso, este documento tem como objetivo apresentar de forma clara os requi
 ### 3.2.1 Nome do produto e seus componentes principais
 O produto será denominado Mães em Foco, um sistema web desenvolvido para apoiar mães solo no acesso a informações e serviços de suporte que possam auxiliá-las em sua rotina e nas demandas relacionadas à maternidade solo, contribuindo também para sua inserção e permanência no mercado de trabalho.
 
-Entre os principais componentes do sistema está o feed de publicações, onde as usuárias podem criar, visualizar e interagir com conteúdos, compartilhando experiências, informações e conteúdos relevantes para outras mães. Além disso, o sistema também contará com uma seção de profissionais, na qual serão apresentados perfis e informações de especialistas que oferecem serviços de apoio, como orientação psicológica, jurídica e cuidados infantis.
+Entre os principais componentes do sistema está o feed de publicações, onde as usuárias podem criar, visualizar e interagir com conteúdos, compartilhando experiências, informações e conteúdos relevantes para outras mães. 
+
+O sistema também contará com uma seção de profissionais, na qual serão apresentados perfis e informações de especialistas que oferecem serviços de apoio, como orientação psicológica, jurídica e cuidados infantis. Os profissionais poderão receber avaliações de seus serviços, que somente poderão ser realizadas por usuárias que declarem ter utilizado o atendimento, por meio de mecanismo de autodeclaração.
+
+A comunicação entre usuárias e profissionais ocorrerá por meios externos à plataforma, como WhatsApp e e-mail, por meio de botões de redirecionamento.
 
 ### 3.2.2 Missão do produto
 Proporcionar um ambiente digital que ofereça apoio e suporte às mães solo em suas rotinas pessoais e profissionais, facilitando o acesso a informações e a profissionais de áreas como orientação psicológica, jurídica e cuidados infantis. O sistema tem como missão tornar esses serviços mais acessíveis e organizados, permitindo que as usuárias encontrem suporte de forma simples, segura e confiável. Além disso, o desenvolvimento da solução segue princípios de Design Centrado no Usuário, buscando compreender as necessidades reais das usuárias e oferecer uma experiência de uso intuitiva, acessível e alinhada às suas demandas.
 
 ### 3.2.3 Limites do produto
-O sistema de apoio a mães solo no mercado de trabalho não fornece serviços diretos de atendimento profissional, como consultas psicológicas, jurídicas ou contratação de babás e creches. A plataforma apenas permite que as usuárias localizem profissionais próximos para apoio, visualizem seus perfis e avaliações. O contato com esses profissionais deve ser realizado por meio de plataformas externas.
+O sistema de apoio a mães solo no mercado de trabalho não fornece serviços diretos de atendimento profissional, como consultas psicológicas, jurídicas ou contratação de babás e creches. A plataforma apenas permite que as usuárias localizem profissionais próximos para apoio, visualizem seus perfis e avaliações. O sistema não possui chat interno ou troca de mensagens diretas dentro da plataforma.
 
 O sistema também não realiza pagamentos, agendamentos de serviços ou intermediação financeira entre as mães e os profissionais cadastrados. Além disso, a plataforma não realiza verificação ou certificação dos profissionais cadastrados.
 
@@ -31,8 +35,9 @@ O sistema também não realiza pagamentos, agendamentos de serviços ou intermed
 |--------------------|------------------------------------|----------------------------------------|
 |1	|Facilidade no cadastro de perfis de mães solo e profissionais|	Essencial |
 |2 |Facilidade na busca e localização de profissionais de apoio próximos | Essencial | 
-|3 | Melhoria na comunicação e troca de experiências entre mães solo por meio do feed | Recomendável | 
+|3 | Fortalecimento da comunicação e troca de experiências entre mães solo por meio do feed | Recomendável | 
 |4	| Segurança no armazenamento de dados das usuárias e profissionais	|Essencial | 
+|5	| Acesso centralizado a informações e serviços de apoio	|Essencial | 
 
 ## 3.3 Descrição geral do produto
 
@@ -49,6 +54,9 @@ O sistema também não realiza pagamentos, agendamentos de serviços ou intermed
 | RF7 | Avaliar Serviços	| Processamento de avaliações e comentários sobre prestadores |
 | RF8 | Gerenciar Publicações no Feed | Processamento de criação, visualização e interação com publicações |
 | RF9 | Gerenciar Interação entre Usuárias | Permitir comentários e interação nas publicações |
+| RF10 | Permitir Avaliações Confiáveis | A aplicação deve permitir avaliações de serviços apenas por usuárias que declarem ter utilizado o atendimento |
+| RF11 | Gerenciar Interação entre Usuárias | Permitir comentários e interação nas publicações |
+
 
 ### 3.3.2 Requisitos Não Funcionais
 
