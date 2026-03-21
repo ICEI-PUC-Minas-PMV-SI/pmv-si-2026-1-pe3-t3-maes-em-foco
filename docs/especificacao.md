@@ -49,7 +49,7 @@ O sistema também não realiza pagamentos, agendamentos de serviços ou intermed
 | RF2 | Realizar Autenticação de Usuários | Permitir login dos usuários na aplicação |
 | RF3 |	Buscar Prestadores de Serviço	| Permitir busca por prestadores cadastrados |
 | RF4 | Filtrar Busca de Serviços	| Permitir busca por localização, especialidade e outros filtros |
-| RF5	| Visualizar Perfis de Prestadores |	Exibir dados e informações dos prestadores de serviço |
+| RF5	| Visualizar Perfis de Prestadores |	Permitir exibição dos dados e informações dos prestadores de serviço |
 | RF6 | Gerenciar Perfis de Usuários	| Permitir edição de perfis de mães e prestadores |
 | RF7 | Avaliar Serviços	| Permitir avaliações e comentários sobre prestadores |
 | RF8 | Garantir Avaliações Confiáveis   | Permitir avaliações apenas por usuárias que declarem ter utilizado o atendimento |
@@ -65,8 +65,8 @@ O sistema também não realiza pagamentos, agendamentos de serviços ou intermed
 | RNF1 | O sistema deve garantir a segurança e privacidade das informações das usuárias. |
 | RNF2 | A interface deve ser simples e de fácil utilização. |
 | RNF3 | A aplicação deve possuir um design atraente e agradável ao usuário.|
-| RNF4 | A aplicação deve ser responsiva. |
-| RNF5 | A aplicação deve funcionar em diferentes dispositivos. |
+| RNF4 | A aplicação deve ser responsiva, adaptando-se a diferentes tamanhos de tela e dispositivos. |
+| RNF5 | A interface deve seguir diretrizes de acessibilidade, facilitando o uso por diferentes perfis de usuárias. |
 
 
 
