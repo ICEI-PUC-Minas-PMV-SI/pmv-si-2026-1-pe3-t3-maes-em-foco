@@ -17,7 +17,11 @@ O produto será denominado Mães em Foco, um sistema web desenvolvido para apoia
 
 Entre os principais componentes do sistema está o feed de publicações, onde as usuárias podem criar, visualizar e interagir com conteúdos, compartilhando experiências, informações e conteúdos relevantes para outras mães. 
 
-O sistema também contará com uma seção de profissionais, na qual serão apresentados perfis e informações de especialistas que oferecem serviços de apoio, como orientação psicológica, jurídica e cuidados infantis. Os profissionais poderão receber avaliações de seus serviços, que somente poderão ser realizadas por usuárias que declarem ter utilizado o atendimento, por meio de mecanismo de autodeclaração.
+O sistema também contará com uma seção dedicada a profissionais, na qual serão apresentados perfis com informações de especialistas que oferecem serviços de apoio, como orientação psicológica, jurídica, atendimento médico e serviços de cuidado infantil, incluindo babás e creches.
+
+Para se cadastrar na plataforma, o profissional deverá enviar documentação comprobatória de sua habilitação profissional, conforme o órgão regulamentador da respectiva área, por exemplo, advogados deverão informar registro na OAB, psicólogos no CRP, médicos no CRM, entre outros. Essas informações passarão por um processo de validação antes da aprovação do perfil.
+
+Além disso, os profissionais poderão receber avaliações de seus serviços, as quais somente poderão ser realizadas por usuárias que comprovem ter utilizado o atendimento, por meio de um sistema de verificação (certificação de reviews).
 
 A comunicação entre usuárias e profissionais ocorrerá por meios externos à plataforma, como WhatsApp e e-mail, por meio de botões de redirecionamento.
 
@@ -27,7 +31,7 @@ Proporcionar um ambiente digital que ofereça apoio e suporte às mães solo em 
 ### 3.2.3 Limites do produto
 O sistema de apoio a mães solo no mercado de trabalho não fornece serviços diretos de atendimento profissional, como consultas psicológicas, jurídicas ou contratação de babás e creches. A plataforma apenas permite que as usuárias localizem profissionais próximos para apoio, visualizem seus perfis e avaliações. O sistema não possui chat interno ou troca de mensagens diretas dentro da plataforma.
 
-O sistema também não realiza pagamentos, agendamentos de serviços ou intermediação financeira entre as mães e os profissionais cadastrados. Além disso, a plataforma não realiza verificação ou certificação dos profissionais cadastrados.
+O sistema também não realiza pagamentos, agendamentos de serviços ou intermediação financeira entre as mães e os profissionais cadastrados. 
 
 ### 3.2.4 Benefícios do produto
 
@@ -52,7 +56,7 @@ O sistema também não realiza pagamentos, agendamentos de serviços ou intermed
 | RF5	| Visualizar Perfis de Prestadores |	Permitir exibição dos dados e informações dos prestadores de serviço |
 | RF6 | Gerenciar Perfis de Usuários	| Permitir edição de perfis de mães e prestadores |
 | RF7 | Avaliar Serviços	| Permitir avaliações e comentários sobre prestadores |
-| RF8 | Garantir Avaliações Confiáveis   | Permitir avaliações apenas por usuárias que declarem ter utilizado o atendimento |
+| RF8 | Garantir Avaliações Confiáveis   | Permitir a avaliação pela certificadora de reviews |
 | RF9 | Gerenciar Interação entre Usuárias | Permitir comentários e interação nas publicações |
 | RF10 | Gerenciar Publicações no Feed | Permitir criação, visualização e interação com publicações |
 | RF11 | Redirecionar contato para canais externos | Permitir acesso a canais externos de comunicação com profissionais |
