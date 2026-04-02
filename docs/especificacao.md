@@ -97,52 +97,69 @@ O diagrama de casos de uso apresenta as principais interações entre os usuári
  
 ### 3.4.2 Descrições de Casos de Uso
 
-Cada caso de uso deve ter a sua descrição representada nesta seção. Exemplo:
+#### Cadastrar Profissional (CSU01)
 
-#### Gerenciar Professor (CSU01)
+Sumário: O profissional parceiro realiza seu cadastro na plataforma, informando dados pessoais e profissionais, incluindo documentação comprobatória. O administrador da plataforma valida as informações e aprova ou rejeita o cadastro.
 
-Sumário: A Secretária realiza a gestão (inclusão, remoção, alteração e consulta) dos dados sobre professores.
+Ator Primário: Profissional Parceiro.
 
-Ator Primário: Secretária.
+Ator Secundário: Administrador da Plataforma.
 
-Ator Secundário: Coordenador.
-
-Pré-condições: A Secretária deve ser validada pelo Sistema.
+Pré-condições: O profissional não deve possuir cadastro prévio na plataforma.
 
 Fluxo Principal:
 
-1) 	A Secretária requisita manutenção de professores.
-2) 	O Sistema apresenta as operações que podem ser realizadas: inclusão de um novo professor, alteração de um professor, a exclusão de um professor e a consulta de dados de um professor.
-3) 	A Secretária seleciona a operação desejada: Inclusão, Exclusão, Alteração ou Consulta, ou opta por finalizar o caso de uso.
-4) 	Se a Secretária desejar continuar com a gestão de professores, o caso de uso retorna ao passo 2; caso contrário o caso de uso termina.
+1)  O profissional acessa a funcionalidade de cadastro.
+2)  O sistema solicita o preenchimento dos dados pessoais e profissionais.
+3)  O profissional informa os dados e envia a documentação comprobatória (ex: OAB, CRP, CRM).
+4)  O sistema valida o preenchimento dos campos obrigatórios.
+5)  Se os dados forem válidos, o sistema registra o cadastro com status “pendente de aprovação”.
+6)  O administrador acessa a lista de cadastros pendentes.
+7)  O administrador analisa a documentação enviada.
+8)  O administrador aprova o cadastro.
+9)  O sistema atualiza o status do profissional para “ativo” e confirma o cadastro.
 
-Fluxo Alternativo (3): Inclusão
+Fluxo Alternativo (4): Dados inválidos
 
-a)	A Secretária requisita a inclusão de um professor. <br>
-b)	O Sistema apresenta uma janela solicitando o CPF do professor a ser cadastrado. <br>
-c)	A Secretária fornece o dado solicitado. <br>
-d)	O Sistema verifica se o professor já está cadastrado. Se sim, o Sistema reporta o fato e volta ao início; caso contrário, apresenta um formulário em branco para que os detalhes do professor (Código, Nome, Endereço, CEP, Estado, Cidade, Bairro, Telefone, Identidade, Sexo, Fax, CPF, Data do Cadastro e Observação) sejam incluídos. <br>
-e)	A Secretária fornece os detalhes do novo professor. <br>
-f)	O Sistema verifica a validade dos dados. Se os dados forem válidos, inclui o novo professor e a grade listando os professores cadastrados é atualizada; caso contrário, o Sistema reporta o fato, solicita novos dados e repete a verificação. <br>
+a) O sistema identifica inconsistências ou ausência de campos obrigatórios.<br>
+b) O sistema informa os erros ao profissional.<br>
+c) O profissional corrige os dados.<br>
+d) O fluxo retorna ao passo 3.<br>
 
-Fluxo Alternativo (3): Remoção
+Fluxo Alternativo (7): Reprovação do cadastro
 
-a)	A Secretária seleciona um professor e requisita ao Sistema que o remova. <br>
-b)	Se o professor pode ser removido, o Sistema realiza a remoção; caso contrário, o Sistema reporta o fato. <br>
+a) O administrador identifica inconsistências ou documentação inválida.<br>
+b) O administrador rejeita o cadastro.<br>
+c) O sistema atualiza o status para “rejeitado”.<br>
+d) O sistema notifica o profissional para correção ou novo envio.<br>
 
-Fluxo Alternativo (3): Alteração
+Pós-condições: O profissional é cadastrado na plataforma com status “ativo” (aprovado) ou “rejeitado” (pendente de correção).
 
-a)	A Secretária altera um ou mais dos detalhes do professor e requisita sua atualização. <br>
-b)	O Sistema verifica a validade dos dados e, se eles forem válidos, altera os dados na lista de professores, caso contrário, o erro é reportado. <br>
- 
-Fluxo Alternativo (3): Consulta
+#### Gerenciar Perfil (CSU02)
 
-a)	A Secretária opta por pesquisar pelo nome ou código e solicita a consulta sobre a lista de professores. <br>
-b)	O Sistema apresenta uma lista professores. <br>
-c)	A Secretária seleciona o professor. <br>
-d)	O Sistema apresenta os detalhes do professor no formulário de professores. <br>
+Sumário: A usuária da plataforma e o profissional parceiro realizam a gestão de seus perfis, incluindo cadastro, visualização e atualização de informações pessoais e profissionais.
 
-Pós-condições: Um professor foi inserido ou removido, seus dados foram alterados ou apresentados na tela.
+Ator Primário: Usuária da Plataforma, Profissional Parceiro.
+
+Pré-condições: O usuário (usuária ou profissional) deve possuir cadastro na plataforma.
+O usuário deve estar autenticado no sistema.
+
+Fluxo Principal:
+
+1) 	O usuário acessa a funcionalidade de gerenciamento de perfil.
+2) 	O sistema apresenta os dados atuais editáveis do perfil.
+3) 	O usuário realiza as alterações desejadas.
+4)  Se os dados forem válidos, o sistema atualiza o perfil e confirma a operação.
+5) 	O usuário pode continuar editando, o caso de uso retorna ao passo 2; caso contrário o caso de uso termina.
+
+Fluxo Alternativo (4): Dados inválidos
+
+a) O sistema identifica inconsistências ou campos obrigatórios não preenchidos.<br>
+b) O sistema informa o erro ao usuário.<br>
+c) O usuário corrige os dados.<br>
+d) O fluxo retorna ao passo 3.<br>
+
+Pós-condições: Os dados do perfil do usuário ou profissional foram atualizados com sucesso ou mantidos sem alteração.
 
 ### 3.4.3 Diagrama de Classes 
 
