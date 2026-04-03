@@ -348,20 +348,30 @@ Pós-condições: Publicações podem ser criadas, editadas ou removidas, intera
 
 ### 3.4.3 Diagrama de Classes 
 
-A Figura 2 mostra o diagrama de classes do sistema. A Matrícula deve conter a identificação do funcionário responsável pelo registro, bem com os dados do aluno e turmas. Para uma disciplina podemos ter diversas turmas, mas apenas um professor responsável por ela.
+O diagrama de classes do sistema Mães em Foco apresenta a estrutura lógica da plataforma, destacando o papel do Administrador na gestão de usuárias e na validação obrigatória dos Profissionais além de moderarem publicações do fórum. A relação entre esses perfis permite que as mães realizem buscas por especialistas e iniciem contatos diretos para suporte.
+
+As interações na comunidade ocorrem através da classe Publicação, onde cada postagem é vinculada a uma única Usuária autora, permitindo a moderação de conteúdos pelo administrador. Complementando o sistema, a classe Avaliação registra o feedback das usuárias sobre o atendimento recebido. Cada registro de avaliação conecta obrigatoriamente uma autora a um único profissional, garantindo que um especialista possa acumular diversas notas e comentários ao longo do tempo, mantendo a transparência e a segurança da rede de apoio.
 
 #### Figura 2: Diagrama de Classes do Sistema.
- 
-![image]([https://github.com/user-attachments/assets/abc7591a-b46f-4ea2-b8f0-c116b60eb24e](https://drive.google.com/file/d/1RSKPMNWqRIZtQZA3XM5bidlbSFjmj6MT/view?usp=drive_link))
+
+Abaixo, apresentamos a estrutura completa do sistema Mães em Foco. Para garantir a legibilidade de todos os atributos e métodos, o diagrama foi dividido em duas seções de visualização detalhada:
+
+ #### Parte 1: Gestão de Usuárias e Publicações
+<img width="603" height="582" alt="image" src="https://github.com/user-attachments/assets/32980808-a952-4673-84b6-6a9a8632fb7d" />
+
+
+#### Parte 2: Profissionais e Sistema de Avaliações
+<img width="574" height="511" alt="image" src="https://github.com/user-attachments/assets/b2de7c0b-49de-48a6-a9b7-9616fa0a46ff" />
+
 
 
 ### 3.4.4 Descrições das Classes 
 
 | # | Nome | Descrição |
 |--------------------|------------------------------------|----------------------------------------|
-| 1	|	Aluno |	Cadastro de informações relativas aos alunos. |
-| 2	| Curso |	Cadastro geral de cursos de aperfeiçoamento. |
-| 3 |	Matrícula |	Cadastro de Matrículas de alunos nos cursos. |
-| 4 |	Turma |	Cadastro de turmas.
-| 5	|	Professor |	Cadastro geral de professores que ministram as disciplinas. |
-| ... |	... |	... |
+| 1	|	Usuaria |Representa as mães solo que utilizam a plataforma para buscar apoio, interagir na comunidade e avaliar profissionais. |
+| 2	| Profissional |	Armazena os dados dos prestadores de serviços (psicólogos, advogados, etc.) que oferecem suporte especializado às usuárias. |
+| 3 |	Administrador | Responsável pelo gerenciamento do sistema, incluindo a validação de documentos dos profissionais e moderação de conteúdos. |
+| 4 |	Publicação |	Registra as interações e postagens feitas pelas usuárias na comunidade, permitindo a troca de experiências e informações. |
+| 5	|	Avaliação | Guarda o feedback e a nota dada pelas usuárias aos profissionais, garantindo a qualidade e segurança dos serviços prestados. |
+
