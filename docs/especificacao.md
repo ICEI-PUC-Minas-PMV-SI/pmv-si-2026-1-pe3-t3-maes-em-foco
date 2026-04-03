@@ -29,9 +29,8 @@ A comunicação entre usuárias e profissionais ocorrerá por meios externos à 
 Proporcionar um ambiente digital que ofereça apoio e suporte às mães solo em suas rotinas pessoais e profissionais, facilitando o acesso a informações e a profissionais de áreas como orientação psicológica, jurídica e cuidados infantis. O sistema tem como missão tornar esses serviços mais acessíveis e organizados, permitindo que as usuárias encontrem suporte de forma simples, segura e confiável. Além disso, o desenvolvimento da solução segue princípios de Design Centrado no Usuário, buscando compreender as necessidades reais das usuárias e oferecer uma experiência de uso intuitiva, acessível e alinhada às suas demandas.
 
 ### 3.2.3 Limites do produto
-O sistema de apoio a mães solo no mercado de trabalho não fornece serviços diretos de atendimento profissional, como consultas psicológicas, jurídicas ou contratação de babás e creches. A plataforma apenas permite que as usuárias localizem profissionais próximos para apoio, visualizem seus perfis e avaliações. O sistema não possui chat interno ou troca de mensagens diretas dentro da plataforma.
+O sistema não fornece serviços diretos de atendimento profissional, consultas ou intermediação financeira. A plataforma funciona apenas para localização de profissionais e consulta de perfis. A comunicação entre usuárias e profissionais ocorre por meios externos, como WhatsApp e e-mail, através de botões de redirecionamento, não possuindo chat interno próprio.
 
-O sistema também não realiza pagamentos, agendamentos de serviços ou intermediação financeira entre as mães e os profissionais cadastrados. 
 
 ### 3.2.4 Benefícios do produto
 
