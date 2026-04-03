@@ -135,7 +135,40 @@ d) O sistema notifica o profissional para correção ou novo envio.<br>
 
 Pós-condições: O profissional é cadastrado na plataforma com status “ativo” (aprovado) ou “rejeitado” (pendente de correção).
 
-#### Gerenciar Perfil (CSU02)
+### Cadastrar Usuária (CSU02)
+
+Sumário: A usuária realiza seu cadastro na plataforma, informando dados pessoais necessários para criação de sua conta.
+
+Ator Primário: Usuária da Plataforma.
+
+Pré-condições: A usuária não deve possuir cadastro prévio na plataforma.
+
+Fluxo Principal:
+
+1) A usuária acessa a funcionalidade de cadastro.
+2) O sistema solicita o preenchimento dos dados pessoais (ex: nome, e-mail, senha, telefone).
+3) A usuária informa os dados solicitados.
+4) O sistema valida o preenchimento dos campos obrigatórios.
+5) Se os dados forem válidos, o sistema registra o cadastro da usuária.
+6) O sistema confirma a criação da conta.
+7) A usuária pode acessar a plataforma.
+
+Fluxo Alternativo (4): Dados inválidos
+
+a) O sistema identifica inconsistências ou ausência de campos obrigatórios.<br>
+b) O sistema informa os erros à usuária.<br>
+c) A usuária corrige os dados.<br>
+d) O fluxo retorna ao passo 3.<br>
+
+Fluxo Alternativo (5): Usuária já cadastrada
+
+a) O sistema identifica que já existe cadastro com os dados informados (ex: e-mail).<br>
+b) O sistema informa que a usuária já possui conta.<br>
+c) O sistema sugere acesso ou recuperação de senha.<br>
+
+Pós-condições: A usuária é cadastrada na plataforma e pode acessar o sistema.
+
+#### Gerenciar Perfil (CSU03)
 
 Sumário: A usuária da plataforma e o profissional parceiro realizam a gestão de seus perfis, incluindo cadastro, visualização e atualização de informações pessoais e profissionais.
 
@@ -160,6 +193,158 @@ c) O usuário corrige os dados.<br>
 d) O fluxo retorna ao passo 3.<br>
 
 Pós-condições: Os dados do perfil do usuário ou profissional foram atualizados com sucesso ou mantidos sem alteração.
+
+### Buscar e Filtrar Profissionais (CSU04)
+
+Sumário: A usuária da plataforma realiza a busca e aplica filtros para encontrar profissionais cadastrados, de acordo com critérios como área de atuação, localização e avaliações.
+
+Ator Primário: Usuária da Plataforma.
+
+Pré-condições: A usuária deve estar cadastrada e autenticada na plataforma.
+
+Fluxo Principal:
+
+1) A usuária acessa a funcionalidade de busca de profissionais.
+2) O sistema apresenta opções de filtro (ex: área de atuação, localização, avaliação).
+3) A usuária define os critérios desejados.
+4) O sistema processa a busca com base nos filtros informados.
+5) O sistema apresenta a lista de profissionais compatíveis.
+6) A usuária visualiza os resultados e pode selecionar um perfil para mais detalhes.
+7) A usuária pode refinar a busca, retornando ao passo 2; caso contrário, o caso de uso é encerrado.
+
+Fluxo Alternativo (5): Nenhum resultado encontrado
+
+a) O sistema não encontra profissionais com os critérios informados.<br>
+b) O sistema informa a ausência de resultados.<br>
+c) O sistema sugere ajuste nos filtros.<br>
+d) O fluxo retorna ao passo 2.<br>
+
+Pós-condições: A usuária visualizou uma lista de profissionais de acordo com os critérios definidos ou foi informada sobre a ausência de resultados.
+
+### Visualizar Perfil do Profissional (CSU05)
+
+Sumário: A usuária da plataforma visualiza o perfil de um profissional, incluindo informações como dados de contato, endereço, área de atuação e avaliações.
+
+Ator Primário: Usuária da Plataforma.
+
+Pré-condições: A usuária deve estar cadastrada e autenticada na plataforma.<br>
+O profissional deve estar com cadastro ativo no sistema.
+
+Fluxo Principal:
+
+1) A usuária realiza a busca de profissionais.
+2) O sistema apresenta a lista de profissionais disponíveis.
+3) A usuária seleciona um profissional.
+4) O sistema exibe o perfil do profissional com informações detalhadas (contato, endereço, área de atuação, avaliações).
+5) A usuária visualiza as informações disponíveis.
+6) A usuária pode retornar à lista de profissionais ou encerrar o caso de uso.
+
+Fluxo Alternativo (4): Perfil indisponível
+
+a) O sistema identifica que o perfil do profissional está indisponível ou inativo.<br>
+b) O sistema informa a indisponibilidade à usuária.<br>
+c) O fluxo retorna ao passo 2.<br>
+
+Pós-condições: A usuária visualizou as informações detalhadas de um profissional ou foi informada sobre a indisponibilidade do perfil.
+
+### Avaliar Profissionais (CSU06)
+
+Sumário: A usuária da plataforma realiza a avaliação de um profissional após a utilização de um serviço (consulta, orientação jurídica ou outro atendimento), sendo a avaliação validada por uma plataforma externa de certificação de reviews.
+
+Ator Primário: Usuária da Plataforma.
+
+Ator Secundário: Plataforma de Verificação de Avaliações.
+
+Pré-condições: A usuária deve estar cadastrada e autenticada na plataforma.<br>
+A usuária deve ter realizado um atendimento com o profissional.<br>
+O profissional deve estar com cadastro ativo no sistema.<br>
+
+Fluxo Principal:
+
+1) A usuária acessa o perfil do profissional.
+2) O sistema apresenta a opção de avaliação.
+3) A usuária seleciona a opção de avaliar.
+4) O sistema verifica se a usuária possui um atendimento registrado com o profissional.
+5) Se a validação for confirmada, o sistema apresenta o formulário de avaliação.
+6) A usuária preenche a avaliação (nota, comentário, etc.).
+7) O sistema envia a avaliação para a plataforma externa de validação (ex: Trustvox).
+8) A plataforma externa valida a autenticidade da avaliação.
+9) O sistema registra a avaliação como validada e a associa ao perfil do profissional.
+10) O sistema confirma o registro da avaliação à usuária.
+
+Fluxo Alternativo (8): Avaliação não validada
+
+a) A plataforma externa não valida a avaliação.<br>
+b) O sistema registra a avaliação como “não validada” ou a rejeita.<br>
+c) O sistema informa a usuária sobre o status da avaliação.<br>
+
+Pós-condições: A avaliação é registrada e associada ao profissional, com status validado ou não validado pela plataforma externa.
+
+### Gerenciar Publicações na Comunidade (CSU07)
+
+Sumário: A usuária da plataforma e o profissional parceiro podem criar, editar, excluir, visualizar e interagir com publicações na comunidade, incluindo ações de curtir, comentar e denunciar conteúdos. A administração pode moderar conteúdos publicados.
+
+Ator Primário: Usuária da Plataforma, Profissional Parceiro.
+
+Ator Secundário: Administrador da Plataforma.
+
+Pré-condições: O usuário (usuária ou profissional) deve estar cadastrado e autenticado na plataforma.
+
+Fluxo Principal:
+
+1) O usuário acessa a área da comunidade.
+2) O sistema apresenta a lista de publicações existentes.
+3) O usuário visualiza as publicações disponíveis.
+4) O usuário pode selecionar uma publicação para visualizar detalhes.
+5) O sistema exibe o conteúdo completo da publicação, incluindo comentários e curtidas.
+6) O usuário pode optar por interagir (curtir, comentar ou reportar) ou gerenciar publicações próprias.
+7) Caso opte por criar uma nova publicação, o usuário insere o conteúdo e solicita a publicação.
+8) O sistema registra e exibe a nova publicação na comunidade.
+9) O usuário pode continuar interagindo ou encerrar o caso de uso.
+
+Fluxo Alternativo (6): Curtir publicação
+
+a) O usuário seleciona a opção de curtir uma publicação.<br>
+b) O sistema registra a curtida.<br>
+c) O sistema atualiza o contador de curtidas.<br>
+
+Fluxo Alternativo (6): Comentar publicação
+
+a) O usuário seleciona a opção de comentar.<br>
+b) O sistema apresenta o campo de comentário.<br>
+c) O usuário insere o conteúdo e envia.<br>
+d) O sistema registra e exibe o comentário na publicação.<br>
+
+Fluxo Alternativo (6): Reportar publicação/comentário
+
+a) O usuário seleciona a opção de denúncia.<br>
+b) O sistema apresenta os motivos da denúncia (ex: conteúdo impróprio, spam, linguagem ofensiva).<br>
+c) O usuário seleciona o motivo e confirma.<br>
+d) O sistema registra a denúncia e a encaminha para moderação.<br>
+
+Fluxo Alternativo (6): Editar publicação
+
+a) O usuário seleciona uma publicação de sua autoria.<br>
+b) O sistema permite a edição do conteúdo.<br>
+c) O usuário realiza as alterações.<br>
+d) O sistema atualiza a publicação.<br>
+
+Fluxo Alternativo (6): Excluir publicação
+
+a) O usuário seleciona uma publicação de sua autoria.<br>
+b) O usuário solicita a exclusão.<br>
+c) O sistema remove a publicação da comunidade.<br>
+
+Fluxo Alternativo (Moderação): Ação do administrador
+
+a) O administrador acessa a área de moderação.<br>
+b) O sistema apresenta as publicações e comentários reportados.<br>
+c) O administrador analisa o conteúdo denunciado.<br>
+d) O administrador decide pela manutenção, edição ou remoção do conteúdo.<br>
+e) O sistema aplica a ação e atualiza a comunidade.<br>
+
+Pós-condições: Publicações podem ser criadas, editadas ou removidas, interações podem ser registradas e conteúdos podem ser denunciados e moderados pela administração.
+
 
 ### 3.4.3 Diagrama de Classes 
 
