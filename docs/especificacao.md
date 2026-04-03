@@ -135,7 +135,7 @@ d) O sistema notifica o profissional para correção ou novo envio.<br>
 
 Pós-condições: O profissional é cadastrado na plataforma com status “ativo” (aprovado) ou “rejeitado” (pendente de correção).
 
-### Cadastrar Usuária (CSU02)
+#### Cadastrar Usuária (CSU02)
 
 Sumário: A usuária realiza seu cadastro na plataforma, informando dados pessoais necessários para criação de sua conta.
 
@@ -194,7 +194,7 @@ d) O fluxo retorna ao passo 3.<br>
 
 Pós-condições: Os dados do perfil do usuário ou profissional foram atualizados com sucesso ou mantidos sem alteração.
 
-### Buscar e Filtrar Profissionais (CSU04)
+#### Buscar e Filtrar Profissionais (CSU04)
 
 Sumário: A usuária da plataforma realiza a busca e aplica filtros para encontrar profissionais cadastrados, de acordo com critérios como área de atuação, localização e avaliações.
 
@@ -221,7 +221,7 @@ d) O fluxo retorna ao passo 2.<br>
 
 Pós-condições: A usuária visualizou uma lista de profissionais de acordo com os critérios definidos ou foi informada sobre a ausência de resultados.
 
-### Visualizar Perfil do Profissional (CSU05)
+#### Visualizar Perfil do Profissional (CSU05)
 
 Sumário: A usuária da plataforma visualiza o perfil de um profissional, incluindo informações como dados de contato, endereço, área de atuação e avaliações.
 
@@ -247,7 +247,7 @@ c) O fluxo retorna ao passo 2.<br>
 
 Pós-condições: A usuária visualizou as informações detalhadas de um profissional ou foi informada sobre a indisponibilidade do perfil.
 
-### Avaliar Profissionais (CSU06)
+#### Avaliar Profissionais (CSU06)
 
 Sumário: A usuária da plataforma realiza a avaliação de um profissional após a utilização de um serviço (consulta, orientação jurídica ou outro atendimento), sendo a avaliação validada por uma plataforma externa de certificação de reviews.
 
@@ -280,7 +280,7 @@ c) O sistema informa a usuária sobre o status da avaliação.<br>
 
 Pós-condições: A avaliação é registrada e associada ao profissional, com status validado ou não validado pela plataforma externa.
 
-### Gerenciar Publicações na Comunidade (CSU07)
+#### Gerenciar Publicações na Comunidade (CSU07)
 
 Sumário: A usuária da plataforma e o profissional parceiro podem criar, editar, excluir, visualizar e interagir com publicações na comunidade, incluindo ações de curtir, comentar e denunciar conteúdos. A administração pode moderar conteúdos publicados.
 
