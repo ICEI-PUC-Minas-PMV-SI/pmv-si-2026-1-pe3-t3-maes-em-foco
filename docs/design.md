@@ -3,7 +3,7 @@
 ## 4.1 Personas
 Nesta seção você deve detalhar as personas do seu projeto. Deve-se documentar uma persona por integrante do projeto. Para mais informações sobre personas consulte: https://www.rdstation.com/blog/marketing/persona-o-que-e/. Sugere-se a utilização de um template do Canva: https://www.canva.com/pt_br/modelos/s/persona/
 
-## Persona - Dr. Rafael Mendes
+### Persona - Dr. Rafael Mendes
 
 Dr. Rafael Mendes é um psicólogo de 40 anos, especializado em desenvolvimento infantil. Ele trabalha ajudando mães, principalmente mães solo, a lidarem com os desafios de cuidar dos filhos.
 
