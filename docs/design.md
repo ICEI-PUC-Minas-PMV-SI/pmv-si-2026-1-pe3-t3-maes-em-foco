@@ -3,6 +3,12 @@
 ## 4.1 Personas
 Nesta seção você deve detalhar as personas do seu projeto. Deve-se documentar uma persona por integrante do projeto. Para mais informações sobre personas consulte: https://www.rdstation.com/blog/marketing/persona-o-que-e/. Sugere-se a utilização de um template do Canva: https://www.canva.com/pt_br/modelos/s/persona/
 
+## Persona - Dr. Rafael Mendes
+
+Dr. Rafael Mendes é um psicólogo de 40 anos, especializado em desenvolvimento infantil. Ele trabalha ajudando mães, principalmente mães solo, a lidarem com os desafios de cuidar dos filhos.
+
+Seu objetivo na aplicação é apoiar as mães emocionalmente, ajudando no dia a dia com a criação dos filhos, orientando sobre educação, comportamento e bem-estar das crianças. Ele também busca ajudar os filhos a crescerem de forma saudável, mesmo sem a presença paterna, oferecendo suporte psicológico tanto para as mães quanto para as crianças.
+
 ## 4.2 Mapa de Empatia
 Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A partir do mapa da empatia é possível detalhar a personalidade do cliente e compreendê-la melhor. O objetivo é obter um nível mais profundo de compreensão de uma persona. A seguir um exemplo de template que pode ser usado para o mapa de empatia. Para cada persona deverá ser apresentado o seu respectivo mapa de empatia. Sugere-se a utilização do template apresentado em https://www.rdstation.com/blog/marketing/mapa-da-empatia/.
 
