@@ -9,6 +9,11 @@ Dr. Rafael Mendes é um psicólogo de 40 anos, especializado em desenvolvimento 
 
 Seu objetivo na aplicação é apoiar as mães emocionalmente, ajudando no dia a dia com a criação dos filhos, orientando sobre educação, comportamento e bem-estar das crianças. Ele também busca ajudar os filhos a crescerem de forma saudável, mesmo sem a presença paterna, oferecendo suporte psicológico tanto para as mães quanto para as crianças.
 
+## *Dr.João Victor Pele*
+Joao Victor Pele tem 50 anos, mora no Rio de Janeiro e é conhecido por ser uma pessoa empática, paciente e comprometida com causas sociais. Ele valoriza a justiça, acredita na importância da família e se sensibiliza com histórias de mães que enfrentam dificuldades sozinhas para criar seus filhos.
+
+Sua atuação é voltada ao apoio jurídico de mães. Ele trabalha com casos como pensão alimentícia, guarda de filhos, reconhecimento de paternidade e situações de vulnerabilidade social. Seu diferencial está no atendimento humanizado, na linguagem simples e no uso de canais digitais para facilitar o acesso à informação. Seu principal objetivo profissional é garantir que mais mulheres conheçam e consigam exercer seus direitos de forma acessível e eficaz.
+
 ## 4.2 Mapa de Empatia
 Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A partir do mapa da empatia é possível detalhar a personalidade do cliente e compreendê-la melhor. O objetivo é obter um nível mais profundo de compreensão de uma persona. A seguir um exemplo de template que pode ser usado para o mapa de empatia. Para cada persona deverá ser apresentado o seu respectivo mapa de empatia. Sugere-se a utilização do template apresentado em https://www.rdstation.com/blog/marketing/mapa-da-empatia/.
 
