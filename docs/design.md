@@ -14,6 +14,12 @@ Joao Victor Pele tem 50 anos, mora no Rio de Janeiro e é conhecido por ser uma 
 
 Sua atuação é voltada ao apoio jurídico de mães. Ele trabalha com casos como pensão alimentícia, guarda de filhos, reconhecimento de paternidade e situações de vulnerabilidade social. Seu diferencial está no atendimento humanizado, na linguagem simples e no uso de canais digitais para facilitar o acesso à informação. Seu principal objetivo profissional é garantir que mais mulheres conheçam e consigam exercer seus direitos de forma acessível e eficaz.
 
+## *Alice Mendonça - Creche Mundo Encantado*
+Alice Mendonça tem 34 anos e é carinhosamente conhecida como “Tia Alice” pelos alunos. É empresária e proprietária da Creche Mundo Encantado. A creche foi criada após sua experiência pessoal com a maternidade, quando identificou a necessidade de um ambiente confiável e adequado para o desenvolvimento das crianças, especialmente para mães que precisam conciliar trabalho e família.
+
+Com um perfil acolhedor e profissional, o principal objetivo de Alice ao ingressar na plataforma é oferecer um ambiente que transmita segurança às mães de que seus filhos serão bem cuidados, demonstrando que sua creche oferece serviços de qualidade, pautados no bem-estar infantil, na responsabilidade e na capacitação profissional.
+
+
 ## 4.2 Mapa de Empatia
 Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A partir do mapa da empatia é possível detalhar a personalidade do cliente e compreendê-la melhor. O objetivo é obter um nível mais profundo de compreensão de uma persona. A seguir um exemplo de template que pode ser usado para o mapa de empatia. Para cada persona deverá ser apresentado o seu respectivo mapa de empatia. Sugere-se a utilização do template apresentado em https://www.rdstation.com/blog/marketing/mapa-da-empatia/.
 
