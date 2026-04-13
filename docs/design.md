@@ -15,7 +15,7 @@ Dr. Rafael Mendes é um psicólogo de 40 anos, especializado em desenvolvimento 
 
 Seu objetivo na aplicação é apoiar as mães emocionalmente, ajudando no dia a dia com a criação dos filhos, orientando sobre educação, comportamento e bem-estar das crianças. Ele também busca ajudar os filhos a crescerem de forma saudável, mesmo sem a presença paterna, oferecendo suporte psicológico tanto para as mães quanto para as crianças.
 
-## *Dr.João Victor Pele*
+## *Dr. João Victor Pele*
 Joao Victor Pele tem 50 anos, mora no Rio de Janeiro e é conhecido por ser uma pessoa empática, paciente e comprometida com causas sociais. Ele valoriza a justiça, acredita na importância da família e se sensibiliza com histórias de mães que enfrentam dificuldades sozinhas para criar seus filhos.
 
 Sua atuação é voltada ao apoio jurídico de mães. Ele trabalha com casos como pensão alimentícia, guarda de filhos, reconhecimento de paternidade e situações de vulnerabilidade social. Seu diferencial está no atendimento humanizado, na linguagem simples e no uso de canais digitais para facilitar o acesso à informação. Seu principal objetivo profissional é garantir que mais mulheres conheçam e consigam exercer seus direitos de forma acessível e eficaz.
@@ -33,6 +33,9 @@ Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A p
 
 ## *Dr.João Victor Pele*
 ![WhatsApp Image 2026-04-10 at 14 07 32](https://github.com/user-attachments/assets/6f878556-fa05-4ddd-968d-e5e147bd259f)
+
+## *Dr. Rafael Mendes*
+<img width="767" height="524" alt="image" src="https://github.com/user-attachments/assets/878d50b0-1a9a-4461-93f6-ed9af0cdd29c" />
 
 
 ## 4.3 Protótipos das Interfaces
