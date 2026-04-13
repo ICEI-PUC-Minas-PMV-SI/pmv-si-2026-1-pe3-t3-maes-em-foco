@@ -40,6 +40,9 @@ Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A p
 ## *Alice Mendonça*
 ![persona alice](img/Alice_Mendonca.png)
 
+## *Tereza Martins*
+<img width="800" height="565" alt="Inserir um título" src="https://github.com/user-attachments/assets/16d034d2-c176-467a-954c-61f85bbde5c0" />
+
 
 
 ## 4.3 Protótipos das Interfaces
