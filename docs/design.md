@@ -31,11 +31,15 @@ Ana Paula tem 29 anos, mora em Belo Horizonte, é auxiliar administrativo e mãe
 ## 4.2 Mapa de Empatia
 Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A partir do mapa da empatia é possível detalhar a personalidade do cliente e compreendê-la melhor. O objetivo é obter um nível mais profundo de compreensão de uma persona. A seguir um exemplo de template que pode ser usado para o mapa de empatia. Para cada persona deverá ser apresentado o seu respectivo mapa de empatia. Sugere-se a utilização do template apresentado em https://www.rdstation.com/blog/marketing/mapa-da-empatia/.
 
-## *Dr.João Victor Pele*
-![WhatsApp Image 2026-04-10 at 14 07 32](https://github.com/user-attachments/assets/6f878556-fa05-4ddd-968d-e5e147bd259f)
-
 ## *Dr. Rafael Mendes*
 <img width="767" height="524" alt="image" src="https://github.com/user-attachments/assets/878d50b0-1a9a-4461-93f6-ed9af0cdd29c" />
+
+## *Dr. João Victor Pele*
+![WhatsApp Image 2026-04-10 at 14 07 32](https://github.com/user-attachments/assets/6f878556-fa05-4ddd-968d-e5e147bd259f)
+
+## *Alice Mendonça*
+![persona alice](img/Alice_Mendonca.png)
+
 
 
 ## 4.3 Protótipos das Interfaces
