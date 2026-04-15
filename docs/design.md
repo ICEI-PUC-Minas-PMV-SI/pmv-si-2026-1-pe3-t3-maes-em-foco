@@ -43,6 +43,8 @@ Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A p
 ## *Tereza Martins*
 <img width="800" height="565" alt="Inserir um título" src="https://github.com/user-attachments/assets/16d034d2-c176-467a-954c-61f85bbde5c0" />
 
+## *Ana Paula Ferreira*
+<img width="760" height="570" alt="mapa_empatia_ana_paula(1)" src="https://github.com/user-attachments/assets/2e44fd92-749f-476e-8ada-3b5301c33b6f" />
 
 
 ## 4.3 Protótipos das Interfaces
