@@ -26,7 +26,7 @@ Alice Mendonça tem 34 anos e é carinhosamente conhecida como “Tia Alice” p
 Com um perfil acolhedor e profissional, o principal objetivo de Alice ao ingressar na plataforma é oferecer um ambiente que transmita segurança às mães de que seus filhos serão bem cuidados, demonstrando que sua creche oferece serviços de qualidade, pautados no bem-estar infantil, na responsabilidade e na capacitação profissional.
 
 ## *Ana Paula Ferreira*
-Ana Paula tem 29 anos, mora em Belo Horizonte, é auxiliar administrativo e mãe solo de um filho de 4 anos. Ela usa o aplicativo para buscar orientação jurídica sobre pensão, apoio emocional e indicações de creche confiável próxima a ela
+Ana Paula tem 29 anos, mora em Belo Horizonte, é auxiliar administrativo e mãe solo de um filho de 4 anos. Ela usa o aplicativo para buscar orientação jurídica sobre pensão, apoio emocional e indicações de creche confiável próxima a ela.
 
 ## 4.2 Mapa de Empatia
 Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A partir do mapa da empatia é possível detalhar a personalidade do cliente e compreendê-la melhor. O objetivo é obter um nível mais profundo de compreensão de uma persona. A seguir um exemplo de template que pode ser usado para o mapa de empatia. Para cada persona deverá ser apresentado o seu respectivo mapa de empatia. Sugere-se a utilização do template apresentado em https://www.rdstation.com/blog/marketing/mapa-da-empatia/.
