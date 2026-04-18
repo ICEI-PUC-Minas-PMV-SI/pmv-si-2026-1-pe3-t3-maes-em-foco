@@ -49,7 +49,7 @@ Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A p
 ![WhatsApp Image 2026-04-10 at 14 07 32](https://github.com/user-attachments/assets/6f878556-fa05-4ddd-968d-e5e147bd259f)
 
 ## *Alice Mendonça*
-![persona alice](img/Alice_Mendonca.png)
+![persona alice](img/mapadeempatia_alice.png)
 
 ## *Tereza Martins*
 <img width="800" height="565" alt="Inserir um título" src="https://github.com/user-attachments/assets/16d034d2-c176-467a-954c-61f85bbde5c0" />
