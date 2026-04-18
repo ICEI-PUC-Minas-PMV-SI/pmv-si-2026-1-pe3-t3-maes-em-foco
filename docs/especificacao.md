@@ -21,7 +21,7 @@ O sistema também contará com uma seção dedicada a profissionais, na qual ser
 
 Para se cadastrar na plataforma, o profissional deverá enviar documentação comprobatória de sua habilitação profissional, conforme o órgão regulamentador da respectiva área, por exemplo, advogados deverão informar registro na OAB, psicólogos no CRP, médicos no CRM, entre outros. Essas informações passarão por um processo de validação antes da aprovação do perfil.
 
-Além disso, os profissionais poderão receber avaliações de seus serviços, as quais somente poderão ser realizadas por usuárias que comprovem ter utilizado o atendimento, por meio de um sistema de verificação (certificação de reviews).
+Além disso, os profissionais poderão receber avaliações de seus serviços, as quais somente poderão ser realizadas por usuárias que comprovem ter utilizado o atendimento, a plataforma será integrada à api de um sistema de verificação (certificação de reviews - Trustvox).
 
 A comunicação entre usuárias e profissionais ocorrerá por meios externos à plataforma, como WhatsApp e e-mail, por meio de botões de redirecionamento.
 
