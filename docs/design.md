@@ -26,10 +26,23 @@ Dr. Rafael Mendes, 40 anos, é psicólogo especialista em desenvolvimento infant
 * Entregar qualidade com responsabilidade profissional.
 
 
-## *Dr. João Victor Pele*
-Joao Victor Pele tem 50 anos, mora no Rio de Janeiro e é conhecido por ser uma pessoa empática, paciente e comprometida com causas sociais. Ele valoriza a justiça, acredita na importância da família e se sensibiliza com histórias de mães que enfrentam dificuldades sozinhas para criar seus filhos.
+## *Dr. João Victor Pele - Advogado para Mães e Famílias*
+* Sexo: Masculino
+* Idade: 50 anos
+* Localização: Rio de Janeiro
+* Educação: Ensino superior completo – Direito
+* Ocupação: Advogado de Apoio Jurídico para Mães
 
-Sua atuação é voltada ao apoio jurídico de mães. Ele trabalha com casos como pensão alimentícia, guarda de filhos, reconhecimento de paternidade e situações de vulnerabilidade social. Seu diferencial está no atendimento humanizado, na linguagem simples e no uso de canais digitais para facilitar o acesso à informação. Seu principal objetivo profissional é garantir que mais mulheres conheçam e consigam exercer seus direitos de forma acessível e eficaz.
+###Biografia:
+
+Dr. João Victor Pelé, 50 anos, é advogado com atuação voltada ao suporte jurídico de mães, especialmente em situações de vulnerabilidade social. Conhecido por ser uma pessoa empática, paciente e comprometida com causas sociais, valoriza a justiça e acredita na importância da família. Atua em casos como pensão alimentícia, guarda de filhos, reconhecimento de paternidade, oferecendo um atendimento humanizado, com linguagem acessível e utilizando canais digitais para ampliar o acesso à informação e aos direitos.
+
+###Objetivos:
+
+* Garantir que mais mulheres conheçam seus direitos.
+* Facilitar o acesso à justiça de forma simples e eficaz.
+* Oferecer atendimento humanizado e acessível.
+* Ampliar o alcance dos serviços jurídicos por meios digitais.
 
 ## *Alice Mendonça - Creche Mundo Encantado*
 * Sexo: Feminino
