@@ -9,11 +9,22 @@ Nesta seção você deve detalhar as personas do seu projeto. Deve-se documentar
 Tereza tem 48 anos e trabalha na limpeza da Creche Mundo Encantado. Mesmo atuando na área de limpeza, ela tem um carinho muito grande pelas crianças e gosta de estar em um ambiente onde pode contribuir, mesmo que de forma indireta, para o bem-estar delas. É uma pessoa simples, dedicada e que valoriza o cuidado com o próximo.
 O papel de Tereza não é só deixar a creche limpa, mas sim ajudar, influenciar e encorajar as mães pela plataforma.
 
-## *Dr. Rafael Mendes*
 
-Dr. Rafael Mendes é um psicólogo de 40 anos, especializado em desenvolvimento infantil. Ele trabalha ajudando mães, principalmente mães solo, a lidarem com os desafios de cuidar dos filhos.
+## *Dr. Rafael Mendes - Psicólogo para Mães e Filhos*
+* Sexo: Masculino
+* Idade: 40 anos
+* Educação: Ensino superior completo - Psicologia
+* Ocupação: Psicólogo de Apoio Materno-Infantil
 
-Seu objetivo na aplicação é apoiar as mães emocionalmente, ajudando no dia a dia com a criação dos filhos, orientando sobre educação, comportamento e bem-estar das crianças. Ele também busca ajudar os filhos a crescerem de forma saudável, mesmo sem a presença paterna, oferecendo suporte psicológico tanto para as mães quanto para as crianças.
+#### Biografia:
+Dr. Rafael Mendes, 40 anos, é psicólogo especialista em desenvolvimento infantil e suporte a famílias monoparentais. Atua no acolhimento emocional e orientação educacional de mães solo, focando na saúde mental materna e no crescimento saudável das crianças com sensibilidade e apoio prático.
+
+#### Objetivos:
+* Garantir segurança e bem-estar infantil.
+* Transmitir confiança e credibilidade às mães.
+* Ampliar visibilidade e reputação do serviço.
+* Entregar qualidade com responsabilidade profissional.
+
 
 ## *Dr. João Victor Pele*
 Joao Victor Pele tem 50 anos, mora no Rio de Janeiro e é conhecido por ser uma pessoa empática, paciente e comprometida com causas sociais. Ele valoriza a justiça, acredita na importância da família e se sensibiliza com histórias de mães que enfrentam dificuldades sozinhas para criar seus filhos.
