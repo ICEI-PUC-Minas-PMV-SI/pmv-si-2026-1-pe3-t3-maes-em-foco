@@ -71,7 +71,8 @@ Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A p
 
 
 ## *Dr. João Victor Pele*
-![WhatsApp Image 2026-04-10 at 14 07 32](https://github.com/user-attachments/assets/6f878556-fa05-4ddd-968d-e5e147bd259f)
+<img width="908" height="646" alt="image" src="https://github.com/user-attachments/assets/4a405e61-5859-4849-9479-6b727e0afd57" />
+
 
 ## *Alice Mendonça*
 ![persona alice](img/mapadeempatia_alice.png)
