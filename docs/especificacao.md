@@ -372,5 +372,6 @@ Abaixo, apresentamos a estrutura completa do sistema Mães em Foco. Para garanti
 | 2	| Profissional |	Armazena os dados dos prestadores de serviços (psicólogos, advogados, etc.) que oferecem suporte especializado às usuárias. |
 | 3 |	Administrador | Responsável pelo gerenciamento do sistema, incluindo a validação de documentos dos profissionais e moderação de conteúdos. |
 | 4 |	Publicação |	Registra as interações e postagens feitas pelas usuárias na comunidade, permitindo a troca de experiências e informações. |
-| 5	|	Avaliação | Guarda o feedback e a nota dada pelas usuárias aos profissionais, garantindo a qualidade e segurança dos serviços prestados. |
+| 5 |	Serviço | Responsável por vincular cada atendimento ou suporte prestado à mãe que realizou a solicitação. |
+| 6 |	Avaliação | Guarda o feedback e a nota dada pelas usuárias aos profissionais, garantindo a qualidade e segurança dos serviços prestados. |
 
