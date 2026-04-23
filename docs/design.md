@@ -21,8 +21,6 @@ Dr. Rafael Mendes, 40 anos, é psicólogo especialista em desenvolvimento infant
 
 Atua oferecendo apoio emocional e orientação prática, com foco em soluções simples, acessíveis e aplicáveis à rotina, ajudando mães a lidarem de forma mais rápida e eficaz com desafios como sobrecarga, comportamento infantil e inseguranças na criação dos filhos.
 
-Tem foco em promover a saúde mental materna e o desenvolvimento saudável das crianças por meio de estratégias que realmente funcionam no contexto real dessas famílias, fortalecendo o vínculo entre mãe e filho e tornando o cuidado mais leve, possível e sustentável.
-
 #### Objetivos:
 * Promover o bem-estar emocional de mães e crianças de forma acessível e humanizada.
 * Oferecer um atendimento claro, empático e livre de barreiras técnicas ou excesso de burocracia.
