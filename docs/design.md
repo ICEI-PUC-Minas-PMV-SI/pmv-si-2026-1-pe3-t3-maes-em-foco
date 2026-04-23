@@ -17,13 +17,18 @@ O papel de Tereza não é só deixar a creche limpa, mas sim ajudar, influenciar
 * Ocupação: Psicólogo de Apoio Materno-Infantil
 
 #### Biografia:
-Dr. Rafael Mendes, 40 anos, é psicólogo especialista em desenvolvimento infantil e suporte a famílias monoparentais. Atua no acolhimento emocional e orientação educacional de mães solo, focando na saúde mental materna e no crescimento saudável das crianças com sensibilidade e apoio prático.
+Dr. Rafael Mendes, 40 anos, é psicólogo especialista em desenvolvimento infantil e suporte a famílias monoparentais. Seu trabalho é orientado pelo Design Centrado no Usuário, buscando compreender profundamente as necessidades, dores e limitações do dia a dia das mães solo.
+
+Atua oferecendo apoio emocional e orientação prática, com foco em soluções simples, acessíveis e aplicáveis à rotina, ajudando mães a lidarem de forma mais rápida e eficaz com desafios como sobrecarga, comportamento infantil e inseguranças na criação dos filhos.
+
+Tem foco em promover a saúde mental materna e o desenvolvimento saudável das crianças por meio de estratégias que realmente funcionam no contexto real dessas famílias, fortalecendo o vínculo entre mãe e filho e tornando o cuidado mais leve, possível e sustentável.
 
 #### Objetivos:
-* Garantir segurança e bem-estar infantil.
-* Transmitir confiança e credibilidade às mães.
-* Ampliar visibilidade e reputação do serviço.
-* Entregar qualidade com responsabilidade profissional.
+* Promover o bem-estar emocional de mães e crianças de forma acessível e humanizada.
+* Oferecer um atendimento claro, empático e livre de barreiras técnicas ou excesso de burocracia.
+* Garantir que o suporte psicológico seja facilmente compreendido e acessado por mães em diferentes contextos.
+* Utilizar ferramentas digitais que favoreçam uma experiência simples, eficiente e centrada na usuária.
+* Fortalecer a confiança no atendimento, mesmo em interações mediadas por plataformas digitais.
 
 
 ## *Dr. João Victor Pele - Advogado para Mães e Famílias*
@@ -67,7 +72,8 @@ Ana Paula tem 29 anos, mora em Belo Horizonte, é auxiliar administrativo e mãe
 Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A partir do mapa da empatia é possível detalhar a personalidade do cliente e compreendê-la melhor. O objetivo é obter um nível mais profundo de compreensão de uma persona. A seguir um exemplo de template que pode ser usado para o mapa de empatia. Para cada persona deverá ser apresentado o seu respectivo mapa de empatia. Sugere-se a utilização do template apresentado em https://www.rdstation.com/blog/marketing/mapa-da-empatia/.
 
 ## *Dr. Rafael Mendes*
-<img width="737" height="516" alt="image" src="https://github.com/user-attachments/assets/7019b2d0-9377-481a-b1d7-44a11d2ac4fe" />
+<img width="745" height="530" alt="image" src="https://github.com/user-attachments/assets/2bc6d438-e883-4763-95d6-2ab9521c016d" />
+
 
 
 ## *Dr. João Victor Pele*
