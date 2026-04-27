@@ -5,10 +5,19 @@ Nesta seção você deve detalhar as personas do seu projeto. Deve-se documentar
 
 
 ## *Tereza Martins  - Creche Mundo Encantado (Tia da limpeza)*
+* Sexo: Feminino
+* Idade: 48 anos
+* Educação: Ensino médio completo
+* Ocupação: Auxiliar de limpeza - Creche Mundo Encantado
 
+#### Biografia:
 Tereza tem 48 anos e trabalha na limpeza da Creche Mundo Encantado. Mesmo atuando na área de limpeza, ela tem um carinho muito grande pelas crianças e gosta de estar em um ambiente onde pode contribuir, mesmo que de forma indireta, para o bem-estar delas. É uma pessoa simples, dedicada e que valoriza o cuidado com o próximo.
-O papel de Tereza não é só deixar a creche limpa, mas sim ajudar, influenciar e encorajar as mães pela plataforma.
 
+### Objetivo:
+* deixar a creche limpa
+* ser carinhosa com as crianças 
+* influenciar e encorajar as mães pela plataforma.
+* Desenvolver-se profissionalmente, buscando melhorar suas práticas de trabalho e aprender novas formas de contribuir na creche
 
 ## *Dr. Rafael Mendes - Psicólogo para Mães e Filhos*
 * Sexo: Masculino
