@@ -52,8 +52,8 @@ Dr. João Victor Pelé, 50 anos, é advogado com atuação voltada ao suporte ju
 ### Objetivos:
 
 * Garantir que mais mulheres conheçam seus direitos.
-* Facilitar o acesso à justiça de forma simples e eficaz.
-* Oferecer atendimento humanizado e acessível.
+* Produzir conteúdo jurídico na plataforma
+* Tornar o direito mais acessivel para mães solos
 * Ampliar o alcance dos serviços jurídicos por meios digitais.
 
 ## *Alice Mendonça - Creche Mundo Encantado*
