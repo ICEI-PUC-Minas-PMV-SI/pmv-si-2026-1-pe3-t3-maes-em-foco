@@ -26,15 +26,14 @@ Tereza tem 48 anos e trabalha na limpeza da Creche Mundo Encantado. Mesmo atuand
 * Ocupação: Psicólogo de Apoio Materno-Infantil
 
 #### Biografia:
-Dr. Rafael Mendes, 40 anos, é psicólogo especialista em desenvolvimento infantil e suporte a famílias monoparentais. Seu trabalho é orientado pelo Design Centrado no Usuário, buscando compreender profundamente as necessidades, dores e limitações do dia a dia das mães solo.
+Dr. Rafael Mendes, 40 anos, é psicólogo especialista em desenvolvimento infantil e suporte a famílias monoparentais. Seu trabalho busca compreender profundamente as necessidades, dores e limitações do dia a dia das mães solo.
 
-Atua oferecendo apoio emocional e orientação prática, com foco em soluções simples, acessíveis e aplicáveis à rotina, ajudando mães a lidarem de forma mais rápida e eficaz com desafios como sobrecarga, comportamento infantil e inseguranças na criação dos filhos.
+Atua oferecendo apoio e orientação emocional, com foco em soluções simples, acessíveis e aplicáveis à rotina, ajudando mães a lidarem de forma mais rápida e eficaz com desafios como sobrecarga, comportamento infantil e inseguranças na criação dos filhos.
 
 #### Objetivos:
-* Promover o bem-estar emocional de mães e crianças de forma acessível e humanizada.
-* Oferecer um atendimento claro, empático e livre de barreiras técnicas ou excesso de burocracia.
-* Garantir que o suporte psicológico seja facilmente compreendido e acessado por mães em diferentes contextos.
-* Utilizar ferramentas digitais que favoreçam uma experiência simples, eficiente e centrada na usuária.
+* Promover o bem-estar emocional de mães e crianças por meio de soluções digitais acessíveis.
+* Garantir que o suporte psicológico seja facilmente compreendido e acessado por mães.
+* Utilizar ferramentas digitais e sistemas intuitivos que favoreçam uma experiência simples, eficiente e centrada na usuária.
 * Fortalecer a confiança no atendimento, mesmo em interações mediadas por plataformas digitais.
 
 
