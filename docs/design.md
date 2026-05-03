@@ -14,10 +14,11 @@ Nesta seção você deve detalhar as personas do seu projeto. Deve-se documentar
 Tereza tem 48 anos e trabalha na limpeza da Creche Mundo Encantado. Mesmo atuando na área de limpeza, ela tem um carinho muito grande pelas crianças e gosta de estar em um ambiente onde pode contribuir, mesmo que de forma indireta, para o bem-estar delas. É uma pessoa simples, dedicada e que valoriza o cuidado com o próximo.
 
 ### Objetivo:
-* deixar a creche limpa
-* ser carinhosa com as crianças 
-* influenciar e encorajar as mães pela plataforma.
-* Desenvolver-se profissionalmente, buscando melhorar suas práticas de trabalho e aprender novas formas de contribuir na creche
+* Garantir um ambiente limpo e seguro para as crianças, contribuindo diretamente para a saúde e o bem-estar delas.
+* Apoiar o funcionamento da creche, colaborando com a equipe para manter o espaço organizado e acolhedor.
+* Promover cuidado e carinho no dia a dia, mesmo em suas atividades de limpeza, ajudando a criar um ambiente mais humano e afetivo.
+* Desenvolver-se profissionalmente, buscando melhorar suas práticas de trabalho e aprender novas formas de contribuir na creche.
+* Incentivar e apoiar as mães e crianças, sendo uma presença positiva no ambiente, transmitindo atenção, respeito e acolhimento.
 
 ## *Dr. Rafael Mendes - Psicólogo para Mães e Filhos*
 * Sexo: Masculino
