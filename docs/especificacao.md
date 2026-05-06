@@ -356,11 +356,13 @@ As interações na comunidade ocorrem através da classe Publicação, onde cada
 Abaixo, apresentamos a estrutura completa do sistema Mães em Foco. Para garantir a legibilidade de todos os atributos e métodos, o diagrama foi dividido em duas seções de visualização detalhada:
 
  #### Parte 1: Gestão de Usuárias e Publicações
-<img width="603" height="582" alt="image" src="https://github.com/user-attachments/assets/32980808-a952-4673-84b6-6a9a8632fb7d" />
+ <img width="660" height="527" alt="image" src="https://github.com/user-attachments/assets/3772842a-689d-42ce-bc17-eeb5ad5f358e" />
+
 
 
 #### Parte 2: Profissionais e Sistema de Avaliações
-<img width="574" height="511" alt="image" src="https://github.com/user-attachments/assets/b2de7c0b-49de-48a6-a9b7-9616fa0a46ff" />
+<img width="611" height="609" alt="image" src="https://github.com/user-attachments/assets/d6c6c1be-17da-44ec-a429-0c641d56e3bb" />
+
 
 
 
@@ -368,10 +370,11 @@ Abaixo, apresentamos a estrutura completa do sistema Mães em Foco. Para garanti
 
 | # | Nome | Descrição |
 |--------------------|------------------------------------|----------------------------------------|
-| 1	|	Usuaria |Representa as mães solo que utilizam a plataforma para buscar apoio, interagir na comunidade e avaliar profissionais. |
-| 2	| Profissional |	Armazena os dados dos prestadores de serviços (psicólogos, advogados, etc.) que oferecem suporte especializado às usuárias. |
-| 3 |	Administrador | Responsável pelo gerenciamento do sistema, incluindo a validação de documentos dos profissionais e moderação de conteúdos. |
-| 4 |	Publicação |	Registra as interações e postagens feitas pelas usuárias na comunidade, permitindo a troca de experiências e informações. |
-| 5 |	Serviço | Responsável por vincular cada atendimento ou suporte prestado à mãe que realizou a solicitação. |
-| 6 |	Avaliação | Guarda o feedback e a nota dada pelas usuárias aos profissionais, garantindo a qualidade e segurança dos serviços prestados. |
+| 1	|	Usuario | Classe base (pai) que contém os atributos comuns a todos os usuários do sistema, como nome, e-mail, senha e localização. |
+| 2	|	Usuaria | Representa as mães solo que utilizam a plataforma para buscar apoio, interagir na comunidade e avaliar profissionais. |
+| 3	| Profissional |	Armazena os dados dos prestadores de serviços (psicólogos, advogados, etc.) que oferecem suporte especializado às usuárias. |
+| 4 |	Administrador | Responsável pelo gerenciamento do sistema, incluindo a validação de documentos dos profissionais e moderação de conteúdos. |
+| 5 |	Publicação |	Registra as interações e postagens feitas pelas usuárias na comunidade, permitindo a troca de experiências e informações. |
+| 6 |	Serviço | Responsável por vincular cada atendimento ou suporte prestado à mãe que realizou a solicitação. |
+| 7 |	Avaliação | Guarda o feedback e a nota dada pelas usuárias aos profissionais, garantindo a qualidade e segurança dos serviços prestados. |
 
