@@ -104,28 +104,84 @@ Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A
 # Tela de formulário de cadastro para profissionais:
 Interface de formulário para novos prestadores de serviço, serve para coletar dados pessoais e profissionais (Especialidade, Registro Profissional/CRP/OAB) para validar quem deseja oferecer apoio na plataforma. Após preenchidos os dados, o cadastro é enviado para análise. 
 
-* Regra de Ouro (Prevenção de erros): O sistema avisa como a senha deve ser criada (letras maiúsculas, etc.) antes da pessoa clicar em enviar, evitando que ela erre e fique frustrada.
-* Gestalt (Proximidade): Colocamos as informações pessoais em um bloco e as profissionais em outro. Isso ajuda o cérebro a entender que são grupos de assuntos diferentes.
-* Gestalt (Fechamento): O formulário fica dentro de um "quadrado" branco com sombra. Isso faz a usuária focar só ali dentro, ignorando o resto da página.
+* Regra de Ouro (Prevenção de erros): O sistema mostra como a senha deve ser criada antes do envio, evitando que o usuário erre e tenha que refazer o processo.
+  
+* Gestalt (Proximidade): Informações parecidas são agrupadas em blocos separados (Dados Básicos e Dados Profissionais), o que ajuda o cérebro a ler mais rápido.
+
+* Gestalt (Fechamento): O formulário fica dentro de um quadro branco destacado do fundo, fazendo com que a pessoa foque apenas no preenchimento.
 
 <img width="970" height="763" alt="image" src="https://github.com/user-attachments/assets/7390a0a2-eaa6-458f-8124-125ce0c2e236" />
 
+# Tela de formulário de cadastro para mães:
+Esta tela é o ponto de partida para as mães criarem seu perfilna plataforma, com seus dados pessoais, e acessarem a rede de apoio.
+
+* Regra de Ouro (Prevenir Erros): Abaixo do campo de senha, há um aviso em roxo explicando as regras necessárias (mínimo de 8 caracteres e uma letra maiúscula). Isso ajuda a mãe a criar a senha certa de primeira, sem receber mensagens de erro depois.
+
+* Regra de Ouro (Facilitar a Navegação): Existe uma seta de "Voltar" e um link "Fazer login" no final da página. Assim, se a mãe entrou no cadastro por engano, ela consegue mudar de ideia e voltar mais rápido.
+
+* Gestalt (Fechamento): Assim como no cadastro profissional, as informações ficam dentro de um card branco centralizado. Isso cria uma barreira visual que organiza o conteúdo e evita distrações.
+  
+<img width="972" height="767" alt="image" src="https://github.com/user-attachments/assets/6ab99780-1342-43a9-b61c-677a894e4316" />
+
+
+# Tela de Login de usuários:
+É a interface onde os usuários que já possuem conta inserem seu e-mail e senha para entrar no sistema.
+
+* Regra de Ouro (Reduzir a Carga de Memória): O sistema apresenta os links "Esqueci minha senha" e "Criar conta" estrategicamente posicionados próximos aos campos de entrada. Isso evita que a mãe precise memorizar caminhos de navegação ou se sinta frustrada caso esqueça seus dados, deixando todas as opções de acesso sempre visíveis e acessíveis em um só lugar.
+
+* Gestalt (Proximidade): O campo de e-mail e o de senha estão bem próximos um do outro, indicando que eles formam o conjunto de dados necessário para uma única ação: acessar a conta.
+
+<img width="966" height="767" alt="image" src="https://github.com/user-attachments/assets/3b24bd10-1fa3-475c-8e01-f13f7592a11c" />
+
+
 # Telas de busca e filtragem de profissionais:
-Esta interface funciona como o dashboard principal para a localização de suporte especializado por meio de categorias como Psicólogos, Advogados, Babás e Creches. 
+Esta interface é essencial para a busca de profissionais. Nesta tela, a usuário consegue procurar ajuda, podendo escolher entre psicólogos, advogados, babás ou creches.
+
+* Regra de Ouro (Consistência): O topo do site com a logo e o menu é igual em todas as páginas, para que a usuária sempre saiba onde está.
+
+* Regra de Ouro (Reversão Fácil): Existe um botão de 'Limpar filtros'. Se a usuária clicar em um filtro errado, ela consegue desfazer a ação com um só clique.
+  
+*  Regra de ouro (Feedback): Quando a mãe clica em um filtro (como "Psicólogos"), o botão muda de cor na hora. Isso serve para dar uma resposta visual imediata, confirmando para ela que o sistema entendeu o comando e que aquele filtro está ativo.
+
+* Gestalt (Semelhança): Todos os botões de filtro têm a mesma cor e formato, indicando que todos possuem a mesma função de busca. 
 
 <img width="512" height="766" alt="image" src="https://github.com/user-attachments/assets/ea4a1ef0-ecb6-44c9-b91f-5ea8f3c54cad" />
 
+
+
 <img width="511" height="764" alt="image" src="https://github.com/user-attachments/assets/9a2f8fbb-98bb-42ae-8158-c6a822825e71" />
+
+
 
 <img width="515" height="765" alt="image" src="https://github.com/user-attachments/assets/2d97d030-d4b3-4b5c-865c-7fae3b8d50ba" />
 
 # Tela de perfis detalhados de profissionais:
+Esta página mostra tudo sobre o especialista: biografia, fotos do consultório e o que outras mães acharam dele.
+
+* Regra de Ouro (Facilitar a Navegação): Incluímos uma seta de "Voltar" bem visível no topo, para que a mãe nunca se sinta "presa" e consiga retornar à lista geral facilmente.
+
+* Regra de Ouro (Reduzir a Carga de Memória): Colocamos o endereço e o mapa direto na tela para que a mãe não precise decorar o local ou sair do site para pesquisar no GPS.
+
+* Regra de Ouro (Feedback): O botão de "Chamar no WhatsApp" é bem destacado. Quando a usuária olha para ele, ela recebe o sinal claro de que aquele é o lugar para entrar em contato e entende o seu significado de forma imediata.
+  
+* Gestalt (Experiência Passada): Usamos estrelas amarelas para a nota do profissional. Usuários já entendem que as estrelas em sistemas, significam "avaliação", então as usuárias entendem seu significado sem precisar de explicação.
+
+* Gestalt (Ponto Focal): O botão de contato via WhatsApp é o elemento de maior destaque na página para guiar o olhar da mãe para a ação principal.
 
 <img width="512" height="761" alt="image" src="https://github.com/user-attachments/assets/90eca888-d5b8-4bcf-bdee-0403243781a7" />
 
+
+
 <img width="510" height="767" alt="image" src="https://github.com/user-attachments/assets/91dd6a0f-3d6b-4270-beb9-852e0ebe301c" />
 
+
+
 <img width="513" height="767" alt="image" src="https://github.com/user-attachments/assets/4f5f6606-20bc-4486-9068-703393c36ccc" />
+
+
+
+<img width="512" height="767" alt="image" src="https://github.com/user-attachments/assets/e52bb29b-b66b-4940-9289-d9f0b6425365" />
+
 
 
 
