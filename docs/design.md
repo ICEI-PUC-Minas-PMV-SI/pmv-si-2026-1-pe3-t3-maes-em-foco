@@ -147,13 +147,13 @@ Esta interface é essencial para a busca de profissionais. Nesta tela, a usuári
 
 <img width="512" height="766" alt="image" src="https://github.com/user-attachments/assets/ea4a1ef0-ecb6-44c9-b91f-5ea8f3c54cad" />
 
-
+<br><br>
 
 
 
 <img width="511" height="764" alt="image" src="https://github.com/user-attachments/assets/9a2f8fbb-98bb-42ae-8158-c6a822825e71" />
 
-
+<br><br>
 
 
 
@@ -176,15 +176,15 @@ Esta página mostra tudo sobre o especialista: biografia, fotos do consultório 
 
 <img width="512" height="761" alt="image" src="https://github.com/user-attachments/assets/90eca888-d5b8-4bcf-bdee-0403243781a7" />
 
-
+<br><br>
 
 <img width="510" height="767" alt="image" src="https://github.com/user-attachments/assets/91dd6a0f-3d6b-4270-beb9-852e0ebe301c" />
 
-
+<br><br>
 
 <img width="513" height="767" alt="image" src="https://github.com/user-attachments/assets/4f5f6606-20bc-4486-9068-703393c36ccc" />
 
-
+<br><br>
 
 <img width="512" height="767" alt="image" src="https://github.com/user-attachments/assets/e52bb29b-b66b-4940-9289-d9f0b6425365" />
 
