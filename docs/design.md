@@ -101,6 +101,45 @@ Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A p
 ## 4.3 Protótipos das Interfaces
 Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A fidelidade do protótipo refere-se ao nível de detalhes e funcionalidades incorporadas a ele. Assim, um protótipo de alta fidelidade é uma representação interativa do produto, baseada no computador ou em dispositivos móveis. Esse protótipo já apresenta maior semelhança com o design final em termos de detalhes e funcionalidades. No desenvolvimento dos protótipos, devem ser considerados os princípios gestálticos, as recomendações ergonômicas e as regras de design (como as 8 regras de ouro). É importante descrever no texto do relatório como os princípios gestálticos e as regras de ouro foram seguidas no projeto das interfaces. Nesta etapa deve-se dar uma ênfase na implementação do software de modo que possam ser realizados os testes com usuários na etapa seguinte.
 
+# Tela de formulário de cadastro para profissionais:
+Interface de formulário para novos prestadores de serviço, serve para coletar dados pessoais e profissionais (Especialidade, Registro Profissional/CRP/OAB) para validar quem deseja oferecer apoio na plataforma. Após preenchidos os dados, o cadastro é enviado para análise. 
+
+* Regra de Ouro (Prevenção de erros): O sistema avisa como a senha deve ser criada (letras maiúsculas, etc.) antes da pessoa clicar em enviar, evitando que ela erre e fique frustrada.
+* Gestalt (Proximidade): Colocamos as informações pessoais em um bloco e as profissionais em outro. Isso ajuda o cérebro a entender que são grupos de assuntos diferentes.
+* Gestalt (Fechamento): O formulário fica dentro de um "quadrado" branco com sombra. Isso faz a usuária focar só ali dentro, ignorando o resto da página.
+
+<img width="970" height="763" alt="image" src="https://github.com/user-attachments/assets/7390a0a2-eaa6-458f-8124-125ce0c2e236" />
+
+# Telas de busca e filtragem de profissionais:
+Esta interface funciona como o dashboard principal para a localização de suporte especializado por meio de categorias como Psicólogos, Advogados, Babás e Creches. 
+
+<img width="512" height="766" alt="image" src="https://github.com/user-attachments/assets/ea4a1ef0-ecb6-44c9-b91f-5ea8f3c54cad" />
+
+<img width="511" height="764" alt="image" src="https://github.com/user-attachments/assets/9a2f8fbb-98bb-42ae-8158-c6a822825e71" />
+
+<img width="515" height="765" alt="image" src="https://github.com/user-attachments/assets/2d97d030-d4b3-4b5c-865c-7fae3b8d50ba" />
+
+# Tela de perfis detalhados de profissionais:
+
+<img width="512" height="761" alt="image" src="https://github.com/user-attachments/assets/90eca888-d5b8-4bcf-bdee-0403243781a7" />
+
+<img width="510" height="767" alt="image" src="https://github.com/user-attachments/assets/91dd6a0f-3d6b-4270-beb9-852e0ebe301c" />
+
+<img width="513" height="767" alt="image" src="https://github.com/user-attachments/assets/4f5f6606-20bc-4486-9068-703393c36ccc" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 4.4 Testes com Protótipos
 Nesta seção você deve apresentar os testes realizados com usuários utilizando os protótipos de alta fidelidade desenvolvidos na seção anterior. O objetivo é avaliar a usabilidade, a clareza das informações e a adequação do design às necessidades das personas definidas no projeto.
 
