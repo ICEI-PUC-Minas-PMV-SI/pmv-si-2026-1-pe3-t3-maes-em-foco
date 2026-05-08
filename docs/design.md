@@ -160,6 +160,12 @@ Esta interface é essencial para a busca de profissionais. Nesta tela, a usuári
 
 
 <img width="515" height="765" alt="image" src="https://github.com/user-attachments/assets/2d97d030-d4b3-4b5c-865c-7fae3b8d50ba" />
+<br><br>
+<img width="512" height="767" alt="image" src="https://github.com/user-attachments/assets/b7db74f0-9105-4b95-8b97-90fa817c72e2" />
+<br><br>
+<img width="512" height="767" alt="image" src="https://github.com/user-attachments/assets/f79ebd8a-7cdc-483c-9c03-58424b893967" />
+
+
 
 # Tela de perfis detalhados de profissionais:
 Esta página mostra tudo sobre o especialista: biografia, fotos do consultório e o que outras mães acharam dele.
