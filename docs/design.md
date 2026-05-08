@@ -149,7 +149,13 @@ Esta interface é essencial para a busca de profissionais. Nesta tela, a usuári
 
 
 
+
+
 <img width="511" height="764" alt="image" src="https://github.com/user-attachments/assets/9a2f8fbb-98bb-42ae-8158-c6a822825e71" />
+
+
+
+
 
 
 
