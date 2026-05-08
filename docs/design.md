@@ -146,35 +146,28 @@ Esta interface é essencial para a busca de profissionais. Nesta tela, a usuári
 * Gestalt (Semelhança): Todos os botões de filtro têm a mesma cor e formato, indicando que todos possuem a mesma função de busca. 
 
 <img width="512" height="766" alt="image" src="https://github.com/user-attachments/assets/ea4a1ef0-ecb6-44c9-b91f-5ea8f3c54cad" />
-
 <br><br>
-
-
-
 <img width="511" height="764" alt="image" src="https://github.com/user-attachments/assets/9a2f8fbb-98bb-42ae-8158-c6a822825e71" />
-
 <br><br>
-
-
-
-
-
 <img width="515" height="765" alt="image" src="https://github.com/user-attachments/assets/2d97d030-d4b3-4b5c-865c-7fae3b8d50ba" />
 <br><br>
 <img width="512" height="767" alt="image" src="https://github.com/user-attachments/assets/b7db74f0-9105-4b95-8b97-90fa817c72e2" />
 <br><br>
 <img width="512" height="767" alt="image" src="https://github.com/user-attachments/assets/f79ebd8a-7cdc-483c-9c03-58424b893967" />
+<br><br>
+<img width="510" height="763" alt="image" src="https://github.com/user-attachments/assets/ccc22463-39a2-4393-a108-1a9504ae5f3f" />
+
 
 
 
 # Tela de perfis detalhados de profissionais:
-Esta página mostra tudo sobre o especialista: biografia, fotos do consultório e o que outras mães acharam dele.
+Esta página mostra tudo sobre o especialista: biografia, fotos do consultório/ambiente e o que outras mães acharam dele (avaliações recebidas).
 
 * Regra de Ouro (Facilitar a Navegação): Incluímos uma seta de "Voltar" bem visível no topo, para que a mãe nunca se sinta "presa" e consiga retornar à lista geral facilmente.
 
 * Regra de Ouro (Reduzir a Carga de Memória): Colocamos o endereço e o mapa direto na tela para que a mãe não precise decorar o local ou sair do site para pesquisar no GPS.
 
-* Regra de Ouro (Feedback): O botão de "Chamar no WhatsApp" é bem destacado. Quando a usuária olha para ele, ela recebe o sinal claro de que aquele é o lugar para entrar em contato e entende o seu significado de forma imediata.
+* Regra de Ouro (Feedback): O botão de "Chamar no WhatsApp" é bem destacado. Quando a usuária olha para ele, ela recebe o sinal claro de que aquele é o lugar para entrar em contato e entende o seu significado de forma imediata. Além disso, ao filtrar as avaliações por "Mais recentes", "Mais relevantes" ou "Piores", o botão selecionado muda de cor na hora, garantindo que a mãe saiba exatamente qual critério de busca está ativo no momento.
   
 * Gestalt (Experiência Passada): Usamos estrelas amarelas para a nota do profissional. Usuários já entendem que as estrelas em sistemas, significam "avaliação", então as usuárias entendem seu significado sem precisar de explicação.
 
