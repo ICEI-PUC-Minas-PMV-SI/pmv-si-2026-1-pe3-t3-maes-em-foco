@@ -225,24 +225,67 @@ Esta página mostra tudo sobre o especialista: biografia, fotos do consultório/
 <img width="512" height="767" alt="image" src="https://github.com/user-attachments/assets/e52bb29b-b66b-4940-9289-d9f0b6425365" />
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 4.4 Testes com Protótipos
-Nesta seção você deve apresentar os testes realizados com usuários utilizando os protótipos de alta fidelidade desenvolvidos na seção anterior. O objetivo é avaliar a usabilidade, a clareza das informações e a adequação do design às necessidades das personas definidas no projeto.
+O objetivo do Plano de Testes de Usabilidade foi obter informações sobre a experiência dos usuários em relação às funcionalidades da aplicação e validar se a interação com cada seção do sistema foi satisfatória e intuitiva. O foco principal do sistema é o público de mães solo, que conta com o apoio de profissionais especializados integrados à plataforma.
 
-Cada integrante do grupo deverá aplicar o teste com um usuário distinto, preferencialmente alinhado ao perfil das personas criadas. Devem ser definidas previamente as tarefas que o usuário deverá executar no protótipo (por exemplo: realizar um cadastro, buscar um produto, concluir uma compra).
+Para a realização dos testes, cada integrante do grupo aplicou os testes com um distintoo, visando coletar dados de feedbacks e satisfação de cada um deles.
 
-Durante a aplicação do teste, registre observações sobre comportamentos, dúvidas, erros e comentários feitos pelo usuário, bem como o tempo necessário para a execução de cada tarefa. Ao final, colete o feedback do participante, destacando pontos positivos e aspectos a serem melhorados.
+# Registro e Consolidação dos Testes
+Abaixo, consolidamos os resultados obtidos pelos integrantes do grupo em cada seção do protótipo de alta fidelidade:
 
-Os resultados obtidos por todos os integrantes devem ser consolidados, apresentando uma análise geral com os principais problemas encontrados, oportunidades de melhoria e as ações previstas para o projeto final. 
+
+1. Fluxo de Cadastro (Mães)
+
+Tarefa: Realizar o cadastro inicial no sistema sem dificuldades ou confusão.
+
+Resultado: Percepção de uso satisfatória. A usuária não sentiu dificuldade em entender os dados que precisam ser preenchidos no formulário, para acessar o sistema. O formulário foi considerado, sendo feito de maneira mais ágil no dia a dia.
+
+Observações: O feedback principal destacou que o layout é "limpo" e os campos de preenchimento (placeholders) facilitam a visualização e o entendimento do que precisa ser preenchido para realização do cadastro.
+
+
+2. Cadastro Profissional e Envio para Análise
+
+Tarefa: Preencher o formulário detalhado de profissional, com dados básicos e profissionais e concluir o envio para revisão.
+
+Resultado: Experiência de uso positiva, onde o usuário entendeu cada seção de dados a serem preenchidos no sistema (pessoais e profissionais), por estarem separados por títulos de seções.
+
+Observações: Devido ao maior número de campos, o usuário considerou que os profissionais podem levar um pouco mais de tempo para preencher, o que não implicou negativamente no momento dos testes, pois houve destaque de que as instruções e títulos dos placeholders, tornam o processo claro. O aviso de que os dados seriam enviados para análise foi bem compreendido.
+<br><br>
+
+3. Acesso e Identificação (Tela de Login)
+
+Tarefa: Acessar a conta utilizando dados previamente cadastrados.
+
+Resultado: Nível de satisfação elevado. O usuário conseguiu entender os placeholders prontamente, considerando um formulário intuitivo e limpo de login.
+
+Observações: Usuários elogiaram o layout limpo e a paleta de cores, entendendo prontamente as ações necessárias para entrar no sistema.
+<br><br>
+
+4. Interação Comunitária (Feed/Fórum)
+
+Tarefa: Realizar publicações, curtir, comentar, e realizar denúncias.
+
+Resultado: Aproveitamento satisfatório, onde o usuário entendeu o significado dos ícones utilizados e suas funcionalidades, captando padrões de outros sistemas, sem experimentar dificuldades.
+
+Observações: O layout foi considerado objetivo e direto ao ponto. As ferramentas de exclusão e denúncia de postagens, foram apontadas como intuitivas e de fácil utilização/acesso, por estarem adaptadas em uma mesma página.
+
+<br><br>
+
+5. Busca, Filtragem e Visualização de Perfis
+
+Tarefa: Localizar profissionais por filtragem e acessar seus perfis específicos.
+
+Resultado: Êxito na realização da tarefa. O usuário conseguiu captar rapidamente que a função dos filtros é fazer com o que o processo seja menos longo, encontrando profissionais por especialidades, avaliação e proximidade, realizando um único click em algum dos filtros. Também foi visto como um ponto positivo, a barra de pesquisa, que permite pesquisar por nome ou palavra-chave.
+
+Observações: O usuário elogiou o fato de que as notas (estrelas) dos profissionais aparecem logo nos cards da listagem, facilitando a comparação, além de ter um filtro espeícifco para filtrar os profissionais mais bem avaliados. Os filtros selecionados, foram considerados intuitivos por mudarem de cor ao serem ativados, fazendo com que o usuário não se esqueça em qual filtro está no momento.
+<br><br>
+
+6. Visualização de Perfis Específicos de Profissionais
+
+Tarefa: Acessar a página detalhada de um profissional para ver biografia, localização, modos de contatar, fotos do espaço de atendimento/serviço e avaliações de outras mães.
+
+Resultado: Satisfação plena com a interface. A usuária conseguiu identificar, em apenas uma página, todos as informações relevantes do profissional. Isso foi considerado positivo pela usuária pois não sentiu dificuldade no acesso a informações profissionais e não houve necessidade em acessar outras páginas incansáveis para acessar informações importantes, que fazem as usuárias se sentirem mais seguras de contatae aquele profissional.
+
+Observações: A organização das informações em seções (meio de contato, biografia, localização, avaliação etc.) ajuda a passar confiança e transparência imediata. Usuária notou um ponto positivo em poder filtrar as avaliações, desde mais recentes, até mais negativas, transparecendo melhor a carreira daquele profissional através de avaliações de outras clientes do mesmo.
+<br><br>
+6. Tela de gestão de perfil das usuárias
