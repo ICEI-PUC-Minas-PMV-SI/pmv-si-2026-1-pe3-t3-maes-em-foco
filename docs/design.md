@@ -1,7 +1,9 @@
 # 4. PROJETO DO DESIGN DE INTERAÇÃO
 
 ## 4.1 Personas
-Nesta seção você deve detalhar as personas do seu projeto. Deve-se documentar uma persona por integrante do projeto. Para mais informações sobre personas consulte: https://www.rdstation.com/blog/marketing/persona-o-que-e/. Sugere-se a utilização de um template do Canva: https://www.canva.com/pt_br/modelos/s/persona/
+Nesta seção, detalhamos as personas que representam os perfis de usuários do nosso projeto. Cada persona foi documentada para refletir as necessidades, comportamentos e objetivos reais do nosso público-alvo, sendo desenvolvida uma para cada integrante do grupo.
+
+As personas abaixo ajudam a guiar as decisões de design e funcionalidades da plataforma Mães em Foco, garantindo que o sistema atenda tanto às mães que buscam apoio quanto aos profissionais que oferecem seus serviços. 
 
 
 ## *Tereza Martins  - Creche Mundo Encantado (Tia da limpeza)*
@@ -73,10 +75,25 @@ Alice Mendonça tem 34 anos e é carinhosamente conhecida como “Tia Alice” p
 * Oferecer um serviço de qualidade com responsabilidade e profissionalismo.
 
 ## *Ana Paula Ferreira*
+* Sexo: Feminino
+* Idade: 29 anos
+* Educação: Ensino técnico em administração
+* Ocupação: Auxiliar Administrativo
+  
+#### Biografia:
 Ana Paula tem 29 anos, mora em Belo Horizonte, é auxiliar administrativo e mãe solo de um filho de 4 anos. Ela usa o aplicativo para buscar orientação jurídica sobre pensão, apoio emocional e indicações de creche confiável próxima a ela.
 
+#### Objetivos:
+* Obter orientação jurídica clara e acessível sobre processos de pensão;
+* Encontrar apoio emocional e acolhimento em uma comunidade que entenda sua realidade;
+* Localizar indicações de creches confiáveis e seguras próximas à sua residência em Belo Horizonte;
+* Otimizar seu tempo através de uma plataforma que centralize serviços essenciais para mães solo;
+* Garantir o bem-estar e o desenvolvimento adequado de seu filho enquanto trabalha.
+
+
+
 ## 4.2 Mapa de Empatia
-Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A partir do mapa da empatia é possível detalhar a personalidade do cliente e compreendê-la melhor. O objetivo é obter um nível mais profundo de compreensão de uma persona. A seguir um exemplo de template que pode ser usado para o mapa de empatia. Para cada persona deverá ser apresentado o seu respectivo mapa de empatia. Sugere-se a utilização do template apresentado em https://www.rdstation.com/blog/marketing/mapa-da-empatia/.
+Abaixo, apresentamos os mapas de empatia desenvolvidos para as personas criadas em nosso projeto, representando o nosso público-alvo de mães solo e de profissionais especialistas. Cada mapa busca refletir o que esses usuários ouvem, veem, pensam e sentem, além de suas dores e necessidades específicas dentro da plataforma. Foi utilizado o template apresentado em https://www.rdstation.com/blog/marketing/mapa-da-empatia/.
 
 ## *Dr. Rafael Mendes*
 <img width="751" height="520" alt="image" src="https://github.com/user-attachments/assets/188c5a33-daf9-4be6-b359-9a6a4cf433b3" />
