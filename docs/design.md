@@ -142,6 +142,18 @@ Esta tela é o ponto de partida para as mães criarem seu perfilna plataforma, c
   
 <img width="972" height="767" alt="image" src="https://github.com/user-attachments/assets/6ab99780-1342-43a9-b61c-677a894e4316" />
 
+# Landing page:
+Esta tela funciona como a porta de entrada para a plataforma, onde o usuário entende a missão do projeto e escolhe o fluxo de navegação mais adequado ao seu perfil.
+
+* Regra de Ouro (Reduzir a Carga Mental): A tela apresenta apenas duas opções claras e distintas ("Mãe Solo" ou "Profissional"), evitando que a usuária fique confusa com excesso de caminhos. Isso torna a tomada de decisão rápida e intuitiva.
+  
+* Regra de Ouro (Feedback Informativo): Os botões "Quero fazer parte" e "Quero apoiar agora" utilizam uma linguagem que reforça o propósito de cada perfil, garantindo que a usuária saiba exatamente o que acontecerá ao clicar.
+
+* Gestalt (Semelhança e Proximidade): Os cards para mães e profissionais utilizam o mesmo formato, ícones centralizados e estruturas de texto idênticas. Essa repetição visual ajuda a usuária a identificar que ambas as opções são igualmente importantes e fazem parte do mesmo ecossistema.
+
+* Gestalt (Continuidade): O link "Fazer login" posicionado na parte inferior da página cria uma separação clara entre quem está chegando agora e quem já possui uma conta, mantendo o fluxo de navegação organizado e direto ao ponto.
+
+<img width="857" height="767" alt="image" src="https://github.com/user-attachments/assets/50514010-e7f5-4fa3-bb86-04149810a6ee" />
 
 # Tela de Login de usuários:
 É a interface onde os usuários que já possuem conta inserem seu e-mail e senha para entrar no sistema.
@@ -169,8 +181,6 @@ Esta interface funciona como uma rede social interna, permitindo o compartilhame
 
 <img width="512" height="767" alt="image" src="https://github.com/user-attachments/assets/533abd89-e259-4e05-9d10-a5d1017ae943" />
 
-
-
 # Telas de busca e filtragem de profissionais:
 Esta interface é essencial para a busca de profissionais. Nesta tela, a usuário consegue procurar ajuda, podendo escolher entre psicólogos, advogados, babás ou creches.
 
@@ -195,9 +205,7 @@ Esta interface é essencial para a busca de profissionais. Nesta tela, a usuári
 <img width="510" height="763" alt="image" src="https://github.com/user-attachments/assets/ccc22463-39a2-4393-a108-1a9504ae5f3f" />
 
 
-
-
-# Telas de perfis detalhados de profissionais/usuárias:
+# Telas de perfis detalhados de profissionais:
 Esta página mostra tudo sobre o especialista: biografia, fotos do consultório/ambiente e o que outras mães acharam dele (avaliações recebidas).
 
 * Regra de Ouro (Facilitar a Navegação): Incluímos uma seta de "Voltar" bem visível no topo, para que a mãe nunca se sinta "presa" e consiga retornar à lista geral facilmente.
@@ -224,9 +232,11 @@ Esta página mostra tudo sobre o especialista: biografia, fotos do consultório/
 
 <img width="512" height="767" alt="image" src="https://github.com/user-attachments/assets/e52bb29b-b66b-4940-9289-d9f0b6425365" />
 
+# Telas de perfil detalhado de usuária:
+
 
 ## 4.4 Testes com Protótipos
-O objetivo do Plano de Testes de Usabilidade foi obter informações sobre a experiência dos usuários em relação às funcionalidades da aplicação e validar se a interação com cada seção do sistema foi satisfatória e intuitiva. O foco principal do sistema é o público de mães solo, que conta com o apoio de profissionais especializados integrados à plataforma.
+O objetivo do Plano de Testes com os protótipos foi obter informações sobre a experiência dos usuários em relação às funcionalidades da aplicação e validar se a interação com cada seção do sistema foi satisfatória e intuitiva. O foco principal do sistema é o público de mães solo, que conta com o apoio de profissionais especializados integrados à plataforma.
 
 Para a realização dos testes, cada integrante do grupo aplicou os testes com um distintoo, visando coletar dados de feedbacks e satisfação de cada um deles.
 
@@ -234,18 +244,7 @@ Para a realização dos testes, cada integrante do grupo aplicou os testes com u
 Abaixo, consolidamos os resultados obtidos pelos integrantes do grupo em cada seção do protótipo de alta fidelidade:
 
 
-## 1. Fluxo de Cadastro (Mães)
-
-Tarefa: Realizar o cadastro inicial no sistema sem dificuldades ou confusão.
-
-Resultado: Percepção de uso satisfatória. A usuária não sentiu dificuldade em entender os dados que precisam ser preenchidos no formulário, para acessar o sistema. O formulário foi considerado, sendo feito de maneira mais ágil no dia a dia.
-
-Observações: O feedback principal destacou que o layout é "limpo" e os campos de preenchimento (placeholders) facilitam a visualização e o entendimento do que precisa ser preenchido para realização do cadastro.
-
-
-
-
-## 2. Cadastro Profissional e Envio para Análise
+## 1.  Tela de formulário de cadastro para profissionais:
 
 Tarefa: Preencher o formulário detalhado de profissional, com dados básicos e profissionais e concluir o envio para revisão.
 
@@ -255,8 +254,27 @@ Observações: Devido ao maior número de campos, o usuário considerou que os p
 <br><br>
 
 
+## 2. Tela de formulário de cadastro para mães:
 
-## 3. Acesso e Identificação (Tela de Login)
+Tarefa: Realizar o cadastro inicial no sistema sem dificuldades ou confusão.
+
+Resultado: Percepção de uso satisfatória. A usuária não sentiu dificuldade em entender os dados que precisam ser preenchidos no formulário, para acessar o sistema. O formulário foi considerado, sendo feito de maneira mais ágil no dia a dia.
+
+Observações: O feedback principal destacou que o layout é "limpo" e os campos de preenchimento (placeholders) facilitam a visualização e o entendimento do que precisa ser preenchido para realização do cadastro.
+<br><br>
+
+
+## 3. Landing page:
+
+Tarefa: Identificar a proposta da plataforma e selecionar o fluxo correto para realizar o cadastro como Mãe ou Profissional.
+
+Resultado: Experiência de uso fluida e intuitiva. A usuário conseguiu distinguir as duas opções de cadastro rapidamente, sem hesitação entre os perfis de Mãe e Profissional.
+
+Observações: A usuária relatarou que a frase de boas-vindas e a descrição curta dentro dos cards ajudaram a entender o propósito do sistema logo de cara. O fato de os botões manterem a consistência de cor e tamanho facilitou a confirmação da ação.
+<br><br>
+
+
+## 4. Tela de Login de usuários:
 
 Tarefa: Acessar a conta utilizando dados previamente cadastrados.
 
@@ -266,21 +284,16 @@ Observações: Usuários elogiaram o layout limpo e a paleta de cores, entendend
 <br><br>
 
 
-
-## 4. Interação Comunitária (Feed/Fórum)
+## 5. Tela de feed (fórum da comunidade):
 
 Tarefa: Realizar publicações, curtir, comentar, e realizar denúncias.
 
 Resultado: Aproveitamento satisfatório, onde o usuário entendeu o significado dos ícones utilizados e suas funcionalidades, captando padrões de outros sistemas, sem experimentar dificuldades.
 
 Observações: O layout foi considerado objetivo e direto ao ponto. As ferramentas de exclusão e denúncia de postagens, foram apontadas como intuitivas e de fácil utilização/acesso, por estarem adaptadas em uma mesma página.
-
 <br><br>
 
-
-
-
-## 5. Busca, Filtragem e Visualização de Perfis
+## 6. Telas de busca e filtragem de profissionais:
 
 Tarefa: Localizar profissionais por filtragem e acessar seus perfis específicos.
 
@@ -289,7 +302,7 @@ Resultado: Êxito na realização da tarefa. O usuário conseguiu captar rapidam
 Observações: O usuário elogiou o fato de que as notas (estrelas) dos profissionais aparecem logo nos cards da listagem, facilitando a comparação, além de ter um filtro espeícifco para filtrar os profissionais mais bem avaliados. Os filtros selecionados, foram considerados intuitivos por mudarem de cor ao serem ativados, fazendo com que o usuário não se esqueça em qual filtro está no momento.
 <br><br>
 
-## 6. Visualização de Perfis Específicos de Profissionais
+## 7. Telas de perfis detalhados de profissionais:
 
 Tarefa: Acessar a página detalhada de um profissional para ver biografia, localização, modos de contatar, fotos do espaço de atendimento/serviço e avaliações de outras mães.
 
@@ -297,4 +310,5 @@ Resultado: Satisfação plena com a interface. A usuária conseguiu identificar,
 
 Observações: A organização das informações em seções (meio de contato, biografia, localização, avaliação etc.) ajuda a passar confiança e transparência imediata. Usuária notou um ponto positivo em poder filtrar as avaliações, desde mais recentes, até mais negativas, transparecendo melhor a carreira daquele profissional através de avaliações de outras clientes do mesmo.
 <br><br>
-## 7. Tela de gestão de perfil das usuárias
+
+## 8. Tela de gestão de perfil das usuárias
