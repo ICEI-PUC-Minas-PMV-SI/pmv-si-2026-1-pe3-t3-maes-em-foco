@@ -154,7 +154,7 @@ Esta tela é o ponto de partida para as mães criarem seu perfilna plataforma, c
 # Telas de busca e filtragem de profissionais:
 Esta interface é essencial para a busca de profissionais. Nesta tela, a usuário consegue procurar ajuda, podendo escolher entre psicólogos, advogados, babás ou creches.
 
-* Regra de Ouro (Consistência): O topo do site com a logo e o menu é igual em todas as páginas, para que a usuária sempre saiba onde está.
+* Regra de Ouro (Consistência): O topo do site com a logo e o menu é igual em todas as páginas.
 
 * Regra de Ouro (Reversão Fácil): Existe um botão de 'Limpar filtros'. Se a usuária clicar em um filtro errado, ela consegue desfazer a ação com um só clique.
   
