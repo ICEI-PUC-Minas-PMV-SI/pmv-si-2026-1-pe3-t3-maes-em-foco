@@ -232,7 +232,20 @@ Esta página mostra tudo sobre o especialista: biografia, fotos do consultório/
 
 <img width="512" height="767" alt="image" src="https://github.com/user-attachments/assets/e52bb29b-b66b-4940-9289-d9f0b6425365" />
 
+
 #  Tela de gestão de perfil das usuárias:
+
+A tela de perfil da mãe mostra informações pessoais da usuária e publicações realizadas na plataforma.
+
+* Regra de Ouro (Redução da carga cognitiva): disposição simples das informações e acesso facilitado às principais funcionalidades, tornando a navegação mais intuitiva e prática.
+
+* Regra de Ouro (Consistência visual): utilização do mesmo padrão de cores, tipografia, ícones e organização dos elementos em toda a interface, facilitando o reconhecimento e a navegação da usuária.
+
+* Gestalt (Proximidade): agrupamento das informações do perfil e das publicações para melhorar a organização visual e a leitura dos conteúdos.
+
+* Gestalt (Hierarquia visual): destaque para foto, nome e informações principais da usuária, direcionando a atenção para os elementos mais importantes.
+
+<img width="472" height="704" alt="image" src="https://github.com/user-attachments/assets/13949b6a-e43d-46f7-a294-9dfc604022b9" />
 
 
 ## 4.4 Testes com Protótipos
