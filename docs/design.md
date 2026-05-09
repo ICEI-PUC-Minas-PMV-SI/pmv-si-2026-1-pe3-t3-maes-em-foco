@@ -325,3 +325,9 @@ Observações: A organização das informações em seções (meio de contato, b
 <br><br>
 
 ## 8. Tela de gestão de perfil das usuárias
+
+Tarefa: Acessar e gerenciar o próprio perfil na plataforma, visualizando informações pessoais, publicações realizadas, interações e opções de edição do perfil.
+
+Resultado: Satisfação positiva com a interface. A usuária conseguiu localizar facilmente suas informações pessoais, publicações e funcionalidades principais da plataforma em uma única tela. A organização visual e a navegação simplificada facilitaram a interação, reduzindo a necessidade de múltiplos cliques para acessar conteúdos importantes. A usuária também demonstrou conforto ao utilizar a área de publicações e interação, considerando a tela intuitiva e acolhedora.
+
+Observações: Comentários da usuária indicaram que a tela possui fácil uso e entendimento, facilidade para localizar o botão de editar perfil e navegar pelas informações da página. A organização das informações e a disposição dos elementos ajudaram na navegação e tornaram a experiência mais prática e confortável
