@@ -152,7 +152,7 @@ Esta tela é o ponto de partida para as mães criarem seu perfilna plataforma, c
 
 <img width="966" height="767" alt="image" src="https://github.com/user-attachments/assets/3b24bd10-1fa3-475c-8e01-f13f7592a11c" />
 
-# Telas de feed (fórum da comunidade):
+# Tela de feed (fórum da comunidade):
 Esta interface funciona como uma rede social interna, permitindo o compartilhamento de experiências, dicas de profissionais e o acolhimento entre as mães. É o espaço de convivência diária da plataforma.
 
 * Regra de Ouro (Facilitar a Navegação): O botão de "Criar Postagem" (ícone de +) está no topo e fácil de achar, permitindo que a mãe poste uma dúvida rapidamente sem se perder nos menus.
@@ -197,7 +197,7 @@ Esta interface é essencial para a busca de profissionais. Nesta tela, a usuári
 
 
 
-# Tela de perfis detalhados de profissionais/usuárias:
+# Telas de perfis detalhados de profissionais/usuárias:
 Esta página mostra tudo sobre o especialista: biografia, fotos do consultório/ambiente e o que outras mães acharam dele (avaliações recebidas).
 
 * Regra de Ouro (Facilitar a Navegação): Incluímos uma seta de "Voltar" bem visível no topo, para que a mãe nunca se sinta "presa" e consiga retornar à lista geral facilmente.
