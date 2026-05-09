@@ -281,9 +281,9 @@ Observações: O feedback principal destacou que o layout é "limpo" e os campos
 
 Tarefa: Identificar a proposta da plataforma e selecionar o fluxo correto para realizar o cadastro como Mãe ou Profissional.
 
-Resultado: Experiência de uso fluida e intuitiva. A usuário conseguiu distinguir as duas opções de cadastro rapidamente, sem hesitação entre os perfis de Mãe e Profissional.
+Resultado: Experiência de uso fluida e intuitiva. A usuária conseguiu distinguir as duas opções de cadastro rapidamente, sem hesitação entre os perfis de Mãe e Profissional.
 
-Observações: A usuária relatarou que a frase de boas-vindas e a descrição curta dentro dos cards ajudaram a entender o propósito do sistema logo de cara. O fato de os botões manterem a consistência de cor e tamanho facilitou a confirmação da ação.
+Observações: A usuária relatou que a frase de boas-vindas e a descrição curta dentro dos cards ajudaram a entender o propósito do sistema logo de cara. O fato de os botões manterem a consistência de cor e tamanho facilitou a confirmação da ação.
 <br><br>
 
 
@@ -310,16 +310,16 @@ Observações: O layout foi considerado objetivo e direto ao ponto. As ferrament
 
 Tarefa: Localizar profissionais por filtragem e acessar seus perfis específicos.
 
-Resultado: Êxito na realização da tarefa. O usuário conseguiu captar rapidamente que a função dos filtros é fazer com o que o processo seja menos longo, encontrando profissionais por especialidades, avaliação e proximidade, realizando um único click em algum dos filtros. Também foi visto como um ponto positivo, a barra de pesquisa, que permite pesquisar por nome ou palavra-chave.
+Resultado: Êxito na realização da tarefa. O usuário conseguiu captar rapidamente que a função dos filtros é fazer com o que o processo seja menos longo, encontrando profissionais por especialidades, avaliação e proximidade, realizando um único clique em algum dos filtros. Também foi visto como um ponto positivo, a barra de pesquisa, que permite pesquisar por nome ou palavra-chave.
 
 Observações: O usuário elogiou o fato de que as notas (estrelas) dos profissionais aparecem logo nos cards da listagem, facilitando a comparação, além de ter um filtro espeícifco para filtrar os profissionais mais bem avaliados. Os filtros selecionados, foram considerados intuitivos por mudarem de cor ao serem ativados, fazendo com que o usuário não se esqueça em qual filtro está no momento.
 <br><br>
 
 ## 7. Telas de perfis detalhados de profissionais:
 
-Tarefa: Acessar a página detalhada de um profissional para ver biografia, localização, modos de contatar, fotos do espaço de atendimento/serviço e avaliações de outras mães.
+Tarefa: Acessar a página detalhada de um profissional para ver biografia, localização, contatos, fotos do espaço de atendimento/serviço e avaliações de outras mães.
 
-Resultado: Satisfação plena com a interface. A usuária conseguiu identificar, em apenas uma página, todos as informações relevantes do profissional. Isso foi considerado positivo pela usuária pois não sentiu dificuldade no acesso a informações profissionais e não houve necessidade em acessar outras páginas incansáveis para acessar informações importantes, que fazem as usuárias se sentirem mais seguras de contatae aquele profissional.
+Resultado: Satisfação plena com a interface. A usuária conseguiu identificar, em apenas uma página, todos as informações relevantes do profissional. Isso foi considerado positivo pela usuária pois não sentiu dificuldade no acesso a informações profissionais e não houve necessidade de acessar outras páginas para informações importantes, o que faz as usuárias se sentirem mais seguras de contatar o profissional.
 
 Observações: A organização das informações em seções (meio de contato, biografia, localização, avaliação etc.) ajuda a passar confiança e transparência imediata. Usuária notou um ponto positivo em poder filtrar as avaliações, desde mais recentes, até mais negativas, transparecendo melhor a carreira daquele profissional através de avaliações de outras clientes do mesmo.
 <br><br>
