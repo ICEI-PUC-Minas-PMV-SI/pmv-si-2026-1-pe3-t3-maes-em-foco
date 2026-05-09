@@ -116,7 +116,9 @@ Abaixo, apresentamos os mapas de empatia desenvolvidos para as personas criadas 
 
 
 ## 4.3 Protótipos das Interfaces
-Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A fidelidade do protótipo refere-se ao nível de detalhes e funcionalidades incorporadas a ele. Assim, um protótipo de alta fidelidade é uma representação interativa do produto, baseada no computador ou em dispositivos móveis. Esse protótipo já apresenta maior semelhança com o design final em termos de detalhes e funcionalidades. No desenvolvimento dos protótipos, devem ser considerados os princípios gestálticos, as recomendações ergonômicas e as regras de design (como as 8 regras de ouro). É importante descrever no texto do relatório como os princípios gestálticos e as regras de ouro foram seguidas no projeto das interfaces. Nesta etapa deve-se dar uma ênfase na implementação do software de modo que possam ser realizados os testes com usuários na etapa seguinte.
+Para o desenvolvimento dos protótipos, foram consideradas as Regras de Ouro e os princípios gestálticos, com foco em proporcionar uma experiência intuitiva, simples e eficiente para as usuárias da plataforma. Entre os conceitos aplicados, destacam-se a consistência visual entre as telas, a redução da complexidade de navegação, a facilidade de acesso às funcionalidades principais e a oferta de feedback visual durante as interações.
+
+Além disso, a identidade visual da plataforma foi construída utilizando tons de lavanda e cores suaves, escolhidos por transmitirem sensações de tranquilidade, acolhimento, confiança e conforto. A seleção dessas cores busca criar um ambiente visualmente agradável e seguro para mães e profissionais, alinhando-se ao propósito da plataforma de oferecer apoio, cuidado e praticidade no dia a dia.
 
 # Tela de formulário de cadastro para profissionais:
 Interface de formulário para novos prestadores de serviço, serve para coletar dados pessoais e profissionais (Especialidade, Registro Profissional/CRP/OAB) para validar quem deseja oferecer apoio na plataforma. Após preenchidos os dados, o cadastro é enviado para análise. 
