@@ -161,11 +161,11 @@ Esta interface funciona como uma rede social interna, permitindo o compartilhame
 
 * Regra de Ouro (Reduzir a Carga de Memória): Cada postagem mostra a foto, o nome e a categoria (Mãe, Advogada ou Psicólogo, por exemplo), evitando que a usuária precise memorizar quem é cada usuário.
 
-Regra de Ouro (Prevenir Erros): O botão de "Denunciar" permite que os próprios usuários sinalizem conteúdos impróprios, ajudando a manter o ambiente do fórum sempre seguro e evitando erros futuros.
+* Regra de Ouro (Prevenir Erros): O botão de "Denunciar" permite que os próprios usuários sinalizem conteúdos impróprios, ajudando a manter o ambiente do fórum sempre seguro e evitando erros futuros.
 
-Gestalt (Proximidade): Os ícones de interação ficam logo abaixo do texto e da imagem, deixando claro que aquelas ações pertencem especificamente àquela publicação.
+* Gestalt (Proximidade): Os ícones de interação ficam logo abaixo do texto e da imagem, deixando claro que aquelas ações pertencem especificamente àquela publicação.
 
-Gestalt (Continuidade): As postagens aparecem uma embaixo da outra em um fluxo vertical, seguindo um padrão que os usuários já conhecem de outras redes sociais.
+* Gestalt (Continuidade): As postagens aparecem uma embaixo da outra em um fluxo vertical, seguindo um padrão que os usuários já conhecem de outras redes sociais.
 
 <img width="512" height="767" alt="image" src="https://github.com/user-attachments/assets/533abd89-e259-4e05-9d10-a5d1017ae943" />
 
