@@ -12,7 +12,6 @@ Além disso, a plataforma busca promover a criação de uma rede de apoio entre 
 
 ## Integrantes
 
-* Ava Fabian Oliveira da Cruz
 * Erick Mota de Albuquerque 
 * Gabriel Oliveira Lemos
 * Laila Maria da Silva
