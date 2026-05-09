@@ -234,7 +234,7 @@ Para a realização dos testes, cada integrante do grupo aplicou os testes com u
 Abaixo, consolidamos os resultados obtidos pelos integrantes do grupo em cada seção do protótipo de alta fidelidade:
 
 
-1. Fluxo de Cadastro (Mães)
+## 1. Fluxo de Cadastro (Mães)
 
 Tarefa: Realizar o cadastro inicial no sistema sem dificuldades ou confusão.
 
@@ -243,7 +243,9 @@ Resultado: Percepção de uso satisfatória. A usuária não sentiu dificuldade 
 Observações: O feedback principal destacou que o layout é "limpo" e os campos de preenchimento (placeholders) facilitam a visualização e o entendimento do que precisa ser preenchido para realização do cadastro.
 
 
-2. Cadastro Profissional e Envio para Análise
+
+
+## 2. Cadastro Profissional e Envio para Análise
 
 Tarefa: Preencher o formulário detalhado de profissional, com dados básicos e profissionais e concluir o envio para revisão.
 
@@ -252,7 +254,9 @@ Resultado: Experiência de uso positiva, onde o usuário entendeu cada seção d
 Observações: Devido ao maior número de campos, o usuário considerou que os profissionais podem levar um pouco mais de tempo para preencher, o que não implicou negativamente no momento dos testes, pois houve destaque de que as instruções e títulos dos placeholders, tornam o processo claro. O aviso de que os dados seriam enviados para análise foi bem compreendido.
 <br><br>
 
-3. Acesso e Identificação (Tela de Login)
+
+
+## 3. Acesso e Identificação (Tela de Login)
 
 Tarefa: Acessar a conta utilizando dados previamente cadastrados.
 
@@ -261,7 +265,9 @@ Resultado: Nível de satisfação elevado. O usuário conseguiu entender os plac
 Observações: Usuários elogiaram o layout limpo e a paleta de cores, entendendo prontamente as ações necessárias para entrar no sistema.
 <br><br>
 
-4. Interação Comunitária (Feed/Fórum)
+
+
+## 4. Interação Comunitária (Feed/Fórum)
 
 Tarefa: Realizar publicações, curtir, comentar, e realizar denúncias.
 
@@ -271,7 +277,10 @@ Observações: O layout foi considerado objetivo e direto ao ponto. As ferrament
 
 <br><br>
 
-5. Busca, Filtragem e Visualização de Perfis
+
+
+
+## 5. Busca, Filtragem e Visualização de Perfis
 
 Tarefa: Localizar profissionais por filtragem e acessar seus perfis específicos.
 
@@ -280,7 +289,7 @@ Resultado: Êxito na realização da tarefa. O usuário conseguiu captar rapidam
 Observações: O usuário elogiou o fato de que as notas (estrelas) dos profissionais aparecem logo nos cards da listagem, facilitando a comparação, além de ter um filtro espeícifco para filtrar os profissionais mais bem avaliados. Os filtros selecionados, foram considerados intuitivos por mudarem de cor ao serem ativados, fazendo com que o usuário não se esqueça em qual filtro está no momento.
 <br><br>
 
-6. Visualização de Perfis Específicos de Profissionais
+## 6. Visualização de Perfis Específicos de Profissionais
 
 Tarefa: Acessar a página detalhada de um profissional para ver biografia, localização, modos de contatar, fotos do espaço de atendimento/serviço e avaliações de outras mães.
 
@@ -288,4 +297,4 @@ Resultado: Satisfação plena com a interface. A usuária conseguiu identificar,
 
 Observações: A organização das informações em seções (meio de contato, biografia, localização, avaliação etc.) ajuda a passar confiança e transparência imediata. Usuária notou um ponto positivo em poder filtrar as avaliações, desde mais recentes, até mais negativas, transparecendo melhor a carreira daquele profissional através de avaliações de outras clientes do mesmo.
 <br><br>
-6. Tela de gestão de perfil das usuárias
+## 7. Tela de gestão de perfil das usuárias
