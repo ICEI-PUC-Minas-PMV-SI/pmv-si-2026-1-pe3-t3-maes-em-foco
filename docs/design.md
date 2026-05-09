@@ -152,6 +152,24 @@ Esta tela é o ponto de partida para as mães criarem seu perfilna plataforma, c
 
 <img width="966" height="767" alt="image" src="https://github.com/user-attachments/assets/3b24bd10-1fa3-475c-8e01-f13f7592a11c" />
 
+# Telas de feed (fórum da comunidade):
+Esta interface funciona como uma rede social interna, permitindo o compartilhamento de experiências, dicas de profissionais e o acolhimento entre as mães. É o espaço de convivência diária da plataforma.
+
+* Regra de Ouro (Facilitar a Navegação): O botão de "Criar Postagem" (ícone de +) está no topo e fácil de achar, permitindo que a mãe poste uma dúvida rapidamente sem se perder nos menus.
+
+* Regra de Ouro (Feedback Informativo): Abaixo de cada post existem os botões de curtir, comentar e denunciar que dão um sinal visual ao serem clicados, confirmando que a ação funcionou.
+
+* Regra de Ouro (Reduzir a Carga de Memória): Cada postagem mostra a foto, o nome e a categoria (Mãe, Advogada ou Psicólogo, por exemplo), evitando que a usuária precise memorizar quem é cada usuário.
+
+Regra de Ouro (Prevenir Erros): O botão de "Denunciar" permite que os próprios usuários sinalizem conteúdos impróprios, ajudando a manter o ambiente do fórum sempre seguro e evitando erros futuros.
+
+Gestalt (Proximidade): Os ícones de interação ficam logo abaixo do texto e da imagem, deixando claro que aquelas ações pertencem especificamente àquela publicação.
+
+Gestalt (Continuidade): As postagens aparecem uma embaixo da outra em um fluxo vertical, seguindo um padrão que os usuários já conhecem de outras redes sociais.
+
+<img width="512" height="767" alt="image" src="https://github.com/user-attachments/assets/533abd89-e259-4e05-9d10-a5d1017ae943" />
+
+
 
 # Telas de busca e filtragem de profissionais:
 Esta interface é essencial para a busca de profissionais. Nesta tela, a usuário consegue procurar ajuda, podendo escolher entre psicólogos, advogados, babás ou creches.
@@ -179,7 +197,7 @@ Esta interface é essencial para a busca de profissionais. Nesta tela, a usuári
 
 
 
-# Tela de perfis detalhados de profissionais:
+# Tela de perfis detalhados de profissionais/usuárias:
 Esta página mostra tudo sobre o especialista: biografia, fotos do consultório/ambiente e o que outras mães acharam dele (avaliações recebidas).
 
 * Regra de Ouro (Facilitar a Navegação): Incluímos uma seta de "Voltar" bem visível no topo, para que a mãe nunca se sinta "presa" e consiga retornar à lista geral facilmente.
