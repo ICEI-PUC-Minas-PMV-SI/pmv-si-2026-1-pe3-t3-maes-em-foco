@@ -232,7 +232,7 @@ Esta página mostra tudo sobre o especialista: biografia, fotos do consultório/
 
 <img width="512" height="767" alt="image" src="https://github.com/user-attachments/assets/e52bb29b-b66b-4940-9289-d9f0b6425365" />
 
-# Telas de perfil detalhado de usuária:
+#  Tela de gestão de perfil das usuárias:
 
 
 ## 4.4 Testes com Protótipos
