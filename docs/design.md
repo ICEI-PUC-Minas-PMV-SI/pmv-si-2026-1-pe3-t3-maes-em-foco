@@ -47,7 +47,7 @@ Atua oferecendo apoio e orientação emocional, com foco em soluções simples, 
 * Promover o bem-estar emocional de mães e crianças por meio de soluções digitais acessíveis.
 * Garantir que o suporte psicológico seja facilmente compreendido e acessado por mães.
 * Utilizar ferramentas digitais e sistemas intuitivos que favoreçam uma experiência simples, eficiente e centrada na usuária.
-* Fortalecer a confiança no atendimento, mesmo em interações mediadas por plataformas digitais.
+
 
 ### Frustrações: 
 * Dificuldade em encontrar o público de mães que necessitam de apoio em plataformas digitais.
@@ -78,7 +78,7 @@ Dr. João Victor Pelé, 50 anos, é advogado com atuação voltada ao suporte ju
 * Garantir que mais mulheres conheçam seus direitos.
 * Produzir conteúdo jurídico na plataforma
 * Tornar o direito mais acessivel para mães solos
-* Ampliar o alcance dos serviços jurídicos por meios digitais.
+
 
 ### Frustrações: 
 * Sentir que as mães em vulnerabilidade se afastam por não entenderem o "juridiquês" ou por acharem que o direito é inacessível.
@@ -106,10 +106,8 @@ Alice Mendonça tem 34 anos e é carinhosamente conhecida como “Tia Alice” p
 
 #### Objetivos:
 * Garantir a segurança e o bem-estar das crianças;
-* Transmitir confiança e credibilidade às mães;
 * Ampliar a visibilidade do seu serviço;
 * Construir uma boa reputação por meio de avaliações positivas;
-* Oferecer um serviço de qualidade com responsabilidade e profissionalismo.
 
 ### Frustrações: 
 * Anunciar a creche em sites que não permitem transmitir a segurança, o afeto e a reputação do seu espaço.
@@ -139,8 +137,6 @@ Ana Paula tem 29 anos, mora em Belo Horizonte, é auxiliar administrativo e mãe
 * Obter orientação jurídica clara e acessível sobre processos de pensão;
 * Encontrar apoio emocional e acolhimento em uma comunidade que entenda sua realidade;
 * Localizar indicações de creches confiáveis e seguras próximas à sua residência em Belo Horizonte;
-* Otimizar seu tempo através de uma plataforma que centralize serviços essenciais para mães solo;
-* Garantir o bem-estar e o desenvolvimento adequado de seu filho enquanto trabalha.
 
 ### Frustrações:
 * Perder horas buscando por plataformas digitais que possuam o serviço que ela necessita (como achar uma creche perto e um advogado de pensão) e não encontrar.
@@ -188,6 +184,10 @@ Utilizando um smartphone, Mariana abre a landing page do "Mães em Foco". Ela cl
 ## 4.2 Mapa de Empatia
 Abaixo, apresentamos os mapas de empatia desenvolvidos para as personas criadas em nosso projeto, representando o nosso público-alvo de mães solo e de profissionais especialistas. Cada mapa busca refletir o que esses usuários ouvem, veem, pensam e sentem, além de suas dores e necessidades específicas dentro da plataforma. Foi utilizado o template apresentado em https://www.rdstation.com/blog/marketing/mapa-da-empatia/.
 
+## *Tereza Martins*
+<img width="800" height="565" alt="Inserir um título (1)" src="https://github.com/user-attachments/assets/1cb90c63-0edf-4834-a54b-ae0884776059" />
+
+
 ## *Dr. Rafael Mendes*
 <img width="751" height="520" alt="image" src="https://github.com/user-attachments/assets/188c5a33-daf9-4be6-b359-9a6a4cf433b3" />
 
@@ -200,8 +200,6 @@ Abaixo, apresentamos os mapas de empatia desenvolvidos para as personas criadas 
 ## *Alice Mendonça*
 ![persona alice](img/alice_mendonca.png)
 
-## *Tereza Martins*
-<img width="800" height="565" alt="Inserir um título (1)" src="https://github.com/user-attachments/assets/1cb90c63-0edf-4834-a54b-ae0884776059" />
 
 
 ## *Ana Paula Ferreira*
