@@ -214,7 +214,7 @@ Abaixo, apresentamos os mapas de empatia desenvolvidos para as personas criadas 
 ## 4.3 Protótipos das Interfaces
 Para o desenvolvimento dos protótipos, foram consideradas as Regras de Ouro e os princípios gestálticos, com foco em proporcionar uma experiência intuitiva, simples e eficiente para as usuárias da plataforma. Entre os conceitos aplicados, destacam-se a consistência visual entre as telas, a redução da complexidade de navegação, a facilidade de acesso às funcionalidades principais e a oferta de feedback visual durante as interações.
 
-Além disso, a identidade visual da plataforma foi construída utilizando tons de lavanda e cores suaves, escolhidos por transmitirem sensações de tranquilidade, acolhimento, confiança e conforto. A seleção dessas cores busca criar um ambiente visualmente agradável e seguro para mães e profissionais, alinhando-se ao propósito da plataforma de oferecer apoio, cuidado e praticidade no dia a dia.
+Além disso, a identidade visual foi projetada sob os Princípios Gestálticos para reduzir o esforço cognitivo de usuárias sobrecarregadas. O uso de cartões (cards) brancos flutuando sobre o fundo lavanda aplica diretamente o princípio de Figura-Fundo (separando o conteúdo principal da área neutra) e de Região Comum (delimitando que as informações contidas naquele bloco pertencem a um mesmo conjunto profissional). Essa organização visual resulta no princípio da Pregnância da Boa Forma, garantindo que a interface seja compreendida de forma imediata e intuitiva, sem demandar esforço de memória.
 
 # Tela de formulário de cadastro para profissionais:
 Interface de formulário para novos prestadores de serviço, serve para coletar dados pessoais e profissionais (Especialidade, Registro Profissional/CRP/OAB) para validar quem deseja oferecer apoio na plataforma. Após preenchidos os dados, o cadastro é enviado para análise. 
@@ -259,6 +259,15 @@ Esta tela funciona como a porta de entrada para a plataforma, onde o usuário en
 * Gestalt (Proximidade): O campo de e-mail e o de senha estão bem próximos um do outro, indicando que eles formam o conjunto de dados necessário para uma única ação: acessar a conta.
 
 <img width="966" height="767" alt="image" src="https://github.com/user-attachments/assets/3b24bd10-1fa3-475c-8e01-f13f7592a11c" />
+
+# Tela de Recuperação de Senha (Mobile):
+Interface acionada a partir do link "Esqueci minha senha".
+
+* Regra de Ouro (Prevenir Erros e Reversibilidade): Permite inserir o e-mail cadastrado para redefinir o acesso, contando com uma seta visível de "Voltar para o Login" caso o clique tenha sido acidental.
+
+* Critério Ergonômico (Condução): Apresenta mensagens de orientação curtas e diretas, instruindo o fluxo de envio do link de recuperação.
+img
+
 
 # Tela de feed (fórum da comunidade):
 Esta interface funciona como uma rede social interna, permitindo o compartilhamento de experiências, dicas de profissionais e o acolhimento entre as mães. É o espaço de convivência diária da plataforma.
@@ -342,6 +351,14 @@ A tela de perfil da mãe mostra informações pessoais da usuária e publicaçõ
 * Gestalt (Hierarquia visual): destaque para foto, nome e informações principais da usuária, direcionando a atenção para os elementos mais importantes.
 
 <img width="472" height="704" alt="image" src="https://github.com/user-attachments/assets/13949b6a-e43d-46f7-a294-9dfc604022b9" />
+
+
+# Recomendações Ergonômicas de Acessibilidade:
+O protótipo de alta fidelidade incorpora recursos de acessibilidade para atender à diversidade de usuárias e cenários de uso (como leitura em ambientes de alta iluminação ou por pessoas com fadiga extrema):
+
+* Acessibilidade Visual (Contraste): A paleta de cores foi validada seguindo as diretrizes de contraste da WCAG (nível AA), assegurando a legibilidade dos textos sobre o fundo lavanda.
+
+* Controle de Interface: Inclusão de um menu global de acessibilidade na barra superior com botões ativos para acionamento de "Alto Contraste" (conversão do layout para fundo preto com elementos em amarelo) e botões de "Aumento e Diminuição de Fonte (A+ / A-)".
 
 
 ## 4.4 Testes com Protótipos
