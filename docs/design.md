@@ -185,7 +185,8 @@ Utilizando um smartphone, Mariana abre a landing page do "Mães em Foco". Ela cl
 Abaixo, apresentamos os mapas de empatia desenvolvidos para as personas criadas em nosso projeto, representando o nosso público-alvo de mães solo e de profissionais especialistas. Cada mapa busca refletir o que esses usuários ouvem, veem, pensam e sentem, além de suas dores e necessidades específicas dentro da plataforma. Foi utilizado o template apresentado em https://www.rdstation.com/blog/marketing/mapa-da-empatia/.
 
 ## *Tereza Martins*
-<img width="800" height="565" alt="Inserir um título (1)" src="https://github.com/user-attachments/assets/1cb90c63-0edf-4834-a54b-ae0884776059" />
+<img width="762" height="537" alt="image" src="https://github.com/user-attachments/assets/738d1870-a406-4070-ae1b-a5c0eeebd433" />
+
 
 
 ## *Dr. Rafael Mendes*
@@ -204,6 +205,10 @@ Abaixo, apresentamos os mapas de empatia desenvolvidos para as personas criadas 
 
 ## *Ana Paula Ferreira*
 <img width="760" height="570" alt="mapa_empatia_ana_paula(1)" src="https://github.com/user-attachments/assets/2e44fd92-749f-476e-8ada-3b5301c33b6f" />
+
+## *Mariana Souza da Silva*
+<img width="764" height="532" alt="image" src="https://github.com/user-attachments/assets/ab261688-e59f-40a3-ba5e-d04038d9d757" />
+
 
 
 ## 4.3 Protótipos das Interfaces
