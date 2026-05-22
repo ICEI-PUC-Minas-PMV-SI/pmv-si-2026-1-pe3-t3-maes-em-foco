@@ -6,25 +6,35 @@ Nesta seção, detalhamos as personas que representam os perfis de usuários do 
 As personas abaixo ajudam a guiar as decisões de design e funcionalidades da plataforma Mães em Foco, garantindo que o sistema atenda tanto às mães que buscam apoio quanto aos profissionais que oferecem seus serviços. 
 
 
-## *Tereza Martins  - Creche Mundo Encantado (Tia da limpeza)*
+## *Tereza Martins  - Cuidadora Infantil e Babá Autônoma*
 * Sexo: Feminino
 * Idade: 48 anos
-* Educação: Ensino médio completo
-* Ocupação: Auxiliar de limpeza - Creche Mundo Encantado
+* Localização: São João del Rei
+* Educação: Ensino médio completo / Curso de Recreação Infantil
+* Ocupação: Babá e Cuidadora Infantil Autônoma
 
 #### Biografia:
-Tereza tem 48 anos e trabalha na limpeza da Creche Mundo Encantado. Mesmo atuando na área de limpeza, ela tem um carinho muito grande pelas crianças e gosta de estar em um ambiente onde pode contribuir, mesmo que de forma indireta, para o bem-estar delas. É uma pessoa simples, dedicada e que valoriza o cuidado com o próximo.
+Tereza tem 48 anos e trabalha há mais de vinte anos cuidando de crianças de forma autônoma. Ela tem um carinho muito grande pelo desenvolvimento infantil e ajuda mães que trabalham fora a manterem suas rotinas organizadas. Por ser profissional autônoma, ela depende inteiramente de indicações "boca a boca" para conseguir novos trabalhos, o que torna sua renda instável. Ela usa a plataforma para formalizar seu perfil de atendimento na região de São João del Rei, construir uma reputação digital e encontrar mães que precisam de suporte de confiança para cuidar dos filhos por período integral ou turnos específicos.
 
 ### Objetivo:
-* Garantir um ambiente limpo e seguro para as crianças, contribuindo diretamente para a saúde e o bem-estar delas.
-* Apoiar o funcionamento da creche, colaborando com a equipe para manter o espaço organizado e acolhedor.
-* Promover cuidado e carinho no dia a dia, mesmo em suas atividades de limpeza, ajudando a criar um ambiente mais humano e afetivo.
-* Desenvolver-se profissionalmente, buscando melhorar suas práticas de trabalho e aprender novas formas de contribuir na creche.
-* Incentivar e apoiar as mães e crianças, sendo uma presença positiva no ambiente, transmitindo atenção, respeito e acolhimento.
+* Ampliar a visibilidade dos seus serviços de cuidadora infantil para mães solo da sua região.
+* Construir uma presença digital confiável por meio de avaliações e notas deixadas por clientes antigas.
+* Garantir uma renda mais estável conseguindo fechar novos contratos de trabalho de forma direta e sem intermediários.
+  
+### Frustrações
+* Depender apenas de indicações informais para conseguir trabalho, passando por períodos de instabilidade financeira.
+* Medo de preencher formulários de cadastro na internet que sejam longos, confusos e que não deixem claro que seu cadastro foi enviado.
+* Aplicativos que permitem divulgar seu serviço, porém que cobram taxas abusivas ou que dificultam o contato direto com clientes.
+
+### Necessidade:
+* Um canal focado no público materno onde possa exibir sua experiência com cuidados infantis de forma clara e profissional.
+* Um processo de cadastro simples e visualmente organizado, facilitando o preenchimento sem que ela cometa erros.
+* Um botão de contato rápido em seu perfil (como o redirecionamento para o WhatsApp) para que as mães falem com ela diretamente, agilizando a contratação.
 
 ## *Dr. Rafael Mendes - Psicólogo para Mães e Filhos*
 * Sexo: Masculino
 * Idade: 40 anos
+* Localização: Belo Horizonte
 * Educação: Ensino superior completo - Psicologia
 * Ocupação: Psicólogo de Apoio Materno-Infantil
 
@@ -39,6 +49,18 @@ Atua oferecendo apoio e orientação emocional, com foco em soluções simples, 
 * Utilizar ferramentas digitais e sistemas intuitivos que favoreçam uma experiência simples, eficiente e centrada na usuária.
 * Fortalecer a confiança no atendimento, mesmo em interações mediadas por plataformas digitais.
 
+### Frustrações: 
+* Dificuldade em encontrar o público de mães que necessitam de apoio em plataformas digitais.
+* Perder muito tempo preenchendo formulários longos de cadastro e sem divisões claras.
+* Enviar seus dados profissionais porém ficar sem saber se os dados foram recebidos/aprovados.
+  
+### Necessidades:
+* Alcançar o público de mães solo com mais facilidade.
+* Fazer com que as mães se sintam seguras dentro da plataforma para o contatar.
+* Necessita de uma ferramenta que o ajude a divulgar seu serviço para mães.
+  
+### Cenários de uso:
+Após decidir expandir seus atendimentos sociais para famílias monoparentais, o Dr. Rafael busca por um site que o permita realizar isso. Após a busca, encontra pelo site do "Mães em Foco", e, é direcionado para a landing-page do sistema. Ele clica em "Quero apoiar agora" e é direcionado para a tela de cadastro de profissionais. Com a divisão clara entre "Dados Básicos" e "Dados Profissionais", ele preenche suas informações e o número do seu CRP rapidamente. Ao clicar em enviar, a interface exibe um feedback visual claro avisando que seus dados foram encaminhados para a análise da equipe, deixando-o seguro de que o processo foi concluído corretamente.
 
 ## *Dr. João Victor Pele - Advogado para Mães e Famílias*
 * Sexo: Masculino
@@ -58,9 +80,24 @@ Dr. João Victor Pelé, 50 anos, é advogado com atuação voltada ao suporte ju
 * Tornar o direito mais acessivel para mães solos
 * Ampliar o alcance dos serviços jurídicos por meios digitais.
 
+### Frustrações: 
+* Sentir que as mães em vulnerabilidade se afastam por não entenderem o "juridiquês" ou por acharem que o direito é inacessível.
+* Não encontrar uma plataforma que o foco é atender a mães/famílias que precisam de apoio jurídico.
+* Ver a dificuldade que mães enfrentam em encontrar profissionais com foco familiar em plataformas digitais.
+  
+### Necessidades:
+* Precisa de um espaço comunitário seguro para publicar orientações simples (sobre pensão, guarda e direitos), permitindo que mães compreendam seus recursos legais sem o medo do "juridiquês".
+* Necessita que seu perfil seja facilmente encontrado por mães ue buscam por causas de direito de família e atendimento humanizado.
+* Precisa que os meios de comunicação sejam simples e diretos e que as mães não se percam tentando encontrar meios de contatar o profissional na plataforma.
+  
+### Cenários de uso:
+Em pausas laborais no seu escritório, o Dr. João Victor tem ideias de compartilhar orientações jurídicas para as mães por meio de publicações. Ele entra na tela de feed (fórum da comunidade) e publica um pequeno texto explicando como funciona o cálculo da pensão alimentícia de forma simples. Pouco tempo depois, ele rola a página verticalmente e consegue ver os feedbacks informativos de curtidas e comentários das mães da comunidade interagindo e tirando dúvidas reais diretamente na publicação dele.
+
+
 ## *Alice Mendonça - Creche Mundo Encantado*
 * Sexo: Feminino
 * Idade: 34 anos
+* Localização: Montes Claros
 * Educação: Ensino superior completo - Bacharel em Administração 
 * Ocupação: Empresária e proprietária da Creche Mundo Encantado
 
@@ -74,9 +111,24 @@ Alice Mendonça tem 34 anos e é carinhosamente conhecida como “Tia Alice” p
 * Construir uma boa reputação por meio de avaliações positivas;
 * Oferecer um serviço de qualidade com responsabilidade e profissionalismo.
 
+### Frustrações: 
+* Anunciar a creche em sites que não permitem transmitir a segurança, o afeto e a reputação do seu espaço.
+* Encontrar sites que não permitem compartilhar fotos do ambiente, transparecendo a segurança e clareza do seu trabalho.
+* Plataformas que dificultam a usabilidade, fazendo as usuárias se sentirem "presas" em fluxos de navegação sem botões visíveis de retorno.
+  
+### Necessidades:
+* Precisa de uma vitrine digital onde possa exibir a infraestrutura do seu espaço, sua história com a maternidade e as experiências reais de outras famílias para transmitir total segurança.
+* Necessita que seu estabelecimento seja visível para mães da mesma localidade que precisam conciliar a jornada de trabalho com um local seguro para deixar os filhos.
+* Precisa de um sistema que seja ágil e sem burocracias para que as mães não tenham dificuldade em realizar contatos para conhecer a creche ou realizar matrículas.
+  
+### Cenários de uso:
+Alice deseja avaliar como está a visibilidade e a reputação da sua creche na plataforma para se preparar para o contato de novas famílias. Ela faz o login no sistema, acessa a tela de perfil detalhado do seu estabelecimento e analisa os cards de avaliação deixados pelas mães, utilizando o botão de ordenação para ler os depoimentos mais recentes. Ao notar que os filtros visuais e as informações de localização estão corretos, ela confirma que o botão de redirecionamento externo para o WhatsApp está ativo, garantindo que as mães que navegam pelo aplicativo consigam migrar para o contato direto com ela com apenas um clique.
+
+
 ## *Ana Paula Ferreira*
 * Sexo: Feminino
 * Idade: 29 anos
+* Localização: Belo Horizonte
 * Educação: Ensino técnico em administração
 * Ocupação: Auxiliar Administrativo
   
@@ -90,6 +142,47 @@ Ana Paula tem 29 anos, mora em Belo Horizonte, é auxiliar administrativo e mãe
 * Otimizar seu tempo através de uma plataforma que centralize serviços essenciais para mães solo;
 * Garantir o bem-estar e o desenvolvimento adequado de seu filho enquanto trabalha.
 
+### Frustrações:
+* Perder horas buscando por plataformas digitais que possuam o serviço que ela necessita (como achar uma creche perto e um advogado de pensão) e não encontrar.
+* Medo de interagir de contratar profissionais sem saber se o ambiente é monitorado contra perfis falsos.
+* Interfaces que a mantém presa em telas, não contendo botões para sair da seção, fazendo com que ela perca tempo no seu dia e tenha que abandonar o site.
+  
+### Necessidades:
+* Precisa de um sistema que contenham todos os serviços que ela precisa, integrados como psicólogos ou  creches, sem precisar navegar por dezenas de sites.
+* Necessita visualizar a opinião, a nota e o depoimento de outras mães antes de tomar decisões importantes, como contratar um psicólogo ou escolher uma creche.
+* Precisa de um ambiente comunitário, onde possa desabafar sobre a rotina de mãe solo,  encontrar apoio mútuo de outras mães.
+  
+### Cenários de uso:
+Enquanto cuida do seu filho de 4 anos e dos afazeres domésticos, Ana Paula abre o aplicativo "Mães em Foco" em seu celular para buscar uma creche mais próxima e um advogado. Na tela de busca e filtragem, ela seleciona a categoria "Creches" adicionado ao filtro de "Mais próximos". O botão do filtro muda de cor imediatamente, dando o feedback visual de que o comando funcionou. Ela clica no card da "Creche Mundo Encantado", confere as fotos do local, a localização no mapa e lê as avaliações com estrelas deixadas por outras mães. Sentindo-se segura, ela clica no ponto focal da tela, o botão destacado "Chamar no WhatsApp", para agendar uma visita sem perder tempo.
+
+
+## *Mariana Souza da Silva  - Mãe*
+* Sexo: Feminino
+* Idade: 26 anos
+* Localização: Juiz de Fora
+* Educação: Ensino médio completo 
+* Ocupação: Autônoma / Empreendedora Informal (Venda de Doces)
+
+#### Biografia:
+Mariana tem 26 anos e é mãe solo de duas crianças (um menino de 6 anos e uma bebê de 1 ano). Após o nascimento da segunda filha, ela precisou deixar o emprego formal para conseguir cuidar das crianças e passou a produzir doces e salgados em casa para vender sob encomenda. Com a rotina tripla entre a cozinha, as vendas e os filhos, Mariana vive sobrecarregada. Ela usa o aplicativo "Mães em Foco" para tentar encontrar uma babá de confiança na região por algumas horas na semana para conseguir entregar suas encomendas, além de buscar no fórum dicas de outras mães sobre como conciliar o trabalho com a maternidade.
+
+### Objetivo:
+* Localizar indicações de creches ou cuidadoras acessíveis em Juiz de Fora para conseguir turnos livres para trabalhar.
+* Acessar informações e orientações de cuidado infantil claras de forma gratuita.
+* Conectar-se com outras mães na comunidade para conseguir apoio mútuo e compartilhar experiências do desenvolvimento de seus filhos.
+  
+### Frustrações
+* Exclusão do mercado de trabalho e de oportunidades educacionais por falta de alguém para cuidar do bebê.
+* Acesso a sites burocráticos onde precisa fazer vários cliques cansativos para encontrar profissionais, o que a faz desistir de usar-lo.
+* Interfaces complexas, cheias de termos técnicos que dificultam o entendimento e geram cansaço.
+
+### Necessidade:
+* Uma plataforma com interface limpa, visual e direta, que exiba as opções de profissionais e serviços de forma clara e de fácil visualização.
+* Um processo de cadastro simples e visualmente organizado, facilitando o preenchimento sem que ela cometa erros.
+* Um espaço onde possa filtrar profissionais de seu interesse imediato (como Babás ou Creches) sem se perder.
+
+### Cenários de uso:
+Utilizando um smartphone, Mariana abre a landing page do "Mães em Foco". Ela clica na opção "Mãe Solo" para realizar seu cadastro e sente facilidade ao notar os avisos visuais explicativos sobre o padrão da senha, conseguindo criar sua conta de primeira sem ser surpreendida com erros depois de todo o preenchimento. Ao acessar a seção de serviços, ela navega e utiliza os filtros visuais para encontrar profissionais próximos, que oferecem atendimento para mães na sua cidade.
 
 
 ## 4.2 Mapa de Empatia
