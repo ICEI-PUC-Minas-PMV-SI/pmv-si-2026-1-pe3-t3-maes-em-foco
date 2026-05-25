@@ -13,6 +13,12 @@
     <header-component></header-component>
 
     <div class="pesquisa-container">
+      <div class="area-superior-voltar">
+        <a href="index.html" class="btn-voltar">
+          <i class="fa-solid fa-chevron-left"></i> Voltar
+        </a>
+      </div>
+
       <div class="pesquisa">
         <input type="text" class="barra" placeholder="Pesquisar" />
         <span class="clear-btn" onclick="document.querySelector('.barra').value = ''">×</span>
@@ -34,10 +40,8 @@
 
     <div class="conteudo-principal">
         <h1 id="titulo-categoria-atual">Todos os Profissionais</h1>
-        <div class="container-profissionais" id="lista-profissionais">
-            </div>
+        <div class="container-profissionais" id="lista-profissionais"></div>
     </div>
-
 
     <footer-component></footer-component>
 

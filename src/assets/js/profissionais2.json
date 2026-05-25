@@ -129,7 +129,7 @@
         "lon": -43.928505,
         "categoria": "Babá",
         "endereco": "Rua Pium-í, 800 - Sion",
-        "foto": "assets/img/profissionais/Babas-HS.png",
+        "foto": "assets/img/profissionais/Face7.jpeg",
         "descricao": "Babá experiente e carinhosa, com referências e cursos de primeiros socorros.",
         "perfilUrl": "/profile/helena-souza",
         "avaliacoes": [
@@ -371,13 +371,13 @@
     "rating": 4.5
   },
   {
-    "nome": "Jardim dos Anjos",
-    "email": "jardim.dosanjos@infantilbr.org",
+    "nome": "Pingo de Luz",
+    "email": "pingodeluz2026@infantilbr.org",
     "lat": -19.931421,
     "lon": -43.939199,
     "categoria": "Creche",
     "endereco": "Rua Sergipe, 1375 - Savassi, Belo Horizonte",
-    "foto": "assets/img/profissionais/Crch-AM.png",
+    "foto": "assets/img/profissionais/creche2.jpeg",
     "descricao": "Promovemos atividades lúdicas e educativas em um espaço seguro e divertido.",
     "perfilUrl": "/",
     "avaliacoes": [],
@@ -386,7 +386,7 @@
   },
   {
     "nome": "Escolinha Sol Nascente",
-    "email": "escolinha.solnascente@crecheemail.com",
+    "email": "escolinha.solnascente@crecheemail./com",
     "lat": -19.944073,
     "lon": -43.932672,
     "categoria": "Creche",
@@ -407,13 +407,13 @@
     "rating": 5
   },
   {
-    "nome": "Escolinha Arco-Íris",
-    "email": "escolinha.arcoiris@infantnet.com",
+    "nome": "Pequeno Polegar",
+    "email": "pequenos.polegar@.com.br",
     "lat": -19.908427,
     "lon": -43.982844,
     "categoria": "Creche",
     "endereco": "Rua Gávea, 650 - Buritis, Belo Horizonte",
-    "foto": "assets/img/profissionais/Crch-PS.png",
+    "foto": "assets/img/profissionais/creche1.jpeg",
     "descricao": "Ambiente colorido e divertido com propostas pedagógicas modernas.",
     "perfilUrl": "/",
     "avaliacoes": [
@@ -486,7 +486,7 @@
     "lon": -43.9381,
     "categoria": "Babá",
     "endereco": "Rua Cláudio Manoel, 350 - Savassi, Belo Horizonte",
-    "foto": "assets/img/profissionais/Babas-JA.png",
+    "foto": "assets/img/profissionais/Face14.jpeg",
     "descricao": "Foco em segurança, afeto e rotina saudável para crianças em idade pré-escolar.",
     "perfilUrl": "/",
     "avaliacoes": [
@@ -508,7 +508,7 @@
     "lon": -43.9465,
     "categoria": "Babá",
     "endereco": "Avenida Brasil, 2000 - Santa Efigênia, Belo Horizonte",
-    "foto": "assets/img/profissionais/Babas-LF.png",
+    "foto": "assets/img/profissionais/Face15.jpeg",
     "descricao": "Experiência com gêmeos e crianças com necessidades especiais.",
     "perfilUrl": "/",
     "avaliacoes": [],
@@ -522,7 +522,7 @@
     "lon": -43.9433,
     "categoria": "Babá",
     "endereco": "Rua da Bahia, 1600 - Lourdes, Belo Horizonte",
-    "foto": "assets/img/profissionais/Babas-KS.png",
+    "foto": "assets/img/profissionais/Face16.jpeg",
     "descricao": "Profissional afetuosa e comunicativa, com cursos em primeiros socorros e alimentação infantil.",
     "perfilUrl": "/",
     "avaliacoes": [
@@ -578,7 +578,7 @@
     "lat": -19.924602396954285,
     "lon": -43.88060524985466,
     "categoria": "Advogado",
-    "endereço": "Av. Amazonas, 190 - Centro",
+    "endereco": "Av. Amazonas, 190 - Centro",
     "foto": "assets/img/profissionais/Adv-LM.png",
     "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
     "perfilUrl": "/",
@@ -631,7 +631,7 @@
     "lat": -19.96813093507121,
     "lon": -43.977438428725264,
     "categoria": "Advogado",
-    "endereço": "Rua Gonçalves Dias, 123 - Funcionários",
+    "endereco": "Rua Gonçalves Dias, 123 - Funcionários",
     "foto": "assets/img/profissionais/Adv-FL.png",
     "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
     "perfilUrl": "/",
@@ -739,7 +739,7 @@
     "lon": -43.92131972822154,
     "categoria": "Psicólogo",
     "endereco": "Rua Grão Pará, 750 - Serra",
-    "foto": "assets/img/profissionais/Psic-F.png",
+    "foto": "assets/img/profissionais/Face19.jpeg",
     "descricao": "Especializada em terapias cognitivas e emocionais, focada no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
     "perfilUrl": "/profile/dr-mariana-rocha",
     "avaliacoes": [
@@ -841,7 +841,7 @@
     "lon": -43.90823674681604,
     "categoria": "Psicólogo",
     "endereco": "Rua Pium-í, 100 - Cruzeiro",
-    "foto": "assets/img/profissionais/Psic-F.png",
+    "foto": "assets/img/profissionais/Face15.jpeg",
     "descricao": "Especializada em terapias cognitivas e emocionais, focada no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
     "perfilUrl": "/profile/dr-clara-alves",
     "avaliacoes": [
@@ -877,7 +877,7 @@
     "lon": -43.90795493208531,
     "categoria": "Psicólogo",
     "endereco": "Rua Tomé de Souza, 500 - Boa Viagem",
-    "foto": "assets/img/profissionais/Psic-M.png",
+    "foto": "assets/img/profissionais/Face12.jpeg",
     "descricao": "Especializado em terapias cognitivas e emocionais, focado no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
     "perfilUrl": "/profile/dr-daniel-martins",
     "avaliacoes": [
@@ -906,7 +906,7 @@
     "lon": -43.9168051664426,
     "categoria": "Psicólogo",
     "endereco": "Avenida Getúlio Vargas, 1400 - Funcionários",
-    "foto": "assets/img/profissionais/Psic-F.png",
+    "foto": "assets/img/profissionais/Face6.jpeg",
     "descricao": "Especializada em terapias cognitivas e emocionais, focada no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
     "perfilUrl": "/profile/dr-manuela-santos",
     "avaliacoes": [
@@ -928,7 +928,7 @@
     "lon": -43.90562916892305,
     "categoria": "Psicólogo",
     "endereco": "Rua Curitiba, 700 - Centro",
-    "foto": "assets/img/profissionais/Psic-M.png",
+    "foto": "assets/img/profissionais/Face11.jpeg",
     "descricao": "Especializado em terapias cognitivas e emocionais, focado no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
     "perfilUrl": "/profile/dr-lucas-lima",
     "avaliacoes": [
@@ -991,7 +991,7 @@
     "lat": -19.907816493253815,
     "lon": -43.90425174969769,
     "categoria": "Advogado",
-    "endereço": "Rua Rio de Janeiro, 471 - Centro",
+    "endereco": "Rua Rio de Janeiro, 471 - Centro",
     "foto": "assets/img/profissionais/Adv-MM.png",
     "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
     "perfilUrl": "/",
@@ -1004,14 +1004,41 @@
     "lat": -19.93011,
     "lon": -43.95021,
     "categoria": "Advogado",
-    "endereço": "Avenida Afonso Pena, 1500 - Centro",
+    "endereco": "Avenida Afonso Pena, 1500 - Centro",
     "foto": "assets/img/profissionais/Adv-JS.png",
     "descricao": "Atuação especializada em Direito Civil e Empresarial, prestando consultoria jurídica de alta qualidade e representação em disputas judiciais complexas.",
     "perfilUrl": "/",
     "avaliacoes": [],
     "id": 37,
     "rating": 0
+  },
+  {
+    "nome": "Dr. João Victor Pele",
+    "lat": -19.93215,
+    "lon": -43.94032,
+    "categoria": "Advogado",
+    "endereco": "Avenida Afonso Pena, 2500 - Centro",
+    "foto": "assets/img/profissionais/Face22.jpeg",
+    "descricao": "Atuação especializada em Direito Familiar e Trabalhista, prestando consultoria jurídica, orientação e suporte legal para a garantia de direitos.",
+    "perfilUrl": "/",
+    "avaliacoes": [],
+    "id": 38,
+    "rating": 0
+  },
+  {
+    "nome": "Dr. Rafael Mendes",
+    "lat": -19.92843,
+    "lon": -43.95564,
+    "categoria": "Psicólogo",
+    "endereco": "Rua da Bahia, 1200 - Centro",
+    "foto": "assets/img/profissionais/Face23.jpeg",
+    "descricao": "Atuação especializada em Psicologia Clínica e Apoio Emocional, focado no acolhimento, escuta ativa e suporte ao bem-estar mental.",
+    "perfilUrl": "/",
+    "avaliacoes": [0],
+    "id": 39,
+    "rating": 0
   }
+  
 ]
 
 

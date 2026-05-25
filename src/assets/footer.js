@@ -113,7 +113,7 @@ class Footer extends HTMLElement {
           <a href="termosdeuso.html">Termos de Uso</a>
         </div>
 
-      <p>2025 Mães em Foco</p>
+      <p>${new Date().getFullYear()} Mães em Foco</p>
     </footer>
     `;
 

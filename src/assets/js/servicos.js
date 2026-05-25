@@ -3,6 +3,9 @@ let profissionaisAtualmenteExibidos = [];
 let filtroAtivo = "Todos"; 
 let termoPesquisaAtivo = ""; 
 
+let ordenacaoBemAvaliadosAtiva = false;
+let ordenacaoMaisProximosAtiva = false;
+
 const containerListaProfissionais = document.getElementById("lista-profissionais");
 const tituloCategoriaAtual = document.getElementById("titulo-categoria-atual");
 const searchBar = document.querySelector(".barra"); 
@@ -89,6 +92,37 @@ function exibirProfissionais(lista) {
     });
 }
 
+function atualizarTextoDoTitulo() {
+    let textoBase = "Todos os profissionais";
+    const filtroNormalizado = filtroAtivo.trim().toLowerCase();
+
+    if (filtroNormalizado === "psicólogo" || filtroNormalizado === "psicologo") {
+        textoBase = "Psicólogos";
+    } else if (filtroNormalizado === "advogado") {
+        textoBase = "Advogados";
+    } else if (filtroNormalizado === "babá" || filtroNormalizado === "baba") {
+        textoBase = "Babás";
+    } else if (filtroNormalizado === "creche") {
+        textoBase = "Creches";
+    } else if (filtroAtivo !== "Todos") {
+        textoBase = filtroAtivo + "s";
+    }
+
+    let complementos = [];
+    if (ordenacaoBemAvaliadosAtiva) {
+        complementos.push("Mais bem avaliados");
+    }
+    if (ordenacaoMaisProximosAtiva) {
+        complementos.push("Mais próximos");
+    }
+
+    if (complementos.length > 0) {
+        tituloCategoriaAtual.textContent = `${textoBase} (${complementos.join(" e ")})`;
+    } else {
+        tituloCategoriaAtual.textContent = textoBase;
+    }
+}
+
 function filtrarEExibirProfissionais() {
     let listaFiltrada = [...profissionais];
 
@@ -107,7 +141,18 @@ function filtrarEExibirProfissionais() {
     }
 
     profissionaisAtualmenteExibidos = listaFiltrada;
-    tituloCategoriaAtual.textContent = filtroAtivo === "Todos" ? "Todos os profissionais" : filtroAtivo + "s";
+
+    if (ordenacaoBemAvaliadosAtiva) {
+        profissionaisAtualmenteExibidos.sort((a, b) => (b.rating || 0) - (a.rating || 0));
+    }
+    if (ordenacaoMaisProximosAtiva) {
+        profissionaisAtualmenteExibidos.sort((a, b) => {
+            if (a.lat === undefined || b.lat === undefined) return 0;
+            return calcularDistancia(userLatitude, userLongitude, a.lat, a.lon) - calcularDistancia(userLatitude, userLongitude, b.lat, b.lon);
+        });
+    }
+
+    atualizarTextoDoTitulo();
     exibirProfissionais(profissionaisAtualmenteExibidos);
 }
 
@@ -130,19 +175,30 @@ searchBar.addEventListener("input", () => {
     filtrarEExibirProfissionais(); 
 });
 
-document.getElementById("btn-mais-avaliados").addEventListener("click", () => {
-    profissionaisAtualmenteExibidos.sort((a, b) => (b.rating || 0) - (a.rating || 0));
-    exibirProfissionais(profissionaisAtualmenteExibidos);
+document.getElementById("btn-mais-avaliados").addEventListener("click", (e) => {
+    ordenacaoBemAvaliadosAtiva = !ordenacaoBemAvaliadosAtiva;
+    if (ordenacaoBemAvaliadosAtiva) {
+        e.currentTarget.classList.add("active");
+    } else {
+        e.currentTarget.classList.remove("active");
+    }
+    filtrarEExibirProfissionais();
 });
 
-document.getElementById("btn-mais-proximos").addEventListener("click", () => {
-    profissionaisAtualmenteExibidos.sort((a, b) => {
-        if (a.lat === undefined || b.lat === undefined) return 0;
-        return calcularDistancia(userLatitude, userLongitude, a.lat, a.lon) - calcularDistancia(userLatitude, userLongitude, b.lat, b.lon);
-    });
-    exibirProfissionais(profissionaisAtualmenteExibidos);
+document.getElementById("btn-mais-proximos").addEventListener("click", (e) => {
+    ordenacaoMaisProximosAtiva = !ordenacaoMaisProximosAtiva;
+    if (ordenacaoMaisProximosAtiva) {
+        e.currentTarget.classList.add("active");
+    } else {
+        e.currentTarget.classList.remove("active");
+    }
+    filtrarEExibirProfissionais();
 });
 
 document.getElementById("btn-limpar-ordenacao").addEventListener("click", () => {
+    ordenacaoBemAvaliadosAtiva = false;
+    ordenacaoMaisProximosAtiva = false;
+    document.getElementById("btn-mais-avaliados").classList.remove("active");
+    document.getElementById("btn-mais-proximos").classList.remove("active");
     filtrarEExibirProfissionais();
 });
