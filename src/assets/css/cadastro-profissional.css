@@ -58,15 +58,15 @@ body {
 }
 
 .container h1 {
-    font-size: 28px;
-    font-weight: 500;
+    font-size: 30px; 
+    font-weight: 700;
     text-align: center;
     color: #212529;
     margin-bottom: 5px;
 }
 
 .paragrafo1 {
-    font-size: 13px;
+    font-size: 15px; 
     font-weight: 700;
     color: #622565; 
     text-align: center;
@@ -94,9 +94,9 @@ body {
 }
 
 .input-box label {
-    font-size: 11px;
+    font-size: 13px; 
     font-weight: 700;
-    color: #212529;
+    color: #000000; 
     margin-bottom: 2px;
 }
 
@@ -106,13 +106,13 @@ body {
     background-color: transparent;
     border: none;
     outline: none;
-    font-size: 14px;
-    color: #495057;
+    font-size: 16px; 
+    color: #212529; 
     padding: 0;
 }
 
 .input-box input::placeholder {
-    color: #adb5bd;
+    color: #757575; 
 }
 
 .senha-wrapper {
@@ -122,7 +122,7 @@ body {
 }
 
 .olho-senha {
-    color: #9f90c3;
+    color: #726397; 
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -130,12 +130,13 @@ body {
 }
 
 .aviso-senha {
-    font-size: 11px;
-    color: #8A3D8D; 
-    font-weight: 600;
-    margin: -15px 0 25px 0;
+    font-size: 14px; 
+    color: #7a2d7f; 
+    font-weight: 700; 
+    margin: -14px 0 25px 0;
     text-align: left;
     width: 100%;
+    line-height: 1.4;
 }
 
 .lembrar-senha {
@@ -146,7 +147,7 @@ body {
 }
 
 .lembrar-senha input[type="checkbox"] {
-    width: 18px;
+    width: 18px; 
     height: 18px;
     accent-color: #8A3D8D;
     cursor: pointer;
@@ -155,9 +156,9 @@ body {
 }
 
 .lembrar-senha label {
-    font-size: 13px;
+    font-size: 14px; 
     color: #8A3D8D;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1.4;
     cursor: pointer;
 }
@@ -169,14 +170,14 @@ body {
 
 .prof {
     width: 100%;
-    height: 50px;
+    height: 50px; 
     background-color: #9387A9; 
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 16px; 
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 700;
     margin-top: 5px;
     box-shadow: 0 4px 12px rgba(147, 135, 169, 0.3);
     transition: background 0.2s, transform 0.1s;
@@ -191,7 +192,7 @@ body {
 }
 
 .profissional {
-    font-size: 14px;
+    font-size: 15px; 
     text-align: center;
     margin-top: 30px;
     color: #212529;
@@ -202,6 +203,7 @@ body {
     color: #783CBD;
     text-decoration: none;
     margin-left: 4px;
+    font-weight: 700;
 }
 
 .profissional a:hover {
@@ -234,8 +236,8 @@ body {
 }
 
 .mensagem-sucesso {
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 17px; 
+    font-weight: 700;
     color: #212529;
     line-height: 1.5;
     margin-bottom: 20px;
@@ -246,8 +248,8 @@ body {
     color: #ffffff;
     border: none;
     border-radius: 6px;
-    padding: 10px 30px;
-    font-size: 14px;
+    padding: 10px 30px; 
+    font-size: 15px; 
     font-weight: 700;
     cursor: pointer;
     transition: background 0.2s;
@@ -287,7 +289,7 @@ body {
     }
 
     .mensagem-sucesso {
-        font-size: 16px;
+        font-size: 17px;
     }
 }
 
@@ -301,10 +303,10 @@ body {
     }
 
     .container h1 {
-        font-size: 24px;
+        font-size: 26px;
     }
     
     .lembrar-senha label {
-        font-size: 12px;
+        font-size: 13px;
     }
 }
