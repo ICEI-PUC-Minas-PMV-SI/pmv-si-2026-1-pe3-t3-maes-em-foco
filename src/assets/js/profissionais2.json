@@ -5,8 +5,8 @@
         "lat": -19.957774771427502,
         "lon": -43.95540307611624,
         "categoria": "Psicólogo",
-        "endereco": "Rua Rio Grande do Norte, 1500 - Funcionários",
-        "foto": "assets/img/profissionais/Psic-F.png",
+        "endereco": "Rua Rio Grande, 1500 - Funcionários",
+        "foto": "assets/img/profissionais/Face1.jpeg",
         "descricao": "Especializada em terapias cognitivas e emocionais, focada no auxílio ao equilíbrio mental, superação de desafios emocionais e promoção do bem-estar psicológico.",
         "perfilUrl": "/profile/dr-luiza-oliveira",
         "avaliacoes": [
@@ -161,13 +161,27 @@
         "id": 7,
         "rating": null
     },
+     {
+        "nome": "Crescer & Aprender",
+        "email": "cresceraprender.creche@educamais.com",
+        "lat": -19.919313,
+        "lon": -43.949621,
+        "categoria": "Creche",
+        "endereco": "Rua dos Aimorés, 1450",
+        "foto": "assets/img/profissionais/crescer e aprender.jpg",
+        "descricao": "Um mundo mágico de descobertas e aprendizado para os pequenos.",
+        "perfilUrl": "/",
+        "avaliacoes": [],
+        "id": 7,
+        "rating": null
+    },
     {
         "nome": "Amor e Carinho",
         "email": "amorecarinho.creche@familiakids.com",
         "lat": -19.980041,
         "lon": -43.915507,
         "categoria": "Creche",
-        "endereco": "Rua Platina, 1000 - Prado, Belo Horizonte",
+        "endereco": "Av. Afonso Pena, 3200",
         "foto": "assets/img/profissionais/Crch-AM.png",
         "descricao": "Valorizamos o cuidado afetuoso aliado a práticas pedagógicas criativas.",
         "perfilUrl": "/",
@@ -202,7 +216,7 @@
         "lat": -19.943,
         "lon": -43.9355,
         "categoria": "Advogado",
-        "endereco": "Rua da Bahia, 1000 - Lourdes",
+        "endereco": "Rua da Bahia, 800 - Lourdes",
         "foto": "assets/img/profissionais/Adv-FL.png",
         "descricao": "Especializada em Direito do Trabalho e da Família, atua com empatia e comprometimento para garantir os direitos dos seus clientes em momentos delicados.",
         "perfilUrl": "/profile/dra-ana-campos",
@@ -347,7 +361,7 @@
     "lat": -19.923054,
     "lon": -43.938446,
     "categoria": "Creche",
-    "endereco": "Rua dos Timbiras, 2400 - Lourdes, Belo Horizonte",
+    "endereco": "Rua dos Timbiras, 2400",
     "foto": "assets/img/profissionais/Crch-PS.png",
     "descricao": "Oferecemos um ambiente seguro, educativo e acolhedor para o desenvolvimento integral das crianças.",
     "perfilUrl": "/",
@@ -376,21 +390,21 @@
     "lat": -19.931421,
     "lon": -43.939199,
     "categoria": "Creche",
-    "endereco": "Rua Sergipe, 1375 - Savassi, Belo Horizonte",
+    "endereco": "Rua Sergipe, 1375 - Savassi",
     "foto": "assets/img/profissionais/creche2.jpeg",
     "descricao": "Promovemos atividades lúdicas e educativas em um espaço seguro e divertido.",
     "perfilUrl": "/",
     "avaliacoes": [],
     "id": 14,
-    "rating": 0
+    "rating": 4.6
   },
   {
     "nome": "Escolinha Sol Nascente",
-    "email": "escolinha.solnascente@crecheemail./com",
+    "email": "escolinha.solnascente@crecheemail.com.br",
     "lat": -19.944073,
     "lon": -43.932672,
     "categoria": "Creche",
-    "endereco": "Rua Pouso Alegre, 1234 - Floresta, Belo Horizonte",
+    "endereco": "Rua Pouso Alegre, 1234",
     "foto": "assets/img/profissionais/Crch-SM.png",
     "descricao": "Cuidamos com carinho e profissionalismo do bem-estar e desenvolvimento das crianças.",
     "perfilUrl": "/",
@@ -408,12 +422,59 @@
   },
   {
     "nome": "Pequeno Polegar",
-    "email": "pequenos.polegar@.com.br",
+    "email": "pequeno.polegar.com.br",
     "lat": -19.908427,
     "lon": -43.982844,
     "categoria": "Creche",
-    "endereco": "Rua Gávea, 650 - Buritis, Belo Horizonte",
+    "endereco": "Rua Gávea, 650 - Buritis",
     "foto": "assets/img/profissionais/creche1.jpeg",
+    "descricao": "Ambiente colorido e divertido com propostas pedagógicas modernas.",
+    "perfilUrl": "/",
+    "avaliacoes": [
+      {
+        "nome": "Fernanda Castro",
+        "nota": 5,
+        "data": "2025-04-01T11:15:00",
+        "texto": "Atendimento excelente e estrutura incrível.",
+        "tags": ["Didática", "Afetiva"]
+      }
+    ],
+    "id": 16,
+    "rating": 5
+  },
+ 
+   {
+    "nome": "Pequenos sonhadores",
+    "email": "pequenos.sonhadores@crechesmg.com.br",
+    "lat": -19.908427,
+    "lon": -43.982844,
+    "categoria": "Creche",
+    "endereco": "Rua Gávea, 650 - Buritis",
+    "foto": "assets/img/profissionais/mundo infantil.webp",
+    "descricao": "Ambiente colorido e divertido com propostas pedagógicas modernas.",
+    "perfilUrl": "/",
+    "avaliacoes": [
+      {
+        "nome": "Fernanda Castro",
+        "nota": 5,
+        "data": "2025-04-01T11:15:00",
+        "texto": "Atendimento excelente e estrutura incrível.",
+        "tags": ["Didática", "Afetiva"]
+      }
+    ],
+    "id": 16,
+    "rating": 5
+  },
+
+   
+   {
+    "nome": "BrincArte",
+    "email": "BrincArte@crechesmg.com.br",
+    "lat": -19.908427,
+    "lon": -43.982844,
+    "categoria": "Creche",
+    "endereco": "Rua Gávea, 650 - Buritis",
+    "foto": "assets/img/profissionais/outracreche.jpg",
     "descricao": "Ambiente colorido e divertido com propostas pedagógicas modernas.",
     "perfilUrl": "/",
     "avaliacoes": [
@@ -435,13 +496,13 @@
     "lat": -19.9201,
     "lon": -43.9395,
     "categoria": "Babá",
-    "endereco": "Rua Gonçalves Dias, 567 - Funcionários, Belo Horizonte",
+    "endereco": "Rua Gonçalves Dias, 567 - Funcionários",
     "foto": "assets/img/profissionais/Babas-MR.png",
     "descricao": "Profissional dedicada ao cuidado de crianças de até 6 anos, com foco em atividades educativas e lúdicas.",
     "perfilUrl": "/",
     "avaliacoes": [],
     "id": 17,
-    "rating": 0
+    "rating": 4.8
   },
   {
     "nome": "Juliana Mendes",
@@ -449,7 +510,7 @@
     "lat": -19.9278,
     "lon": -43.9373,
     "categoria": "Babá",
-    "endereco": "Avenida Afonso Pena, 1050 - Centro, Belo Horizonte",
+    "endereco": "Avenida Afonso Pena, 1050 - Centro",
     "foto": "assets/img/profissionais/Babas-LF.png",
     "descricao": "Especialista em cuidados com recém-nascidos e acompanhamento pós-parto para mães de primeira viagem.",
     "perfilUrl": "/",
@@ -471,13 +532,13 @@
     "lat": -19.9254,
     "lon": -43.9332,
     "categoria": "Babá",
-    "endereco": "Rua Paraíba, 1340 - Savassi, Belo Horizonte",
+    "endereco": "Rua Paraíba, 1340 - Savassi",
     "foto": "assets/img/profissionais/Babas-EW.png",
     "descricao": "Babá com formação em pedagogia e experiência em berçários e creches.",
     "perfilUrl": "/",
     "avaliacoes": [],
     "id": 19,
-    "rating": 0
+    "rating": 4.0
   },
   {
     "nome": "Lara Silva",
@@ -485,7 +546,7 @@
     "lat": -19.9356,
     "lon": -43.9381,
     "categoria": "Babá",
-    "endereco": "Rua Cláudio Manoel, 350 - Savassi, Belo Horizonte",
+    "endereco": "Rua Cláudio Manoel, 350 - Savassi",
     "foto": "assets/img/profissionais/Face14.jpeg",
     "descricao": "Foco em segurança, afeto e rotina saudável para crianças em idade pré-escolar.",
     "perfilUrl": "/",
@@ -507,13 +568,13 @@
     "lat": -19.9122,
     "lon": -43.9465,
     "categoria": "Babá",
-    "endereco": "Avenida Brasil, 2000 - Santa Efigênia, Belo Horizonte",
+    "endereco": "Avenida Brasil, 2000 - Santa Efigênia",
     "foto": "assets/img/profissionais/Face15.jpeg",
     "descricao": "Experiência com gêmeos e crianças com necessidades especiais.",
     "perfilUrl": "/",
     "avaliacoes": [],
     "id": 21,
-    "rating": 0
+    "rating": 4.5
   },
   {
     "nome": "Roberta Pinto",
@@ -521,7 +582,7 @@
     "lat": -19.9148,
     "lon": -43.9433,
     "categoria": "Babá",
-    "endereco": "Rua da Bahia, 1600 - Lourdes, Belo Horizonte",
+    "endereco": "Rua da Bahia, 1600 - Lourdes",
     "foto": "assets/img/profissionais/Face16.jpeg",
     "descricao": "Profissional afetuosa e comunicativa, com cursos em primeiros socorros e alimentação infantil.",
     "perfilUrl": "/",
@@ -543,13 +604,13 @@
     "lat": -19.9186,
     "lon": -43.9299,
     "categoria": "Babá",
-    "endereco": "Rua Aimorés, 2121 - Lourdes, Belo Horizonte",
+    "endereco": "Rua Aimorés, 2121 - Lourdes",
     "foto": "assets/img/profissionais/Babas-AC.png",
     "descricao": "Trabalha com métodos de educação positiva e estímulo sensorial para bebês.",
     "perfilUrl": "/",
     "avaliacoes": [],
     "id": 23,
-    "rating": 0
+    "rating": 4.0
   },
   {
     "nome": "Sabrina Martins",
@@ -557,7 +618,7 @@
     "lat": -19.9369,
     "lon": -43.9194,
     "categoria": "Babá",
-    "endereco": "Rua Marília de Dirceu, 60 - Lourdes, Belo Horizonte",
+    "endereco": "Rua Marília de Dirceu, 60 - Lourdes",
     "foto": "assets/img/profissionais/Babas-SM.png",
     "descricao": "Apaixonada pelo universo infantil, oferece suporte integral ao desenvolvimento das crianças.",
     "perfilUrl": "/",
@@ -574,7 +635,7 @@
     "rating": 5
   },
   {
-    "nome": "Dra Laís Martins",
+    "nome": "Dra. Laís Martins",
     "lat": -19.924602396954285,
     "lon": -43.88060524985466,
     "categoria": "Advogado",
@@ -627,7 +688,7 @@
     "rating": 3.25
   },
   {
-    "nome": "Dra Natália Santos",
+    "nome": "Dra. Natália Santos",
     "lat": -19.96813093507121,
     "lon": -43.977438428725264,
     "categoria": "Advogado",
@@ -997,7 +1058,7 @@
     "perfilUrl": "/",
     "avaliacoes": [],
     "id": 36,
-    "rating": 0
+    "rating": 5.0
   },
   {
     "nome": "Dr. João Silva",
@@ -1010,33 +1071,33 @@
     "perfilUrl": "/",
     "avaliacoes": [],
     "id": 37,
-    "rating": 0
+    "rating": 4.9
   },
   {
     "nome": "Dr. João Victor Pele",
     "lat": -19.93215,
     "lon": -43.94032,
     "categoria": "Advogado",
-    "endereco": "Avenida Afonso Pena, 2500 - Centro",
+    "endereco": "Avenida Afonso Pena, 800 - Centro",
     "foto": "assets/img/profissionais/Face22.jpeg",
     "descricao": "Atuação especializada em Direito Familiar e Trabalhista, prestando consultoria jurídica, orientação e suporte legal para a garantia de direitos.",
     "perfilUrl": "/",
     "avaliacoes": [],
     "id": 38,
-    "rating": 0
+    "rating": 5.0
   },
   {
     "nome": "Dr. Rafael Mendes",
     "lat": -19.92843,
     "lon": -43.95564,
     "categoria": "Psicólogo",
-    "endereco": "Rua da Bahia, 1200 - Centro",
+    "endereco": "Rua da Bahia, 500 - Centro",
     "foto": "assets/img/profissionais/Face23.jpeg",
     "descricao": "Atuação especializada em Psicologia Clínica e Apoio Emocional, focado no acolhimento, escuta ativa e suporte ao bem-estar mental.",
     "perfilUrl": "/",
     "avaliacoes": [0],
     "id": 39,
-    "rating": 0
+    "rating": 5.0
   }
   
 ]

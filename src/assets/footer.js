@@ -92,7 +92,6 @@ class Footer extends HTMLElement {
             <ul>
               <li>Serviços</li>
               <li><a href="servicos.html">Profissionais</a></li>
-              <li><a href="creches.html">Mapa</a></li>
               <li><a href="forum.html">Feed</a></li>
             </ul>
             <ul>
