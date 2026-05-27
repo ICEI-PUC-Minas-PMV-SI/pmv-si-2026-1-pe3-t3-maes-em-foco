@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/codigo.css">
+    <title>Verificar Código - Mães em Foco</title>
+</head>
+<body>
+
+    <div class="topo-pagina">
+        <img src="assets/img/logo.png" alt="Mães em Foco" id="logo-fundo">
+        <a href="javascript:history.back()" class="voltar-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" width="24" height="24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+            </svg>
+        </a>
+    </div>
+    
+    <main class="container">
+        <form id="form-login">
+            <h1>Redefinir senha</h1>
+            <p class="paragrafo-1">Digite o código de 4 dígitos enviado ao seu e-mail</p>
+            
+            <div class="secao-dados">
+                <div class="input-box">
+                    <label for="codigo">Código</label>
+                    <input placeholder="0000" type="number" id="codigo" maxlength="4" required>
+                </div>
+            </div>
+            
+            <button type="submit" class="code">Confirmar</button>
+        </form>
+    </main>
+
+    <div id="tela-sucesso" class="tela-sucesso" style="display: none;">
+        <div class="card-notificacao">
+            <div class="mensagem-sucesso">
+                Código validado com sucesso!
+            </div>
+            <button type="button" id="btn-fechar-sucesso" class="btn-ok">OK</button>
+        </div>
+    </div>
+
+    <script src="assets/js/codigo.js"></script>
+</body>
+</html>

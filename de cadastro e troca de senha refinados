@@ -1,0 +1,131 @@
+*   [33m05a8a11[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge branch 'main' of https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2026-1-pe3-t3-maes-em-foco
+[31m|[m[32m\[m  
+[31m|[m * [33mbe81130[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m feat: ajusta responsividade e tamanhos de fonte nas telas de login e busca
+* [32m|[m [33mf84dfb7[m adiciona html e css do perfil das mães
+[32m|[m[32m/[m  
+* [33m6ae4acc[m Mudanças na tela de profissionais
+* [33m902e6dd[m feat: deixa a tela de cadastro responsiva
+* [33mc971219[m Atualiza design com novas telas e recomendações de acessibilidade
+* [33m4d59f9d[m Add empathy maps for new personas and images
+* [33mdbe17d6[m Refine objectives and frustrations in design.md
+* [33md7e996c[m Revise personas com novas informações e detalhes
+* [33m1966b52[m Ajusta caminhos das imagens para pasta img e pastas css e js
+* [33mbe1402e[m Add cadastro-profissional.html for professional registration
+* [33mfc797be[m update
+* [33md4903e9[m Fix typos and grammar in design.md
+* [33m428c78f[m Documentar feedback sobre a tela de gestão de perfil
+* [33mdd4e760[m add tela de perfil do usuario
+* [33m89606c2[m Update profile screen description in design document
+* [33m226100a[m Enhance design documentation with UI details and testing
+* [33mf57a204[m Update section headers in design documentation
+* [33m0c2b58c[m Update design.md
+* [33ma4e37bb[m Update design.md
+* [33mb73686d[m Fix formatting issues in design.md
+* [33m94ddbb9[m Update design.md
+* [33m8f56756[m add logo na pasta img
+* [33m0712d92[m Revise interface prototypes section with design principles
+* [33mc057e64[m Clarify consistency rule in design document
+* [33m1d19c6f[m Revise personas and add empathy maps in design document
+* [33m460a41d[m Update design documentation for clarity and consistency
+* [33ma085a1d[m Update design.md
+* [33m510fc2b[m Remove unnecessary images from design.md
+* [33mfc0b31e[m Update design.md with new images
+* [33m1e2cc99[m Revise design documentation for user interfaces
+* [33m7c3f381[m Update design.md
+* [33me254a55[m Update especificacao.md
+* [33m9b1b526[m Att Mapa de Empatia -> Tereza Martins
+* [33m8beb47e[m Att Objetivos -> Tereza Martins
+* [33m6135936[m update
+* [33mc8440db[m mapa de empatia alice
+* [33m3c86a5f[m Update image for Dr. Rafael Mendes in design document
+* [33mdcf82ce[m Update design.md
+* [33m9c28ec3[m mapa de empatia alice
+* [33m712fc7f[m Add empathy map image for Dr. Rafael Mendes
+* [33m9d956d0[m Update design.md
+* [33mea5d864[m alteraçao objetivos do ADVOGADO
+* [33md58ffea[m ATT -> Tereza Martins, Add - Biografia/Objetivos
+* [33m630edd5[m Update design.md
+* [33m69926c7[m Revise Dr. Rafael Mendes' biography and objectives
+* [33m5fc1dfb[m Update design.md
+* [33mc860e7c[m Update especificacao.md
+* [33m122427f[m Add image for Dr. Rafael Mendes in design document
+* [33m5656dc0[m Update image for Dr. Rafael Mendes in design document
+* [33m676bd46[m Atualizaçao mapa de empatia - ADVGD
+* [33m72af4db[m Update design.md
+* [33me0c82cc[m Atualizaçao da Persona - ADVGD
+* [33m84b7226[m Update design.md
+* [33m5f52c3c[m Add image for Dr. Rafael Mendes
+* [33mc23975a[m atualiza mapa de empatia Alice
+* [33m6a9be64[m atualiza persona Alice Mendonça
+* [33m770f980[m atualiza escopo
+* [33mcea79a9[m Fix punctuation in Ana Paula's description
+* [33m6cfb54b[m ana paula
+* [33m283f45d[m add  - Creche Mundo Encantado -> Tereza Martins
+* [33m47a5de7[m Add mapa de empatia
+* [33m1b1700f[m add mapa empatia persona
+* [33m178f058[m Fix doctor name formatting and add image for Dr. Rafael Mendes
+* [33m0087a94[m Adicionando Mapa de empatia
+* [33maa5faa4[m Correção de pontuação -> Tereza
+* [33mbdcee5f[m add de persona "Tereza"
+* [33mc765490[m Nova persona
+* [33m729f435[m adiciona nova Persona
+* [33mb030bb9[m Atulização Persona Advogado
+* [33mc586944[m Update persona section with Dr. Rafael Mendes details
+* [33m3ab7b71[m Update persona section and details for Dr. Rafael Mendes
+* [33mcbf0372[m Add persona for Dr. Rafael Mendes
+* [33m7e7ac5c[m Update product limitations and communication details
+* [33m3cf6bb3[m Update especificacao.md
+* [33m0d71e6a[m Update especificacao.md
+* [33m3330f03[m .
+* [33m0f3bb97[m .
+* [33mc4bb166[m casos de uso
+* [33m4010dba[m atualiza casos de uso 3.4.2
+* [33ma2e602a[m update img diagrama caso de uso
+* [33m4a447a5[m .
+* [33m098d31f[m diagrama de caso de uso
+* [33m3848373[m atualiza componentes e requisitos
+* [33m745115f[m atualiza requisitos funcionais
+* [33m9278d29[m atualiza requisitos funcionais
+* [33mef50876[m atualiza escopo do produto
+* [33me45e21f[m Update especificacao.md
+* [33md4b5f63[m Update especificacao.md
+* [33m4481c58[m Update referencias.md
+* [33m8d7fccd[m Update referencias.md
+* [33m37bbf47[m Update estado.md
+* [33md0f5d29[m Update introducao.md
+* [33mc7383a7[m Revise estado.md
+* [33m4f9fef8[m Revise estado.md
+* [33m22cb04d[m Revise 'Estado da Arte' section on solo mothers' challenges
+* [33m7617f62[m Update references in referencias.md
+* [33m0e7b043[m Revisa introdução e objetivos do projeto Mães em Foco
+* [33m7aea844[m Add reference from DIEESE on women's labor market issues
+* [33m2109859[m Revise introduction with updated statistics and clarity
+* [33m9ad3cc3[m Update especificacao.md
+* [33ma55b273[m Update especificacao.md
+* [33m9d2397e[m Update especificacao.md
+* [33m5ca0605[m Update especificacao.md
+* [33mae3ae73[m Update especificacao.md
+* [33m1554e4e[m Revise software requirements specification document
+* [33m15ab46c[m Revise a especificação de requisitos para Mães em Foco
+* [33mf3cac30[m Update estado.md
+* [33m74fe81d[m Update estado.md
+* [33md7ccbd7[m Update README with project details
+* [33m14d8b62[m Add reference to Estadão study on solo mothers
+* [33mb8051f9[m Update introduction and justification for project
+* [33ma1d286c[m Update references in referenciass.md
+* [33m9d992eb[m Update estado.md with research findings on single mothers
+* [33m87c2ed3[m Update headings for clarity in estado.md
+* [33m5cb941d[m Update headings and improve formatting in estado.md
+* [33m37e0a69[m Revise section on research about solo mothers
+* [33mec3d52b[m Fix formatting and improve clarity in estado.md
+* [33m833fe55[m Update headings and improve formatting in estado.md
+* [33m569bfbc[m Enhance estado.md with insights on single mothers' challenges
+* [33m278d5b6[m Aprimorar a descrição dos objetivos do Mães em Foco
+* [33me64ccc7[m Revise introduction and objectives for Mães em Foco
+* [33m3ba6ca9[m Revise references in referencias.md
+* [33m485ee90[m Add references to the documentation
+* [33mae302b7[m Fix reference link in referencias.md
+* [33md608d06[m Add reference to 'Sem Parar 2025' research
+* [33m09e3791[m Enhance introduction and objectives for Mães em Foco
+* [33mf0cacae[m Update project title and team member names in README
+* [33m19b4ebf[m Initial commit

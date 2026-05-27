@@ -4,6 +4,20 @@ const containerRegistro = document.getElementById('registroContainer');
 const inputRegistro = document.getElementById('registro');
 const telaSucesso = document.getElementById('tela-sucesso');
 
+const btnOlho = document.getElementById('btn-olho');
+const inputSenha = document.getElementById('senha');
+const senhaWrapper = document.querySelector('.senha-wrapper');
+
+btnOlho.addEventListener('click', () => {
+  if (inputSenha.type === 'password') {
+    inputSenha.type = 'text';
+    senhaWrapper.classList.add('visivel');
+  } else {
+    inputSenha.type = 'password';
+    senhaWrapper.classList.remove('visivel');
+  }
+});
+
 const dados = {
   psicologos: [
     { "email": "karine.ferraz@gmail.com" },
@@ -100,7 +114,7 @@ form.addEventListener('submit', (e) => {
 
   const name = document.getElementById('nome').value.trim();
   const email = document.getElementById('email').value.trim();
-  const senha = document.getElementById('senha').value.trim();
+  const senha = inputSenha.value.trim();
   const cidade = document.getElementById('cidade').value.trim();
   const especialidade = campoEspecialidade.value.trim();
   const registro = inputRegistro.value.trim();
@@ -148,5 +162,7 @@ const btnFecharSucesso = document.getElementById('btn-fechar-sucesso');
 btnFecharSucesso.addEventListener('click', () => {
   telaSucesso.style.display = 'none';
   form.reset();
+  inputSenha.type = 'password';
+  senhaWrapper.classList.remove('visivel');
   window.location.href = 'index.html';
 });

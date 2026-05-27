@@ -110,7 +110,6 @@ class PostModal {
     });
 
     textarea.addEventListener("keydown", (e) => {
-      // isso permite que o post seja feito se o usuário clicar em ctrl+enter
       if (e.key === "Enter" && (e.ctrlKey || e.metaKey)) {
         e.preventDefault();
         if (this.postContent.trim().length > 0) {
@@ -138,7 +137,6 @@ class PostModal {
   open() {
     if (this.element) {
       this.element.style.display = "flex";
-      // isso vai fazer ele focar no textarea ao abrir o modal
       setTimeout(() => {
         const textarea = this.element.querySelector(".post-title-input");
         if (textarea) {
