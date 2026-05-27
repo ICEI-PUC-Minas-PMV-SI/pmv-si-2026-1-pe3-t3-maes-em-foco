@@ -354,3 +354,13 @@ a {
     font-size: 18px;
   }
 }
+
+@media (max-width: 375px) {
+  .card {
+    width: 170px;
+  }
+  
+  .card img {
+    height: 110px;
+  }
+}

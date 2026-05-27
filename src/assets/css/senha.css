@@ -210,3 +210,24 @@ body {
         padding: 40px 30px;
     }
 }
+
+@media (max-width: 480px) {
+    .container {
+        padding: 25px 20px;
+    }
+    .container h1 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        padding: 20px 15px;
+    }
+    .container h1 {
+        font-size: 22px;
+    }
+    .chave {
+        height: 45px;
+    }
+}

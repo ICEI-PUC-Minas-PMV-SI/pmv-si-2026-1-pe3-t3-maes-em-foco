@@ -263,13 +263,9 @@ input::-webkit-credentials-auto-fill-button {
     .container {
         padding: 35px 25px;
     }
-
-    .mensagem-sucesso {
-        font-size: 17px;
-    }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
     body {
         padding: 15px 10px;
     }
@@ -280,5 +276,19 @@ input::-webkit-credentials-auto-fill-button {
 
     .container h1 {
         font-size: 26px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        padding: 20px 10px;
+    }
+
+    .container h1 {
+        font-size: 22px;
+    }
+    
+    .new {
+        height: 45px;
     }
 }
