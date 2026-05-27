@@ -1,0 +1,171 @@
+
+body {
+    background-color: #f4eff6; 
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.user-info, 
+.user-posts {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+    padding: 35px 40px;
+    box-sizing: border-box;
+}
+
+/* user information */
+.user-info {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+        "pic name edit"
+        "pic details details"
+        "bio bio bio";
+    column-gap: 25px;
+    align-items: start;
+    margin-top: 40px;
+}
+
+
+.profile-header, 
+.profile-body {
+    display: contents;
+}
+
+.profile-picture-container {
+    grid-area: pic;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* nome */
+.profile-header h1 {
+    grid-area: name;
+    font-size: 1.4rem;
+    margin: 5px 0 5px 0;
+    color: #726397;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Botão Editar Perfil */
+.profile-header a {
+    grid-area: edit;
+    text-decoration: none;
+    color: #a694b8 !important; 
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+/* Detalhes (Mãe solo, Idade, Filhos) */
+.profile-details {
+    grid-area: details;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.profile-details p {
+    margin: 0;
+    color: #a694b8;
+    font-size: 0.95rem;
+}
+
+/* Biografia */
+.profile-bio {
+    grid-area: bio;
+    margin-top: 30px;
+    text-align: center;
+    color: #8c7a9e;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+/* =========================================
+   Cartão 2: Publicações
+   ========================================= */
+.user-posts h2 {
+    font-size: 1.3rem;
+    color: #726397;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.post {
+    border-bottom: 1px solid #f0eaf3;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.post:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.post h3 {
+    color: #a694b8;
+    font-size: 1.1rem;
+    margin: 0 0 15px 0;
+    font-weight: 600;
+}
+
+.post p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #4a4a4a;
+    margin: 0 0 20px 0;
+}
+
+.post-img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    display: block;
+    max-width: 300px;
+    margin: 15px auto 0 auto;
+}
+
+/* =========================================
+   Responsividade (Mobile)
+   ========================================= */
+@media (max-width: 600px) {
+    .user-info {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "edit"
+            "pic"
+            "name"
+            "details"
+            "bio";
+        text-align: center;
+        justify-items: center;
+        row-gap: 15px;
+        padding: 25px 20px;
+    }
+
+    .profile-header h1 {
+        justify-content: center;
+    }
+
+    .profile-header a {
+        justify-self: center;
+        margin-top: 0;
+    }
+
+    .profile-details {
+        align-items: center;
+    }
+}
