@@ -1,0 +1,81 @@
+.conteudo-principal {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.banner-sobre {
+  background-color: #eaddf3;
+  width: 100%;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.banner-sobre h2 {
+  color: #726397;
+  margin-bottom: 20px;
+}
+
+.secao-escolha {
+  background-color: #d1bce3;
+  width: 100%;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.titulo-escolha {
+  color: #726397;
+  margin-bottom: 50px;
+}
+
+.cards-container {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #c9b1de;
+  padding: 40px;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.card h4 {
+  margin-bottom: 20px;
+}
+
+.card-icon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.card-texto {
+  font-size: 14px;
+  margin-bottom: 30px;
+  flex-grow: 1;
+}
+
+.btn-acao {
+  background-color: #726397;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.login-prompt {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.login-prompt a {
+  color: #726397;
+  font-weight: bold;
+  text-decoration: underline;
+}
