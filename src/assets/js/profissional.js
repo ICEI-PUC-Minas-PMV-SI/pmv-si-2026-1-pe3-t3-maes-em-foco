@@ -2,7 +2,6 @@ const form = document.getElementById('form-login');
 const campoEspecialidade = document.getElementById('especialidade');
 const containerRegistro = document.getElementById('registroContainer');
 const inputRegistro = document.getElementById('registro');
-
 const btnOlho = document.getElementById('btn-olho');
 const inputSenha = document.getElementById('senha');
 const senhaWrapper = document.querySelector('.senha-wrapper');
@@ -17,84 +16,30 @@ btnOlho.addEventListener('click', () => {
   }
 });
 
-const dados = {
-  psicologos: [
-    { "email": "karine.ferraz@gmail.com" },
-    { "email": "laiscarvalhoclinica@gmail.com" },
-    { "email": "fernandacarvalho@gmail.com" },
-    { "email": "luana.silva.psi@gmail.com" },
-    { "email": "alicia.martins@gmail.com" },
-    { "email": "bruno.silva@yahoo.com" },
-    { "email": "isabela.mendes@outlook.com" },
-    { "email": "joao.pereira@yahoo.com" },
-    { "email": "karla.alves@terra.com.br" },
-    { "email": "lucas.oliveira@gmail.com" },
-    { "email": "mariana.rocha@hotmail.com" },
-    { "email": "nicolas.teixeira@bol.com.br" },
-    { "email": "tiago.nunes@gmail.com" },
-    { "email": "patricia.monteiro@psiemail.com" },
-    { "email": "andressa.souza@clinicapsi.com" },
-    { "email": "vinicius.martins@psicocuidado.com" },
-    { "email": "caroline.ramos@saudemental.com" },
-    { "email": "0000907077@senaimgaluno.com.br" }
-  ],
-  advogados: [
-    { "email": "ana.campos@direitobrasil.com" },
-    { "email": "ricardo.torres@jurispro.com" },
-    { "email": "fernando.lima@justmail.com" },
-    { "email": "tatiane.sousa@defensoria.org" },
-    { "email": "maria.gomes@advlegal.com" },
-    { "email": "eduardo.silva@justonline.net" },
-    { "email": "juliana.moura@advmail.org" },
-    { "email": "bruno.castro@direitohoje.com" },
-    { "email": "paula.ferraz@legalmente.com" },
-    { "email": "vinicius.cardoso@juridiconet.com" },
-    { "email": "lais.martins@direitoemail.com" },
-    { "email": "marcos.alves@bradv.com" },
-    { "email": "natalia.santos@advorg.com" },
-    { "email": "camila.freitas@jusbrasil.org" },
-    { "email": "lucas.ribeiro@advcenter.com" },
-    { "email": "aline.pereira@escritoriolegal.com" },
-    { "email": "gustavo.ferreira@legis.net" },
-    { "email": "helena.dias@jurisweb.com" }
-  ],
-  babas: [
-    { "email": "camila.souza@cuidadoinfantil.com" },
-    { "email": "marcela.ramos@familiafeliz.net" },
-    { "email": "juliana.mendes@babysafe.org" },
-    { "email": "renata.lima@cuidadoras.com" },
-    { "email": "lara.silva@babycare.com" },
-    { "email": "tatiane.freitas@meubebe.net" },
-    { "email": "roberta.pinto@casinha.com.br" },
-    { "email": "vanessa.almeida@cuidadoras-kids.com" },
-    { "email": "aline.costa@babysmile.org" },
-    { "email": "sabrina.martins@bebeleve.com" }
-  ],
-  creches: [
-    { "email": "creche.sorrisos@educabem.com" },
-    { "email": "jardim.dosanjos@infantilbr.org" },
-    { "email": "escolinha.solnascente@crecheemail.com" },
-    { "email": "creche.bemmequer@cuidadoinfantil.com" },
-    { "email": "creche.pequenospassos@educar.org" },
-    { "email": "nossolar.infantil@abracokids.com" },
-    { "email": "escolinha.arcoiris@infantnet.com" },
-    { "email": "mundoencantado.creche@educamais.com" },
-    { "email": "amorecarinho.creche@familiakids.com" },
-    { "email": "creche.luzdavida@infantil.org" }
-  ],
-  maes: [
-    { "email": "maria.souza@gmail.com" },
-    { "email": "joana.pereira@gmail.com" },
-    { "email": "ana.lima@gmail.com" },
-    { "email": "patricia.silva@gmail.com" },
-    { "email": "lucia.martins@gmail.com" },
-    { "email": "renata.oliveira@gmail.com" },
-    { "email": "fabiana.costa@gmail.com" },
-    { "email": "carla.ferreira@gmail.com" },
-    { "email": "helena.santos@gmail.com" },
-    { "email": "paula.alves@gmail.com" }
-  ]
-};
+window.addEventListener('load', () => {
+    const dadosSalvos = JSON.parse(localStorage.getItem('cadastroProfissionalTemp'));
+    if (dadosSalvos) {
+        document.getElementById('nome').value = dadosSalvos.nome || '';
+        document.getElementById('email').value = dadosSalvos.email || '';
+        document.getElementById('cidade').value = dadosSalvos.cidade || '';
+        document.getElementById('especialidade').value = dadosSalvos.especialidade || '';
+        if (dadosSalvos.especialidade === 'Psicólogo' || dadosSalvos.especialidade === 'Advogado') {
+            containerRegistro.style.display = 'flex';
+            inputRegistro.value = dadosSalvos.registro || '';
+        }
+    }
+});
+
+form.addEventListener('input', () => {
+    const dadosParaSalvar = {
+        nome: document.getElementById('nome').value,
+        email: document.getElementById('email').value,
+        cidade: document.getElementById('cidade').value,
+        especialidade: document.getElementById('especialidade').value,
+        registro: document.getElementById('registro').value
+    };
+    localStorage.setItem('cadastroProfissionalTemp', JSON.stringify(dadosParaSalvar));
+});
 
 campoEspecialidade.addEventListener('input', () => {
   const valor = campoEspecialidade.value;
@@ -144,16 +89,16 @@ form.addEventListener('submit', (e) => {
     return;
   }
 
-  const emailJaCadastrado = Object.entries(dados).some(([categoria, lista]) => {
-    if (categoria === 'maes') return false;
-    return lista.some(usuario => usuario.email.toLowerCase() === email.toLowerCase());
-  });
-
-  if (emailJaCadastrado) {
+  let emailsCadastrados = JSON.parse(localStorage.getItem('emailsCadastrados')) || [];
+  if (emailsCadastrados.includes(email.toLowerCase())) {
     alert('Este e-mail já está cadastrado.');
     return;
   }
 
+  emailsCadastrados.push(email.toLowerCase());
+  localStorage.setItem('emailsCadastrados', JSON.stringify(emailsCadastrados));
+  localStorage.removeItem('cadastroProfissionalTemp');
+  
   CadastroSucesso.exibir();
 });
 
