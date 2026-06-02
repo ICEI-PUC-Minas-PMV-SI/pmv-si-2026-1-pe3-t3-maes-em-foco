@@ -1,0 +1,24 @@
+/* Estilos específicos do login de mães (base: cadastro-profissional.css + cadastro-maes.css) */
+
+.link-esqueci {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+    color: #783CBD;
+    text-decoration: none;
+    margin: -10px 0 20px 0;
+}
+
+.link-esqueci:hover {
+    text-decoration: underline;
+}
+
+/* Senha oculta: olho cortado; senha visível: olho aberto */
+.senha-wrapper .olho-oculto {
+    display: block;
+}
+
+.senha-wrapper.visivel .olho-oculto {
+    display: none;
+}
