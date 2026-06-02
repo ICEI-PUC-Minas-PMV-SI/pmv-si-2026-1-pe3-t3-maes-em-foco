@@ -1,3 +1,15 @@
+body {
+  background-color: #ded2e7;
+  min-height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header-component {
+  display: block;
+  background-color: #ffffff;
+}
+
 .conteudo-principal {
   display: flex;
   flex-direction: column;
@@ -5,47 +17,69 @@
 }
 
 .banner-sobre {
-  background-color: #eaddf3;
+  background-color: #ded2e7;
   width: 100%;
-  padding: 80px 20px;
+  padding: 60px 20px;
   text-align: center;
 }
 
 .banner-sobre h2 {
-  color: #726397;
-  margin-bottom: 20px;
+  color: #171718;
+  margin-bottom: 15px;
+  font-size: 32px;
+}
+
+.banner-sobre p {
+  color: #7A1DA9;
+  font-size: 20px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .secao-escolha {
-  background-color: #d1bce3;
+  background-color: #c4a5df;
   width: 100%;
-  padding: 80px 20px;
+  padding: 40px 20px;
   text-align: center;
 }
 
 .titulo-escolha {
-  color: #726397;
+  color: #171718;
   margin-bottom: 50px;
+  font-size: 28px;
 }
 
 .cards-container {
   display: flex;
-  gap: 50px;
+  gap: 40px;
   justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .card {
-  background-color: #c9b1de;
+  background-color: #cfb6e5;
   padding: 40px;
-  width: 380px;
+  width: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 15px;
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 .card h4 {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  font-size: 22px;
+  color: #5d3a7a;
+  text-underline-offset: 6px;
 }
 
 .card-icon {
@@ -55,27 +89,52 @@
 }
 
 .card-texto {
-  font-size: 14px;
+  font-size: 18px;
+  line-height: 1.5;
   margin-bottom: 30px;
   flex-grow: 1;
+  color: #333;
 }
 
 .btn-acao {
-  background-color: #726397;
-  color: #fff;
+  background-color: #947cd6;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
   border: none;
-  padding: 12px 25px;
-  border-radius: 20px;
+  padding: 15px 40px;
+  border-radius: 50px;
   cursor: pointer;
+  text-decoration: none; 
+  display: inline-block;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-acao:hover {
+  background-color: #76689b;
+  transform: scale(1.05);
 }
 
 .login-prompt {
-  margin: 50px 0;
+  margin: 20px 0 40px 0;
   text-align: center;
+  font-size: 20px;
 }
 
 .login-prompt a {
-  color: #726397;
+  color: #5d3a7a;
   font-weight: bold;
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .card {
+    width: 85%;
+  }
 }
