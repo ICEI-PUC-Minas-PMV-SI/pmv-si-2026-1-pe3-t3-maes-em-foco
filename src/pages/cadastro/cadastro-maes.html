@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/cadastro-profissional.css">
+    <link rel="stylesheet" href="css/cadastro-maes.css">
+    <title>Cadastro para Mães - Mães em Foco</title>
+</head>
+
+<body>
+    <div class="topo-pagina">
+        <img src="../../assets/img/logo.png" alt="Mães em Foco" id="logo-fundo">
+        <a href="javascript:history.back()" class="voltar-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+            </svg>
+        </a>
+    </div>
+
+    <main class="container" id="conteudo-principal">
+        <form id="form-cadastro" novalidate>
+            <h1>Cadastro para Mães</h1>
+
+            <div class="input-box">
+                <label for="nome">Nome completo</label>
+                <input placeholder="Thiago Castro" type="text" name="name" id="nome" autocomplete="name">
+            </div>
+            <p class="aviso-campo" id="aviso-nome"></p>
+
+            <div class="input-box">
+                <label for="email">Email</label>
+                <input placeholder="thiagocastro@email.com.br" type="email" id="email" autocomplete="email">
+            </div>
+            <p class="aviso-campo" id="aviso-email"></p>
+
+            <div class="input-box">
+                <label for="senha">Senha</label>
+                <div class="senha-wrapper">
+                    <input placeholder="****************" type="password" maxlength="14" id="senha" autocomplete="new-password">
+                    <span class="olho-senha" id="btn-olho">
+                        <svg id="icone-olho" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="24" height="24">
+                            <path class="olho-visivel" d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z" />
+                            <circle class="olho-visivel" cx="12" cy="12" r="3" />
+                            <line class="olho-oculto" x1="2" y1="2" x2="22" y2="22" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+            <p class="aviso-senha" id="aviso-senha">Mínimo de 8 caracteres e uma letra maiúscula</p>
+
+            <div class="input-box">
+                <label for="cidade">Cidade</label>
+                <input placeholder="Belo Horizonte, Minas Gerais" id="cidade" autocomplete="address-level2">
+            </div>
+            <p class="aviso-campo" id="aviso-cidade"></p>
+
+            <div class="lembrar-senha">
+                <input type="checkbox" id="termos">
+                <label for="termos">
+                    Eu concordo com os <a href="termosdeuso.html">termos de privacidade e serviço</a>
+                </label>
+            </div>
+
+            <button type="submit" class="prof">Cadastrar</button>
+
+            <div class="profissional">
+                <span>Já tem uma conta? <a href="../../index.html" class="conta"><b>Fazer login</b></a></span>
+            </div>
+        </form>
+    </main>
+
+    <div id="tela-sucesso" class="tela-sucesso" style="display: none;">
+        <div class="card-notificacao">
+            <div class="mensagem-sucesso">
+                Sucesso! Seu cadastro foi enviado para análise. Em breve você receberá um retorno no seu e-mail.
+            </div>
+            <button type="button" id="btn-fechar-sucesso" class="btn-ok">OK</button>
+        </div>
+    </div>
+
+    <script src="../../assets/js/cadastro-sucesso.js"></script>
+    <script src="../../assets/js/cadastro-maes.js"></script>
+</body>
+</html>
