@@ -3,6 +3,8 @@ const btnOlho = document.getElementById('btn-olho');
 const inputSenha = document.getElementById('senha');
 const senhaWrapper = document.querySelector('.senha-wrapper');
 
+const ROTA_APOS_LOGIN = '../../userprofile.html';
+
 function alternarVisibilidadeSenha() {
   if (inputSenha.type === 'password') {
     inputSenha.type = 'text';
@@ -34,8 +36,27 @@ function limparErro(inputId, avisoId) {
   document.getElementById(inputId).closest('.input-box').classList.remove('input-erro');
 }
 
+function marcarErroLogin(msg) {
+  document.getElementById('aviso-senha').textContent = msg;
+  document.getElementById('email').closest('.input-box').classList.add('input-erro');
+  inputSenha.closest('.input-box').classList.add('input-erro');
+}
+
+function limparErrosLogin() {
+  limparErro('email', 'aviso-email');
+  limparErro('senha', 'aviso-senha');
+}
+
+function resetarFormularioLogin() {
+  inputSenha.type = 'password';
+  senhaWrapper.classList.remove('visivel');
+  btnOlho.setAttribute('aria-label', 'Mostrar senha');
+  limparErrosLogin();
+}
+
 form.addEventListener('submit', (e) => {
   e.preventDefault();
+  limparErrosLogin();
 
   const email = document.getElementById('email').value.trim();
   const senha = inputSenha.value;
@@ -44,30 +65,30 @@ form.addEventListener('submit', (e) => {
 
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
     valido = marcarErro('email', 'aviso-email', 'Insira um e-mail válido.');
-  } else {
-    limparErro('email', 'aviso-email');
   }
 
   if (senha.length < 1) {
     valido = marcarErro('senha', 'aviso-senha', 'Por favor, insira sua senha.');
-  } else {
-    limparErro('senha', 'aviso-senha');
   }
 
   if (!valido) return;
 
+  const resultado = AuthMaesStorage.autenticar(email, senha);
+
+  if (!resultado.sucesso) {
+    marcarErroLogin(resultado.erro);
+    return;
+  }
+
+  AuthMaesStorage.iniciarSessao(resultado.usuario);
   CadastroSucesso.exibir();
 });
 
 CadastroSucesso.configurar({
   form,
-  aoFechar() {
-    inputSenha.type = 'password';
-    senhaWrapper.classList.remove('visivel');
-    btnOlho.setAttribute('aria-label', 'Mostrar senha');
-    document.querySelectorAll('.input-erro').forEach((el) => el.classList.remove('input-erro'));
-    ['aviso-email', 'aviso-senha'].forEach((id) => {
-      document.getElementById(id).textContent = '';
-    });
-  }
+  loginUrl: ROTA_APOS_LOGIN,
+  redirecionar: true,
+  redirecionarAutomatico: true,
+  redirectDelay: 1500,
+  aoFechar: resetarFormularioLogin
 });

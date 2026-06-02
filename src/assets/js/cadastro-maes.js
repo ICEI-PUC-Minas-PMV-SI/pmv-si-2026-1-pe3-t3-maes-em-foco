@@ -43,6 +43,17 @@ function limparErro(inputId, avisoId) {
   document.getElementById(inputId).closest('.input-box').classList.remove('input-erro');
 }
 
+function resetarFormulario() {
+  inputSenha.type = 'password';
+  senhaWrapper.classList.remove('visivel');
+  avisoSenha.textContent = 'Mínimo de 8 caracteres e uma letra maiúscula';
+  avisoSenha.className = 'aviso-senha';
+  document.querySelectorAll('.input-erro').forEach((el) => el.classList.remove('input-erro'));
+  ['aviso-nome', 'aviso-email', 'aviso-cidade'].forEach((id) => {
+    document.getElementById(id).textContent = '';
+  });
+}
+
 form.addEventListener('submit', (e) => {
   e.preventDefault();
 
@@ -79,22 +90,21 @@ form.addEventListener('submit', (e) => {
 
   if (!valido) return;
 
+  const resultado = AuthMaesStorage.cadastrar({ nome, email, senha, cidade });
+
+  if (!resultado.sucesso) {
+    marcarErro('email', 'aviso-email', resultado.erro);
+    return;
+  }
+
   CadastroSucesso.exibir();
 });
 
 CadastroSucesso.configurar({
   form,
-  loginUrl: '../../index.html',
-  aoFechar() {
-    inputSenha.type = 'password';
-    senhaWrapper.classList.remove('visivel');
-    avisoSenha.textContent = 'Mínimo de 8 caracteres e uma letra maiúscula';
-    avisoSenha.className = 'aviso-senha';
-    document.querySelectorAll('.input-erro').forEach((el) => el.classList.remove('input-erro'));
-    ['aviso-nome', 'aviso-email', 'aviso-cidade'].forEach((id) => {
-      document.getElementById(id).textContent = '';
-    });
-    // Redirecionar para login quando a página estiver disponível:
-    // window.location.href = '../../index.html';
-  }
+  loginUrl: '../login-maes/login-maes.html',
+  redirecionar: true,
+  redirecionarAutomatico: true,
+  redirectDelay: 2500,
+  aoFechar: resetarFormulario
 });
