@@ -2,7 +2,6 @@ const form = document.getElementById('form-login');
 const campoEspecialidade = document.getElementById('especialidade');
 const containerRegistro = document.getElementById('registroContainer');
 const inputRegistro = document.getElementById('registro');
-const telaSucesso = document.getElementById('tela-sucesso');
 
 const btnOlho = document.getElementById('btn-olho');
 const inputSenha = document.getElementById('senha');
@@ -155,14 +154,15 @@ form.addEventListener('submit', (e) => {
     return;
   }
 
-  telaSucesso.style.display = 'flex';
+  CadastroSucesso.exibir();
 });
 
-const btnFecharSucesso = document.getElementById('btn-fechar-sucesso');
-btnFecharSucesso.addEventListener('click', () => {
-  telaSucesso.style.display = 'none';
-  form.reset();
-  inputSenha.type = 'password';
-  senhaWrapper.classList.remove('visivel');
-  window.location.href = 'index.html';
+CadastroSucesso.configurar({
+  form,
+  loginUrl: 'index.html',
+  redirecionar: true,
+  aoFechar() {
+    inputSenha.type = 'password';
+    senhaWrapper.classList.remove('visivel');
+  }
 });
