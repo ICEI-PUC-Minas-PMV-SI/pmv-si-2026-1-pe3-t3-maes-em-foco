@@ -2,7 +2,7 @@ const form = document.getElementById('form-login');
 const campoEspecialidade = document.getElementById('especialidade');
 const containerRegistro = document.getElementById('registroContainer');
 const inputRegistro = document.getElementById('registro');
-const nomeArquivo = document.getElementById('nomeArquivo');
+
 const btnOlho = document.getElementById('btn-olho');
 const inputSenha = document.getElementById('senha');
 const senhaWrapper = document.querySelector('.senha-wrapper');
@@ -90,9 +90,13 @@ if ((especialidade === 'Psicólogo' || especialidade === 'Advogado') && !registr
     return;
   }
 
-  let emailsCadastrados = JSON.parse(localStorage.getItem('emailsCadastrados')) || [];
-  if (emailsCadastrados.includes(email.toLowerCase())) {
-    alert('Este e-mail já está em análise para um cadastro. Em caso de aprovação, entraremos em contato em breve!');
+  const emailJaCadastrado = Object.entries(dados).some(([categoria, lista]) => {
+    if (categoria === 'maes') return false;
+    return lista.some(usuario => usuario.email.toLowerCase() === email.toLowerCase());
+  });
+
+  if (emailJaCadastrado) {
+    alert('Este e-mail já está cadastrado.');
     return;
   }
 
