@@ -15,7 +15,6 @@ fetch("./assets/js/usermaes.json")
             document.getElementById('children').value = userData.children;
             document.getElementById('location').value = userData.location;
             document.getElementById('email').value = userData.email;
-            document.getElementById('profilePreview').src = userData.image || "assets/images/no-photo.jpg";
             document.getElementById('profile-type').value = userData.profileType || "";
             document.getElementById('profilePreview').src = userData.image || "assets/img/no-photo.jpg"
         }
