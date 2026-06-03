@@ -331,3 +331,25 @@ input::-webkit-credentials-auto-fill-button {
         font-size: 13px;
     }
 }
+.arquivo-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 8px;
+}
+
+.icone-anexo {
+    font-size: 30px;
+    flex-shrink: 0;
+}
+
+#registro {
+    display: none;
+}
+
+#nomeArquivo {
+    font-size: 16px;
+    color: #757575;
+    cursor: pointer;
+    width: 100%;
+}

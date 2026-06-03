@@ -66,10 +66,23 @@
                 </datalist>
             </div>
 
-            <div class="input-box" id="registroContainer" style="display: none;">
-                <label for="registro">Registro profissional (OAB, CRP)</label>
-                <input placeholder="000000/UF" type="text" id="registro">
-            </div>
+           <div class="input-box" id="registroContainer" style="display: none;">
+    <label for="registro">Registro profissional (OAB, CRP)</label>
+
+    <div class="arquivo-wrapper">
+       <span class="icone-anexo" style="font-family: Arial, sans-serif;">
+    📎
+</span>
+
+        <input
+            type="file"
+            id="registro"
+            accept=".pdf,.jpg,.jpeg,.png"
+        >
+
+        <span id="nomeArquivo">Selcione o documento comprovatório</span>
+    </div>
+</div>
             
             <div class="lembrar-senha">
                 <input type="checkbox" id="termos">
@@ -81,7 +94,7 @@
             <button type="submit" class="prof">Enviar cadastro para análise</button>
             
             <div class="profissional">
-                <span>Já tem uma conta? <a href="index.html" class="conta"><b>Fazer login</b></a></span>
+                <span>Já tem uma conta? <a href="pages/login-maes/login-maes.html" class="conta"><b>Fazer login</b></a></span>
             </div>
         </form>
     </main>

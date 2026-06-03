@@ -140,7 +140,7 @@ class NavBar extends HTMLElement {
       <header>
         <nav id="navbar">
           <a href="landing-page.html" class="logo">
-            <img src="assets/img/logo.png" alt="Logo" />
+            <img src="src/assets/img/logo.png" alt="Logo" />
           </a>
 
           <div class="mobile-menu">
@@ -162,7 +162,7 @@ class NavBar extends HTMLElement {
               <a href="forum.html">Feed</a>
             </li>
             <li class="nav-login">
-              <a href="index.html">Entrar</a>
+              <a href="login-maes.html">Entrar</a>
             </li>
             <li class="nav-user">
               <a href="userprofile.html"><i class="fa-solid fa-user"></i></a>
