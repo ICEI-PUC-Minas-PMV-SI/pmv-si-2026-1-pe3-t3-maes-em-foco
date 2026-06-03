@@ -34,7 +34,7 @@ function preencherDados(user) {
     if (user.profileType) {
         // Deixa a primeira letra maiúscula para ficar estético
         const categoria = user.profileType.charAt(0).toUpperCase() + user.profileType.slice(1);
-        document.getElementById("profile-type").innerText = categoria;
+        document.getElementById("profiletype").innerText = categoria;
     }
 
     // número de filhos para não exibir apenas o número puro

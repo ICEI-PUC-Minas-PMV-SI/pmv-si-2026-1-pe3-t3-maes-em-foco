@@ -52,7 +52,8 @@
             "children": 2,
             "location": "Montes Claros/MG",
             "bio": "Mãe, empreendedora e defensora da educação infantil. Tenho um pequeno negócio de brinquedos educativos feitos à mão e sou apaixonada por ajudar outras mães a encontrarem equilíbrio na rotina.",
-            "image": "./assets/img/profile/RenataOliveira.png"
+            "image": "./assets/img/profile/RenataOliveira.png",
+            "profiletype": "mãe solo"
         },
         {
             "name": "Fabiana Costa",
