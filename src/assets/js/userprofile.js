@@ -29,12 +29,12 @@ function preencherDados(user) {
     document.getElementById("name").innerText = user.name || "Nome de Usuário";
     document.getElementById("bio").innerText = user.bio || "Uma breve descrição sobre mim.";
     document.getElementById("location").innerText = user.location || "Localização não informada";
-    document.getElementById("profilePreview").src = user.image || "assets/img/no-photo.jpg";
-
+    document.getElementById("profilePreview").src = user.image || "./assets/img/no-photo.jpg";
+    
     if (user.profileType) {
-        // Deixa a primeira letra maiúscula para ficar estético
+        // deixa a primeira letra maiúscula
         const categoria = user.profileType.charAt(0).toUpperCase() + user.profileType.slice(1);
-        document.getElementById("profiletype").innerText = categoria;
+        document.getElementById("profileType").innerText = categoria;
     }
 
     // número de filhos para não exibir apenas o número puro

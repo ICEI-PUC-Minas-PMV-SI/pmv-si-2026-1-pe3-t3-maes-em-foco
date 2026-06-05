@@ -15,7 +15,7 @@ fetch("./assets/js/usermaes.json")
             document.getElementById('children').value = userData.children;
             document.getElementById('location').value = userData.location;
             document.getElementById('email').value = userData.email;
-            document.getElementById('profiletype').value = userData.profileType || "";
+            document.getElementById('profileType').value = userData.profileType || "";
             document.getElementById('profilePreview').src = userData.image || "assets/img/no-photo.jpg"
         }
     });
@@ -43,7 +43,7 @@ function salvarPerfil(event) {
         children: document.getElementById('children').value,
         location: document.getElementById('location').value,
         email: document.getElementById('email').value,
-        profileType: document.getElementById('profile-type').value, 
+        profileType: document.getElementById('profileType').value, 
         image: document.getElementById('profilePreview').src
     };
 
