@@ -353,3 +353,171 @@ input::-webkit-credentials-auto-fill-button {
     cursor: pointer;
     width: 100%;
 }
+
+
+/* Telas muito grandes */
+@media (min-width: 1440px) {
+    .container {
+        max-width: 550px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .topo-pagina {
+        left: 20px;
+        top: 20px;
+    }
+
+    #logo-fundo {
+        width: 120px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    body {
+        min-height: auto;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .container h1 {
+        font-size: clamp(24px, 5vw, 30px);
+    }
+
+    .paragrafo1 {
+        font-size: clamp(14px, 3vw, 17px);
+    }
+
+    .input-box input:not([type="checkbox"]) {
+        font-size: 16px;
+    }
+
+    .aviso-senha {
+        font-size: 14px;
+    }
+
+    .profissional {
+        font-size: 14px;
+    }
+
+    .card-notificacao {
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    body {
+        padding: 15px 12px;
+    }
+
+    .topo-pagina {
+        gap: 12px;
+        margin-bottom: 20px;
+    }
+
+    #logo-fundo {
+        width: 100px;
+    }
+
+    .voltar-btn {
+        width: 28px;
+        height: 28px;
+    }
+
+    .container {
+        padding: 22px 16px;
+        border-radius: 6px;
+    }
+
+    .container h1 {
+        font-size: 24px;
+    }
+
+    .paragrafo1 {
+        font-size: 14px;
+    }
+
+    .input-box {
+        padding: 10px 12px;
+    }
+
+    .input-box label {
+        font-size: 12px;
+    }
+
+    .input-box input:not([type="checkbox"]) {
+        font-size: 15px;
+    }
+
+    .aviso-senha {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .lembrar-senha {
+        gap: 8px;
+    }
+
+    .lembrar-senha label {
+        font-size: 12px;
+    }
+
+    .prof {
+        height: 48px;
+        font-size: 15px;
+    }
+
+    .profissional {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+    .mensagem-sucesso {
+        font-size: 15px;
+    }
+
+    .btn-ok {
+        width: 100%;
+    }
+
+    .icone-anexo {
+        font-size: 24px;
+    }
+
+    #nomeArquivo {
+        font-size: 14px;
+        word-break: break-word;
+    }
+}
+
+
+@media (max-width: 320px) {
+
+    .container {
+        padding: 18px 12px;
+    }
+
+    .container h1 {
+        font-size: 22px;
+    }
+
+    .paragrafo1 {
+        font-size: 13px;
+    }
+
+    .prof {
+        font-size: 14px;
+    }
+
+    .input-box {
+        padding: 8px 10px;
+    }
+}
