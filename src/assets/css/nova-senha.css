@@ -292,3 +292,109 @@ input::-webkit-credentials-auto-fill-button {
         height: 45px;
     }
 }
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 620px;
+    }
+}
+
+@media (max-width: 992px) {
+    .topo-pagina {
+        left: 20px;
+        top: 20px;
+    }
+
+    #logo-fundo {
+        width: 120px;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container h1 {
+        font-size: clamp(24px, 5vw, 30px);
+    }
+
+    .paragrafo1 {
+        font-size: clamp(14px, 3vw, 17px);
+    }
+
+    .ajuda-texto {
+        font-size: 14px;
+    }
+
+    .card-notificacao {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .topo-pagina {
+        gap: 12px;
+    }
+
+    #logo-fundo {
+        width: 100px;
+    }
+
+    .voltar-btn {
+        width: 28px;
+        height: 28px;
+    }
+
+    .input-box {
+        padding: 10px 12px;
+    }
+
+    .input-box label {
+        font-size: 12px;
+    }
+
+    .input-box input {
+        font-size: 15px;
+    }
+
+    .ajuda-texto {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .new {
+        height: 48px;
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .mensagem-sucesso {
+        font-size: 15px;
+    }
+
+    .btn-ok {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .paragrafo1 {
+        font-size: 13px;
+    }
+
+    .input-box {
+        padding: 8px 10px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .new {
+        font-size: 14px;
+    }
+}
