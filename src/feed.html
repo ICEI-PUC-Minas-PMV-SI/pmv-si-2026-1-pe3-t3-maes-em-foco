@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/feed.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Feed - Mães em Foco</title>
+</head>
+<body>
+
+<header-component></header-component>
+
+<button class="btn-novo-post-flutuante" id="btn-abrir-modal" title="Nova publicação">+</button>
+
+<div class="pagina" id="feed-container">
+
+    <div class="post-card" id="post-1">
+        <div class="post-header">
+            <div class="avatar">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" stroke-width="1.5" stroke="#9387A9" fill="none"/><path d="M4 20c0-4.4 3.6-8 8-8s8 3.6 8 8" stroke-width="1.5" stroke="#9387A9" fill="none"/></svg>
+            </div>
+            <div>
+                <div class="post-autor-nome">Angélica Rocha</div>
+                <div class="post-autor-tipo">Mãe</div>
+            </div>
+        </div>
+        <div class="post-texto">
+            🌿 Ser mãe solo não é sobre estar sozinha, é sobre ter tudo ao mesmo tempo — guia, colo, força e amor.<br>
+            Hoje deixei meu pequeno na escola de mãos dadas, como fazemos todos os dias. E mesmo com o cansaço, sigo firme, porque cada passo dele é...
+        </div>
+        <div class="post-imagem">
+            <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=580&q=80" alt="Mãe e filho">
+        </div>
+        <div class="post-acoes">
+            <button class="acao-btn" onclick="curtir(this)"><svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" stroke-width="1.8"/></svg></button>
+            <button class="acao-btn" onclick="comentar('post-1')"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" stroke-width="1.8"/></svg></button>
+            <button class="acao-btn" onclick="denunciar(this)"><svg viewBox="0 0 24 24"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" stroke-width="1.8"/><line x1="12" y1="9" x2="12" y2="13" stroke-width="1.8"/><line x1="12" y1="17" x2="12.01" y2="17" stroke-width="2.5"/></svg></button>
+        </div>
+    </div>
+
+    <div class="post-card" id="post-2">
+        <div class="post-header">
+            <div class="avatar">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" stroke-width="1.5" stroke="#9387A9" fill="none"/><path d="M4 20c0-4.4 3.6-8 8-8s8 3.6 8 8" stroke-width="1.5" stroke="#9387A9" fill="none"/></svg>
+            </div>
+            <div>
+                <div class="post-autor-nome">Lucia Faria</div>
+                <div class="post-autor-tipo">Advogada</div>
+            </div>
+        </div>
+        <div class="post-texto">
+            Mães solo, conheçam seus direitos trabalhistas! A licença-maternidade, a estabilidade no emprego e o controle da jornada de trabalho são fundamentais para garantir equilíbrio entre a carreira e o cuidado com os filhos. Não hesitem em buscar orientação jurídica!
+        </div>
+        <div class="post-acoes">
+            <button class="acao-btn" onclick="curtir(this)"><svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" stroke-width="1.8"/></svg></button>
+            <button class="acao-btn" onclick="comentar('post-2')"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" stroke-width="1.8"/></svg></button>
+            <button class="acao-btn" onclick="denunciar(this)"><svg viewBox="0 0 24 24"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" stroke-width="1.8"/><line x1="12" y1="9" x2="12" y2="13" stroke-width="1.8"/><line x1="12" y1="17" x2="12.01" y2="17" stroke-width="2.5"/></svg></button>
+        </div>
+    </div>
+
+    <div class="post-card" id="post-3">
+        <div class="post-header">
+            <div class="avatar">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" stroke-width="1.5" stroke="#9387A9" fill="none"/><path d="M4 20c0-4.4 3.6-8 8-8s8 3.6 8 8" stroke-width="1.5" stroke="#9387A9" fill="none"/></svg>
+            </div>
+            <div>
+                <div class="post-autor-nome">Lorena da Silva</div>
+                <div class="post-autor-tipo">Mãe</div>
+            </div>
+        </div>
+        <div class="post-texto">
+            Dica de mãe: Trabalhos manuais com massinha são uma delícia de fazer com os pequenos! Além de estimular a criatividade e a coordenação motora, é um momento de conexão pura 🧡 Aqui em casa usamos ferramentas simples (até tampinha e garfo valem!) e deixamos a imaginação rolar solta. 🎨👧
+        </div>
+        <div class="post-imagem">
+            <img src="https://images.unsplash.com/photo-1596464716127-f2a82984de30?w=580&q=80" alt="Trabalho manual">
+        </div>
+        <div class="post-acoes">
+            <button class="acao-btn" onclick="curtir(this)"><svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" stroke-width="1.8"/></svg></button>
+            <button class="acao-btn" onclick="comentar('post-3')"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" stroke-width="1.8"/></svg></button>
+            <button class="acao-btn" onclick="denunciar(this)"><svg viewBox="0 0 24 24"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" stroke-width="1.8"/><line x1="12" y1="9" x2="12" y2="13" stroke-width="1.8"/><line x1="12" y1="17" x2="12.01" y2="17" stroke-width="2.5"/></svg></button>
+        </div>
+    </div>
+
+    <div class="post-card" id="post-4">
+        <div class="post-header">
+            <div class="avatar">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" stroke-width="1.5" stroke="#9387A9" fill="none"/><path d="M4 20c0-4.4 3.6-8 8-8s8 3.6 8 8" stroke-width="1.5" stroke="#9387A9" fill="none"/></svg>
+            </div>
+            <div>
+                <div class="post-autor-nome">Rodrigo Alves</div>
+                <div class="post-autor-tipo">Psicólogo</div>
+            </div>
+        </div>
+        <div class="post-texto">
+            Cuidar da saúde mental não é luxo, é necessidade. Criar um espaço — mesmo que pequeno — pra olhar pra si mesma com carinho já é um ato de resistência e amor.<br>
+            Vocês não precisam dar conta de tudo sozinhas. Apoio emocional, rede de escuta e autocuidado são aliados essenciais nessa jornada.
+        </div>
+        <div class="post-acoes">
+            <button class="acao-btn" onclick="curtir(this)"><svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" stroke-width="1.8"/></svg></button>
+            <button class="acao-btn" onclick="comentar('post-4')"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" stroke-width="1.8"/></svg></button>
+            <button class="acao-btn" onclick="denunciar(this)"><svg viewBox="0 0 24 24"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" stroke-width="1.8"/><line x1="12" y1="9" x2="12" y2="13" stroke-width="1.8"/><line x1="12" y1="17" x2="12.01" y2="17" stroke-width="2.5"/></svg></button>
+        </div>
+    </div>
+
+</div>
+
+<footer-component></footer-component>
+
+<div class="modal-overlay" id="modal-overlay">
+    <div class="modal-box">
+        <div class="modal-header">
+            <h2>Criar Novo Post</h2>
+            <button class="modal-btn-fechar" id="btn-fechar-modal">✕</button>
+        </div>
+        <div class="modal-separador"></div>
+        <div class="modal-body">
+            <input    class="modal-campo" id="input-titulo"   type="text" placeholder="Título do Novo Post">
+            <textarea class="modal-campo" id="input-conteudo"             placeholder="Conteúdo do Novo Post"></textarea>
+            <input    class="modal-campo" id="input-imagem"   type="text" placeholder="URL da Imagem (opcional)">
+            <div class="modal-acoes">
+                <button class="btn-salvar"   id="btn-salvar-post">Salvar Novo Post</button>
+                <button class="btn-cancelar" id="btn-cancelar-modal">Cancelar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="assets/navbar.js"></script>
+<script src="assets/footer.js"></script>
+<script src="assets/js/feed.js"></script>
+
+</body>
+</html>

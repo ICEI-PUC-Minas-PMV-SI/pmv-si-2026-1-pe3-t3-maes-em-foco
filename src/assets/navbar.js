@@ -159,7 +159,7 @@ class NavBar extends HTMLElement {
               <a href="landing-page.html">Sobre</a>
             </li>
             <li class="nav-item">
-              <a href="forum.html">Feed</a>
+              <a href="feed.html">Feed</a>
             </li>
             <li class="nav-login">
               <a href="index.html">Entrar</a>
