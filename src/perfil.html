@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Profissional | Mães em Foco</title>
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/perfil.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+<header-component></header-component>
+
+<main class="perfil-page">
+    <a href="javascript:history.back()" class="voltar-link"><i class="fa-solid fa-chevron-left"></i></a>
+
+    <section class="card-principal" id="card-principal">
+    </section>
+
+    <section class="endereco-card" id="endereco-card">
+    </section>
+
+    <section class="galeria-card" id="galeria-card">
+    </section>
+
+    <section class="avaliacoes-card" id="avaliacoes-card">
+    </section>
+
+    <div class="acoes-admin" id="acoes-admin" style="display:none;">
+        <button id="btn-editar" class="btn btn-edit">Editar perfil</button>
+        <button id="btn-excluir" class="btn btn-delete">Excluir perfil</button>
+    </div>
+
+    <div id="modal-edicao" class="modal" style="display:none;">
+        <div class="modal-conteudo">
+            <h3 id="modal-titulo">Editar perfil</h3>
+            <form id="form-edicao">
+                <label for="input-nome">Nome</label>
+                <input type="text" id="input-nome" required />
+
+                <label for="input-categoria">Categoria</label>
+                <input type="text" id="input-categoria" placeholder="Psicólogo | Advogado | Babá" required />
+
+                <label for="input-email">Email</label>
+                <input type="email" id="input-email" />
+
+                <label for="input-whatsapp">WhatsApp (números apenas, ex: 5511999999999)</label>
+                <input type="text" id="input-whatsapp" />
+
+                <label for="input-endereco">Endereço</label>
+                <input type="text" id="input-endereco" />
+
+                <label for="input-descricao">Descrição</label>
+                <textarea id="input-descricao" rows="4"></textarea>
+
+                <label for="input-imagens">Imagens (URLs separadas por vírgula)</label>
+                <input type="text" id="input-imagens" />
+
+                <div class="modal-actions">
+                    <button type="submit" class="btn btn-save">Salvar</button>
+                    <button type="button" id="btn-cancelar" class="btn btn-cancel">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</main>
+
+<footer-component></footer-component>
+
+<script src="assets/navbar.js"></script>
+<script src="assets/footer.js"></script>
+<script src="assets/js/perfil.js"></script>
+</body>
+</html>

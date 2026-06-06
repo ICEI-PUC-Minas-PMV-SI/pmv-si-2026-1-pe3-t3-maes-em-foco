@@ -15,17 +15,21 @@ fetch("./assets/js/usermaes.json")
             document.getElementById('children').value = userData.children;
             document.getElementById('location').value = userData.location;
             document.getElementById('email').value = userData.email;
-            document.getElementById('profilePreview').src = userData.image || "./assets/images/no-photo.jpg";
+            document.getElementById('profileType').value = userData.profileType || "";
+            document.getElementById('profilePreview').src = userData.image || "assets/img/no-photo.jpg"
         }
     });
 
 // preview imagem
 function previewProfilePicture(event) {
-    const reader = new FileReader();
-    reader.onload = function () {
-        document.getElementById('profilePreview').src = reader.result;
-    };
-    reader.readAsDataURL(event.target.files[0]);
+    const file = event.target.files[0];
+    if (file) {
+        const reader = new FileReader();
+        reader.onload = function () {
+            document.getElementById('profilePreview').src = reader.result;
+        };
+        reader.readAsDataURL(file);
+    }
 }
 
 // salvar perfil
@@ -39,6 +43,7 @@ function salvarPerfil(event) {
         children: document.getElementById('children').value,
         location: document.getElementById('location').value,
         email: document.getElementById('email').value,
+        profileType: document.getElementById('profileType').value, 
         image: document.getElementById('profilePreview').src
     };
 
@@ -53,7 +58,7 @@ function excluirPerfil() {
     if (confirmacao) {
         localStorage.removeItem(userEmail);
         alert("Perfil excluído com sucesso.");
-        window.location.href = "landing-page.html";
+        window.location.href = "../index.html";
     } else {
         alert("Exclusão cancelada.");
     }

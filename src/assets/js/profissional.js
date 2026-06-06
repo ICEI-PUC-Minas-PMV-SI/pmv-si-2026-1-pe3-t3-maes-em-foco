@@ -2,167 +2,178 @@ const form = document.getElementById('form-login');
 const campoEspecialidade = document.getElementById('especialidade');
 const containerRegistro = document.getElementById('registroContainer');
 const inputRegistro = document.getElementById('registro');
+const nomeArquivo = document.getElementById('nomeArquivo');
 
 const btnOlho = document.getElementById('btn-olho');
 const inputSenha = document.getElementById('senha');
 const senhaWrapper = document.querySelector('.senha-wrapper');
 
+// MOSTRAR / OCULTAR SENHA
 btnOlho.addEventListener('click', () => {
-  if (inputSenha.type === 'password') {
-    inputSenha.type = 'text';
-    senhaWrapper.classList.add('visivel');
-  } else {
-    inputSenha.type = 'password';
-    senhaWrapper.classList.remove('visivel');
-  }
+    if (inputSenha.type === 'password') {
+        inputSenha.type = 'text';
+        senhaWrapper.classList.add('visivel');
+    } else {
+        inputSenha.type = 'password';
+        senhaWrapper.classList.remove('visivel');
+    }
 });
 
-const dados = {
-  psicologos: [
-    { "email": "karine.ferraz@gmail.com" },
-    { "email": "laiscarvalhoclinica@gmail.com" },
-    { "email": "fernandacarvalho@gmail.com" },
-    { "email": "luana.silva.psi@gmail.com" },
-    { "email": "alicia.martins@gmail.com" },
-    { "email": "bruno.silva@yahoo.com" },
-    { "email": "isabela.mendes@outlook.com" },
-    { "email": "joao.pereira@yahoo.com" },
-    { "email": "karla.alves@terra.com.br" },
-    { "email": "lucas.oliveira@gmail.com" },
-    { "email": "mariana.rocha@hotmail.com" },
-    { "email": "nicolas.teixeira@bol.com.br" },
-    { "email": "tiago.nunes@gmail.com" },
-    { "email": "patricia.monteiro@psiemail.com" },
-    { "email": "andressa.souza@clinicapsi.com" },
-    { "email": "vinicius.martins@psicocuidado.com" },
-    { "email": "caroline.ramos@saudemental.com" },
-    { "email": "0000907077@senaimgaluno.com.br" }
-  ],
-  advogados: [
-    { "email": "ana.campos@direitobrasil.com" },
-    { "email": "ricardo.torres@jurispro.com" },
-    { "email": "fernando.lima@justmail.com" },
-    { "email": "tatiane.sousa@defensoria.org" },
-    { "email": "maria.gomes@advlegal.com" },
-    { "email": "eduardo.silva@justonline.net" },
-    { "email": "juliana.moura@advmail.org" },
-    { "email": "bruno.castro@direitohoje.com" },
-    { "email": "paula.ferraz@legalmente.com" },
-    { "email": "vinicius.cardoso@juridiconet.com" },
-    { "email": "lais.martins@direitoemail.com" },
-    { "email": "marcos.alves@bradv.com" },
-    { "email": "natalia.santos@advorg.com" },
-    { "email": "camila.freitas@jusbrasil.org" },
-    { "email": "lucas.ribeiro@advcenter.com" },
-    { "email": "aline.pereira@escritoriolegal.com" },
-    { "email": "gustavo.ferreira@legis.net" },
-    { "email": "helena.dias@jurisweb.com" }
-  ],
-  babas: [
-    { "email": "camila.souza@cuidadoinfantil.com" },
-    { "email": "marcela.ramos@familiafeliz.net" },
-    { "email": "juliana.mendes@babysafe.org" },
-    { "email": "renata.lima@cuidadoras.com" },
-    { "email": "lara.silva@babycare.com" },
-    { "email": "tatiane.freitas@meubebe.net" },
-    { "email": "roberta.pinto@casinha.com.br" },
-    { "email": "vanessa.almeida@cuidadoras-kids.com" },
-    { "email": "aline.costa@babysmile.org" },
-    { "email": "sabrina.martins@bebeleve.com" }
-  ],
-  creches: [
-    { "email": "creche.sorrisos@educabem.com" },
-    { "email": "jardim.dosanjos@infantilbr.org" },
-    { "email": "escolinha.solnascente@crecheemail.com" },
-    { "email": "creche.bemmequer@cuidadoinfantil.com" },
-    { "email": "creche.pequenospassos@educar.org" },
-    { "email": "nossolar.infantil@abracokids.com" },
-    { "email": "escolinha.arcoiris@infantnet.com" },
-    { "email": "mundoencantado.creche@educamais.com" },
-    { "email": "amorecarinho.creche@familiakids.com" },
-    { "email": "creche.luzdavida@infantil.org" }
-  ],
-  maes: [
-    { "email": "maria.souza@gmail.com" },
-    { "email": "joana.pereira@gmail.com" },
-    { "email": "ana.lima@gmail.com" },
-    { "email": "patricia.silva@gmail.com" },
-    { "email": "lucia.martins@gmail.com" },
-    { "email": "renata.oliveira@gmail.com" },
-    { "email": "fabiana.costa@gmail.com" },
-    { "email": "carla.ferreira@gmail.com" },
-    { "email": "helena.santos@gmail.com" },
-    { "email": "paula.alves@gmail.com" }
-  ]
-};
+// CARREGAR DADOS SALVOS
+window.addEventListener('load', () => {
+    const dadosSalvos = JSON.parse(
+        localStorage.getItem('cadastroProfissionalTemp')
+    );
 
-campoEspecialidade.addEventListener('input', () => {
-  const valor = campoEspecialidade.value;
-  if (valor === 'Psicólogo' || valor === 'Advogado') {
-    containerRegistro.style.display = 'flex';
-    inputRegistro.setAttribute('required', 'true');
-  } else {
-    containerRegistro.style.display = 'none';
-    inputRegistro.removeAttribute('required');
-    inputRegistro.value = '';
-  }
+    if (dadosSalvos) {
+        document.getElementById('nome').value = dadosSalvos.nome || '';
+        document.getElementById('email').value = dadosSalvos.email || '';
+        document.getElementById('cidade').value = dadosSalvos.cidade || '';
+        document.getElementById('especialidade').value =
+            dadosSalvos.especialidade || '';
+
+        if (
+            dadosSalvos.especialidade === 'Psicólogo' ||
+            dadosSalvos.especialidade === 'Advogado'
+        ) {
+            containerRegistro.style.display = 'flex';
+        }
+    }
 });
 
+// SALVAR DADOS TEMPORÁRIOS
+form.addEventListener('input', () => {
+    const dadosParaSalvar = {
+        nome: document.getElementById('nome').value,
+        email: document.getElementById('email').value,
+        cidade: document.getElementById('cidade').value,
+        especialidade: document.getElementById('especialidade').value
+    };
+
+    localStorage.setItem(
+        'cadastroProfissionalTemp',
+        JSON.stringify(dadosParaSalvar)
+    );
+});
+
+// EXIBIR CAMPO DE REGISTRO
+console.log(especialidade);
+campoEspecialidade.addEventListener('change', () => {
+    const valor = campoEspecialidade.value;
+
+    if (valor === 'Psicólogo' || valor === 'Advogado') {
+        containerRegistro.style.display = 'flex';
+        inputRegistro.setAttribute('required', 'true');
+    } else {
+        containerRegistro.style.display = 'none';
+        inputRegistro.removeAttribute('required');
+        inputRegistro.value = '';
+
+        nomeArquivo.textContent =
+            'Selecione o documento comprovatório';
+    }
+});
+
+// ENVIO DO FORMULÁRIO
 form.addEventListener('submit', (e) => {
-  e.preventDefault();
+    e.preventDefault();
+    console.log('CLIQUEI EM ENVIAR');
 
-  const name = document.getElementById('nome').value.trim();
-  const email = document.getElementById('email').value.trim();
-  const senha = inputSenha.value.trim();
-  const cidade = document.getElementById('cidade').value.trim();
-  const especialidade = campoEspecialidade.value.trim();
-  const registro = inputRegistro.value.trim();
-  const termos = document.getElementById('termos').checked;
+    const nome = document.getElementById('nome').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const senha = document.getElementById('senha').value.trim();
+    const cidade = document.getElementById('cidade').value.trim();
+    const especialidade = campoEspecialidade.value.trim();
+    const termos = document.getElementById('termos').checked;
 
-  if (!name || !email || !senha || !cidade || !especialidade) {
-    alert('Preencha todos os campos!');
+    if (!nome || !email || !senha || !cidade || !especialidade) {
+        alert('Preencha todos os campos.');
+        return;
+    }
+
+    if (!email.includes('@')) {
+        alert('E-mail inválido.');
+        return;
+    }
+
+    const temMaiuscula = /[A-Z]/.test(senha);
+
+if (senha.length < 8 || !temMaiuscula) {
+    alert('A senha deve conter pelo menos 8 caracteres e uma letra maiúscula');
     return;
-  }
+}
 
-  if ((especialidade === 'Psicólogo' || especialidade === 'Advogado') && !registro) {
-    alert('Preencha o seu registro profissional!');
-    return;
-  }
+    if (
+        (especialidade === 'Psicólogo' ||
+            especialidade === 'Advogado') &&
+        inputRegistro.files.length === 0
+    ) {
+        alert('Adicione o anexo do seu registro profissional.');
+        return;
+    }
 
-  if (!email.includes('@')) {
-    alert('E-mail inválido!');
-    return;
-  }
+    if (!termos) {
+        alert('Você deve aceitar os termos de uso.');
+        return;
+    }
 
-  if (senha.length < 8) {
-    alert('A senha deve conter pelo menos 8 caracteres!');
-    return;
-  }
+    // BUSCA EMAILS JÁ EM ANÁLISE
+    let emailsCadastrados =
+        JSON.parse(localStorage.getItem('emailsCadastrados')) || [];
 
-  if (!termos) {
-    alert('Você deve aceitar os termos de privacidade.');
-    return;
-  }
+    // EMAIL JÁ EXISTE
+    if (emailsCadastrados.includes(email.toLowerCase())) {
+        document.getElementById('tela-email-analise').style.display = 'flex';
+        return;
+    }
 
-  const emailJaCadastrado = Object.entries(dados).some(([categoria, lista]) => {
-    if (categoria === 'maes') return false;
-    return lista.some(usuario => usuario.email.toLowerCase() === email.toLowerCase());
-  });
+    // SALVA O EMAIL
+    emailsCadastrados.push(email.toLowerCase());
 
-  if (emailJaCadastrado) {
-    alert('Este e-mail já está cadastrado.');
-    return;
-  }
+    localStorage.setItem(
+        'emailsCadastrados',
+        JSON.stringify(emailsCadastrados)
+    );
 
-  CadastroSucesso.exibir();
+    localStorage.removeItem('cadastroProfissionalTemp');
+
+    // MOSTRA CARD DE SUCESSO
+    document.getElementById('tela-sucesso').style.display = 'flex';
 });
 
-CadastroSucesso.configurar({
-  form,
-  loginUrl: 'index.html',
-  redirecionar: true,
-  aoFechar() {
-    inputSenha.type = 'password';
-    senhaWrapper.classList.remove('visivel');
-  }
+// FECHAR CARD DE SUCESSO
+const btnFechar = document.getElementById('btn-fechar-sucesso');
+
+if (btnFechar) {
+    btnFechar.addEventListener('click', () => {
+        document.getElementById('tela-sucesso').style.display = 'none';
+        window.location.href = '/index.html';
+    });
+}
+
+// FECHAR CARD DE EMAIL EM ANÁLISE
+const btnFecharAnalise =
+    document.getElementById('btn-fechar-analise');
+
+if (btnFecharAnalise) {
+    btnFecharAnalise.addEventListener('click', () => {
+        document.getElementById('tela-email-analise').style.display = 'none';
+         window.location.href = '/index.html';
+    });
+}
+
+// ABRIR SELETOR DE ARQUIVO
+nomeArquivo.addEventListener('click', () => {
+    inputRegistro.click();
+});
+
+// MOSTRAR NOME DO ARQUIVO
+inputRegistro.addEventListener('change', () => {
+    if (inputRegistro.files.length > 0) {
+        nomeArquivo.textContent =
+            inputRegistro.files[0].name;
+    } else {
+        nomeArquivo.textContent =
+            'Selecione o documento comprovatório';
+    }
 });

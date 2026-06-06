@@ -25,25 +25,33 @@ function verificarLocalStorage(email) {
 
 // preenche dados na tela
 function preencherDados(user) {
-    document.getElementById("name").innerText = user.name;
-    document.getElementById("bio").innerText = user.bio;
-    document.getElementById("birthdate").innerText = new Date(user.birthdate).toLocaleDateString('pt-BR');
-    document.getElementById("children").innerText = user.children;
-    document.getElementById("location").innerText = user.location;
-    document.getElementById("email").innerText = user.email;
-    document.getElementById("profilePreview").src = user.image || "./assets/images/no-photo.jpg";
+    
+    document.getElementById("name").innerText = user.name || "Nome de Usuário";
+    document.getElementById("bio").innerText = user.bio || "Uma breve descrição sobre mim.";
+    document.getElementById("location").innerText = user.location || "Localização não informada";
+    document.getElementById("profilePreview").src = user.image || "./assets/img/no-photo.jpg";
+    
+    if (user.profileType) {
+        // deixa a primeira letra maiúscula
+        const categoria = user.profileType.charAt(0).toUpperCase() + user.profileType.slice(1);
+        document.getElementById("profileType").innerText = categoria;
+    }
+
+    // número de filhos para não exibir apenas o número puro
+    if (user.children !== undefined && user.children !== "") {
+        const qtd = user.children;
+        document.getElementById("children").innerText = `${qtd} ${qtd == 1 ? 'filho' : 'filhos'}`;
+    } else {
+        document.getElementById("children").innerText = "Filhos não informados";
+    }
 }
 
 // excluir perfil
+
 function excluirPerfil() {
   const confirmacao = confirm("Tem certeza que deseja excluir seu perfil?");
   if (confirmacao) {
-    localStorage.removeItem("email");
-    localStorage.removeItem("nome");
-    localStorage.removeItem("bio");
-    localStorage.removeItem("foto");
-    localStorage.removeItem("localizacao");
-    localStorage.removeItem("userLogado");
+    localStorage.removeItem(userEmail);
 
     alert("Perfil excluído com sucesso.");
     window.location.href = "landing-page.html";

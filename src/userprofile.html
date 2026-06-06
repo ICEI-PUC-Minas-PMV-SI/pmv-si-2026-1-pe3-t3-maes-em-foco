@@ -16,21 +16,21 @@
 
     <div class="profile-body">
         <div class="profile-picture-container">
-        <img src="assets/img/no-photo.jpg" alt="Foto" class="profile-picture">
+        <img src="assets/img/no-photo.jpg" alt="Foto" class="profile-picture" id="profilePreview">
         </div>
         <div class="profile-header">
-        <h1><strong>Ariane Andrade</strong> <i class="fa-solid fa-circle-check" style="color: #3b82f6;"></i></h1>
+        <h1><strong id="name">Nome de Usuário</strong></h1>
         <a href="edit-userprofile.html" style="color: #666; font-size: 0.9rem;"><i class="fa-solid fa-gear"></i> Editar Perfil</a>
     </div>
         <div class="profile-details">
-            <p>Mãe Solo, 32 anos</p>
-            <p>2 filhos</p>
-            <p>Montes Claros/MG</p>
+            <p id="profileType">Categoria</p>
+            <p id="children">Filhos</p>
+            <p id="location">Localização</p>
         </div>
     </div>
 
     <div class="profile-bio">
-        <p>Mãe, empreendedora e defensora da educação infantil. Tenho um pequeno negócio de brinquedos educativos feitos à mão e sou apaixonada por ajudar outras mães a encontrarem equilíbrio na rotina.</p>
+        <p id="bio">Uma breve descrição sobre mim.</p>
     </div>
 </div>
 
@@ -47,7 +47,7 @@
 
   <script src="assets/footer.js"></script>
     <script src="assets/navbar.js"></script>
-    <script src="assets/js/modal.js"></script>
+    <script src="assets/js/userprofile.js"></script>
     <script src="assets/js/userposts.js"></script>
   </body>
 </html>
