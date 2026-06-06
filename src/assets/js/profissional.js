@@ -147,7 +147,7 @@ const btnFechar = document.getElementById('btn-fechar-sucesso');
 if (btnFechar) {
     btnFechar.addEventListener('click', () => {
         document.getElementById('tela-sucesso').style.display = 'none';
-        window.location.href = '/index.html';
+        window.location.href = 'index.html';
     });
 }
 
@@ -158,7 +158,7 @@ const btnFecharAnalise =
 if (btnFecharAnalise) {
     btnFecharAnalise.addEventListener('click', () => {
         document.getElementById('tela-email-analise').style.display = 'none';
-         window.location.href = '/index.html';
+         window.location.href = 'index.html';
     });
 }
 

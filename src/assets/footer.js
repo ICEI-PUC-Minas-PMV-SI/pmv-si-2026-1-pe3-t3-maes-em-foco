@@ -8,7 +8,14 @@ class Footer extends HTMLElement {
     this.render();
   }
 
+  getBasePath() {
+    const path = window.location.pathname.replace(/\\/g, "/");
+    return path.includes("/pages/") ? "../../" : "";
+  }
+
   render() {
+    const base = this.getBasePath();
+
     const style = `
       @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
@@ -91,8 +98,8 @@ class Footer extends HTMLElement {
           <div class="nav-footer">
             <ul>
               <li>Serviços</li>
-              <li><a href="servicos.html">Profissionais</a></li>
-              <li><a href="forum.html">Feed</a></li>
+              <li><a href="${base}servicos.html">Profissionais</a></li>
+              <li><a href="${base}feed.html">Feed</a></li>
             </ul>
             <ul>
               <li>Suporte</li>
@@ -104,12 +111,12 @@ class Footer extends HTMLElement {
               <li><a href="#">Sobre o projeto</a></li>
             </ul>
           </div>
-          <img src="assets/img/logo.png" alt="Logo" class="footer-logo" />
+          <img src="${base}assets/img/logo.png" alt="Logo" class="footer-logo" />
         </div>
 
         <div class="privacidade">
-          <a href="politicapriv.html">Política de Privacidade</a>
-          <a href="termosdeuso.html">Termos de Uso</a>
+          <a href="${base}termosdeuso.html">Política de Privacidade</a>
+          <a href="${base}termosdeuso.html">Termos de Uso</a>
         </div>
 
       <p>${new Date().getFullYear()} Mães em Foco</p>

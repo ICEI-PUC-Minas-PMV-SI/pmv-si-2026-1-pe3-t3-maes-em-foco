@@ -54,7 +54,7 @@ function excluirPerfil() {
     localStorage.removeItem(userEmail);
 
     alert("Perfil excluído com sucesso.");
-    window.location.href = "landing-page.html";
+    window.location.href = "index.html";
   } else {
     alert("Exclusão cancelada.");
   }
